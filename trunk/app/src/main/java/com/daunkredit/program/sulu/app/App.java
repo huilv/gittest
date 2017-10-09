@@ -34,7 +34,7 @@ public class App extends MultiDexApplication {
 
        //bug崩溃分析
         CrashReport.initCrashReport(getApplicationContext(), "92317fd2ff", false);
-
+ //测试测试
         SysUtil.setApplication(this);
         if(SysUtil.isTCMSServiceProcess(this)){
             return;
