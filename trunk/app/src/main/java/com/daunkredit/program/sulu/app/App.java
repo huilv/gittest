@@ -14,24 +14,7 @@ import com.daunkredit.program.sulu.app.custom.alipush.CustomPushNotifactionManag
 import com.daunkredit.program.sulu.common.utils.LoggerWrapper;
 import com.tencent.bugly.crashreport.CrashReport;
 
-/////////////////////ttttttttttttttttttttttttttttttttttttttttttttttttttttt
-////////////
-/////////////
-//////////////
-//////////////
-////////////
-/////////////
-//////////////
-//////////////////////////
-/////////////
-//////////////
-//////////////////////////
-/////////////
-//////////////
-//////////////////////////
-/////////////
-//////////////
-//////////////
+
 public class App extends MultiDexApplication {
 
     //百川云旺app_key
@@ -51,9 +34,6 @@ public class App extends MultiDexApplication {
 
        //bug崩溃分析
         CrashReport.initCrashReport(getApplicationContext(), "92317fd2ff", false);
- //测试测试
-        //aaaaaaaaaaaaaaaa
-     ///////////fffffffffffffffffffffff
 
         SysUtil.setApplication(this);
         if(SysUtil.isTCMSServiceProcess(this)){
