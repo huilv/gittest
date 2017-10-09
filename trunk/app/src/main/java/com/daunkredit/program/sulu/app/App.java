@@ -14,7 +14,7 @@ import com.daunkredit.program.sulu.app.custom.alipush.CustomPushNotifactionManag
 import com.daunkredit.program.sulu.common.utils.LoggerWrapper;
 import com.tencent.bugly.crashreport.CrashReport;
 
-
+/////////////////////ttttttttttttttttttttttttttttttttttttttttttttttttttttt
 public class App extends MultiDexApplication {
 
     //百川云旺app_key
