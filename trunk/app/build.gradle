@@ -1,0 +1,150 @@
+    apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        applicationId "com.rajauang.android"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 16
+        versionName "1.2.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+        resConfigs "in"
+
+        //增加对5.0以下系统vector的兼容
+        vectorDrawables.useSupportLibrary = true
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a"
+            abiFilters "x86"
+
+        }
+        dexOptions {
+            javaMaxHeapSize "4g"
+        }
+        sourceSets {
+            main.java.srcDirs += 'src/main/kotlin'
+        }
+    }
+
+    //FIXME 这里为了build通过忽略了检查，不可取，一定要改正
+    lintOptions {
+        checkReleaseBuilds true
+        abortOnError true;
+    }
+
+
+    signingConfigs {
+
+        release {
+
+            storeFile file("rajauang.jks")
+            storePassword "rajauang"
+            keyAlias "rajauang"
+            keyPassword "rajauang"
+        }
+    }
+    buildTypes {
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            versionNameSuffix "-debug"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            //混淆
+            minifyEnabled false
+            //Zipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources false
+            //前一部分代表系统默认的android程序的混淆文件，该文件已经包含了基本的混淆声明，后一个文件是自己的定义混淆文件
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile(name: 'BluePay_3.8.2.0220_pro', ext: 'aar')
+    //push xiaomi huawei support
+    compile(name: 'huawei-xiaomi-support-3.0.0', ext: 'aar')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    annotationProcessor group: 'com.jakewharton', name: 'butterknife-compiler', version: '8.5.1'
+    compile "com.android.support:appcompat-v7:$rootProject.ext.supportLibraryVersion"
+    compile('com.github.developer-shivam:crescento:1.1.0', {
+        exclude group: 'com.android.support', module: 'appcompat-v7'
+        exclude group: 'com.android.support', module: 'palette-v7'
+    })
+    compile "com.android.support:design:$rootProject.ext.supportLibraryVersion"
+    compile('com.hwangjr.rxbus:rxbus:1.0.5')
+    {
+        exclude group: 'com.jakewharton.timber', module: 'timber'
+    }
+    compile project(':camerakit')
+    compile project(':circles')
+    compile "com.squareup.okhttp3:okhttp:$rootProject.ext.okhttpVersion"
+    compile "com.squareup.okhttp3:logging-interceptor:$rootProject.ext.okhttpVersion"
+    compile "com.squareup.retrofit2:retrofit:$rootProject.ext.retrofitVersion"
+    compile "com.squareup.retrofit2:converter-gson:$rootProject.ext.retrofitVersion"
+    compile "com.squareup.retrofit2:adapter-rxjava:$rootProject.ext.retrofitVersion"
+    compile "io.reactivex:rxandroid:$rootProject.ext.rxandroidVersion"
+    compile "io.reactivex:rxjava:$rootProject.ext.rxjavaVersion"
+    compile "com.artemzin.rxjava:proguard-rules:$rootProject.ext.rxjavaProguardVersion"
+    compile "com.jakewharton.rxbinding:rxbinding:$rootProject.ext.rxbindingVersion"
+    compile "com.trello:rxlifecycle:$rootProject.ext.rxlifecycleVersion"
+    compile "com.trello:rxlifecycle-android:$rootProject.ext.rxlifecycleVersion"
+
+    compile "com.github.zhaokaiqiang.klog:library:$rootProject.ext.klogVersion"
+
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$rootProject.ext.kotlin_version"
+
+    compile "org.jetbrains.anko:anko:$rootProject.ext.anko_version"
+    compile project(':slidebar')
+    compile project(':timelineview')
+    compile project(':rollview')
+    compile 'org.apache.commons:commons-lang3:3.5'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    compile 'com.orhanobut:logger:1.15'
+    compile "com.github.bumptech.glide:glide:$rootProject.ext.glide_version"
+    compile 'com.alibaba.mobileim:IMCore:2.0.2.1@aar'
+    compile 'com.android.support:multidex:1.0.1'
+    compile "com.android.support:cardview-v7:$rootProject.ext.supportLibraryVersion"
+    compile 'com.tbruyelle.rxpermissions:rxpermissions:0.9.3@aar'
+    compile 'pub.devrel:easypermissions:0.3.0'
+    compile 'com.blankj:utilcode:1.3.6'
+    compile 'com.google.protobuf:protobuf-java:3.0.0'
+    compile 'io.netty:netty-all:4.1.8.Final'
+    compile 'com.appsflyer:af-android-sdk:4.7.1'
+    compile 'com.github.javiersantos:AppUpdater:2.6.1'
+    compile 'com.aliyun.ams:alicloud-android-push:3.0.1@aar'
+    compile 'com.aliyun.ams:alicloud-android-utdid:1.1.5.3'
+    compile 'com.aliyun.ams:alicloud-android-ut:5.0.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.andrognito.patternlockview:patternlockview:1.0.0'
+    compile project(':refrashviews')
+    compile project(":listexpend")
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+}
+//apply plugin: 'com.google.gms.google-services'

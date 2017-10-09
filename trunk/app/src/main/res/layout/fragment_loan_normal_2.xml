@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ddblue">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Loan amount statement-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp14"
+            android:paddingRight="@dimen/dp14">
+
+            <ImageView
+                android:id="@+id/id_imageview_loan_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/money_small"
+                android:tint="@color/dsilvery" />
+
+            <TextView
+                android:id="@+id/id_textview_loan_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="@string/textview_loan_amount_statement"
+                android:textColor="@color/dsilvery"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <!--Loan amount-->
+
+
+        <com.x.leo.slidebar.SlideBarWithText
+            android:id="@+id/sb_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp10"
+            app:forecolore="orange"
+            app:maxitext="RP.20.000.000"
+            app:minitext="RP.600.000"
+            app:paddingHor="@dimen/dp16"
+            app:solidtextcolor="@color/ddsilvery"
+            app:solidtextsize="@dimen/dp14"
+            app:tipsresid="@drawable/tips_orange_s"
+            app:tipstextcolor="@color/white"
+            app:tipstextsize="@dimen/dp16"></com.x.leo.slidebar.SlideBarWithText>
+
+
+        <!--repayment time statement-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp14"
+            android:paddingRight="@dimen/dp14">
+
+            <ImageView
+                android:id="@+id/id_imageview_repay_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/time_small"
+                android:tint="@color/dsilvery" />
+
+            <TextView
+                android:id="@+id/id_textview_repay_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="@string/textview_loan_replayment_statement"
+                android:textColor="@color/dsilvery"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <!--repayment time-->
+
+
+        <com.x.leo.slidebar.SlideBarWithText
+            android:id="@+id/sb_term"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp10"
+            app:forecolore="blue"
+            app:maxitext="@string/loan_14days"
+            app:minitext="@string/loan_7days"
+            app:solidtextcolor="@color/ddsilvery"
+            app:solidtextsize="@dimen/dp14"
+            app:tipsresid="@drawable/tips_blue_s"
+            app:tipstextcolor="@color/white"
+            app:paddingHor="@dimen/dp14"
+            app:tipstextsize="@dimen/dp16"></com.x.leo.slidebar.SlideBarWithText>
+
+        <!--confirm button and Total repayment Amount-->
+
+        <!--Line-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="18dp"
+            android:background="@color/ddsilvery"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14" />
+
+        <!--Repayment-->
+        <TextView
+            android:id="@+id/id_textview_repayment_statement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp15"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:text="@string/repayment_statement"
+            android:textColor="@color/ddsilvery"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/id_textview_unloan_total_repayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:text="@string/total_repayment"
+            android:textColor="@color/dorange"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/id_button_current_loan_u"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/dp20"
+            android:background="@drawable/shape_button"
+            android:text="@string/button_current_loan"
+            android:textAllCaps="false"
+            android:textColor="@color/color_button_text"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp15"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:gravity="center_horizontal"
+            android:text="@string/textview_steps"
+            android:textColor="@color/dsilvery"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/id_textview_repayment_instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp05"
+            android:padding="@dimen/dp05"
+            android:text="@string/textview_repayment_raiders"
+            android:textColor="@color/colorButtonBlue"
+            android:textSize="12dp"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+    

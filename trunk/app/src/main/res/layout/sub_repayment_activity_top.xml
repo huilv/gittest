@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_main_top"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageButton
+        android:id="@+id/id_imagebutton_repayment_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_return"
+        android:layout_marginLeft="14dp"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/id_image_repayment_bank_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/ic_bni"
+        android:layout_toRightOf="@+id/id_imagebutton_back"
+        />
+
+    <TextView
+        android:id="@+id/id_textview_repayment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_button_text"
+        android:textSize="16dp"
+        android:text="@string/repayment_bank_name_title" />
+
+    <ImageButton
+        android:id="@+id/id_imagebutton_repayment_info_list"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:clickable="true"
+        android:background="@drawable/ic_information"/>
+
+</RelativeLayout>

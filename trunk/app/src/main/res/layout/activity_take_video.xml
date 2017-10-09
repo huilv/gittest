@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:camerakit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/containerImg"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:background="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.flurgle.camerakit.CameraView
+                camerakit:ckFacing="front"
+                android:id="@+id/cameraView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/toneContent"
+            android:padding="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:text="sldjkffffffffffffslfjlskdfjksldfjlsjfsldfsldfkmekjoisdjslfsdlkfksfksldjfslkfsnvsndkflsjfksdweirionvlkxcnvklcxnvklnsvksldfswoier;aweuertyuiovbnxncvsdfls;fskl;kl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_person_frame" />
+
+
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/recording_tip"
+            android:padding="4dp"
+            android:layout_centerHorizontal="true"
+            android:background="#ff7f7f7f"
+            android:textColor="#ff0000"
+            android:text="正在录制..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/camera_button" />
+
+</LinearLayout>

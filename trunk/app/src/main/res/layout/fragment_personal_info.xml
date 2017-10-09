@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/sub_main_activity_top" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp14"
+                android:paddingRight="@dimen/dp14">
+                <!--Full Name-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        android:id="@+id/id_edittext_personal_info_fullname"
+                        style="@style/info_text_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/edittext_personal_info_full_name"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textCursorDrawable="@drawable/cursor_color" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery" />
+                <!--KTP NO-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        android:id="@+id/id_edittext_personal_info_ktp_no"
+                        style="@style/info_text_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/edittext_personal_info_ktp_no"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textCursorDrawable="@drawable/cursor_color" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery" />
+
+                <!--family name in law-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        android:id="@+id/id_edittext_personal_onfo_family_name_in_law"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/edittext_personal_info_family_name_in_law"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textCursorDrawable="@drawable/cursor_color" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery" />
+                <!--Gender-->
+                <LinearLayout
+                    android:id="@+id/ll_personalinfo_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_persoanl_info_gender"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_personal_info_gender" />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_personal_info_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery" />
+                <!--Education-->
+                <LinearLayout
+                    android:id="@+id/ll_personalinfo_education"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_personal_info_education"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_personal_info_education" />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_personal_info_education"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery" />
+                <!--Marital Status-->
+                <LinearLayout
+                    android:id="@+id/ll_personalinfo_marital_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_personal_info_marital_status"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_personal_info_marital_status" />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_personal_info_marital_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery" />
+                <!--Number of Children-->
+                <LinearLayout
+                    android:id="@+id/ll_personalinfo_childern"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_personal_info_number_of_children"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_personal_info_number_of_children" />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_personal_info_number_of_children"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery" />
+                <!--Province of Residence-->
+                <LinearLayout
+                    android:id="@+id/ll_personalinfo_province_residence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_personal_info_region"
+                        android:paddingTop="@dimen/dp10"
+                        android:paddingBottom="@dimen/dp10"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:lines="2"
+                        android:lineSpacingExtra="@dimen/dp05"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_personal_info_region" />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_personal_info_province_of_residence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1px"-->
+                    <!--android:background="@color/ddsilvery" />-->
+
+                <!--City of Residence-->
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/ll_personalinfo_city_residence"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:background="@drawable/shape_main_tab_stroke"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/id_textview_personal_info_city"-->
+                        <!--style="@style/info_text_style"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_marginLeft="14dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:hint="@string/textview_personal_info_city_of_residence" />-->
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/id_imagebutton_personal_info_city_of_residence"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:layout_marginRight="14dp"-->
+                        <!--android:background="@drawable/ic_right" />-->
+                <!--</LinearLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1px"-->
+                    <!--android:background="@color/ddsilvery" />-->
+                <!--&lt;!&ndash;Street of Residence&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/ll_personalinfo_street_residence"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:background="@drawable/shape_main_tab_stroke"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/id_textview_personal_info_street"-->
+                        <!--style="@style/info_text_style"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_marginLeft="14dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:hint="@string/textview_personal_info_street_of_residence" />-->
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/id_imagebutton_personal_info_street_of_residence"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:layout_marginRight="14dp"-->
+                        <!--android:background="@drawable/ic_right" />-->
+                <!--</LinearLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1px"-->
+                    <!--android:background="@color/ddsilvery" />-->
+                <!--&lt;!&ndash;area of Residence&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/ll_personalinfo_area_residence"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:background="@drawable/shape_main_tab_stroke"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/id_textview_personal_info_area"-->
+                        <!--style="@style/info_text_style"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_marginLeft="14dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:hint="@string/textview_personal_info_area_of_residence" />-->
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/id_imagebutton_personal_info_area_of_residence"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:layout_marginRight="14dp"-->
+                        <!--android:background="@drawable/ic_right" />-->
+                <!--</LinearLayout>-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery" />
+                <!--detail address-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        android:id="@+id/id_edittext_personal_onfo_address"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_personal_info_address"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textCursorDrawable="@drawable/cursor_color" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/btn_location_now"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="定位当前位置" />
+
+                    <Button
+                        android:id="@+id/btn_location_find"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="从地图上选取" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery"
+                    android:visibility="gone" />
+                <!--duration of Residence-->
+                <LinearLayout
+                    android:id="@+id/ll_personalinfo_duration_residence"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_personal_info_duration"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_personal_info_duration_of_residence" />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_personal_info_duration_of_residence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery"
+                    android:visibility="gone" />
+                <!--facebook-->
+                <LinearLayout
+
+                    android:id="@+id/ll_personalinfo_facebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/id_imageview_facebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="14dp"
+                        android:background="@drawable/ic_facebook" />
+
+                    <TextView
+                        android:id="@+id/tv_personal_info_facebook_id"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/textview_personal_info_facebook" />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_personal_info_facebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery"
+                    android:visibility="gone" />
+
+                <!--memverifikasi-->
+                <LinearLayout
+                    android:id="@+id/ll_personalinfo_memverifikasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/id_imageview_memverifikasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="14dp"
+                        android:background="@drawable/ic_memverifikasi" />
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_personal_info_memverifikasi_info"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textColor="@color/textblue"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="14sp" />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_personal_info_memverifikasi_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/ddsilvery"
+                    android:visibility="gone" />
+
+                <!--phone_number_verification-->
+                <LinearLayout
+                    android:id="@+id/ll_personalinfo_verification"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/id_imageview_phone_number_verification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="14dp"
+                        android:background="@drawable/ic_phone_ver" />
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_personal_info_phone_number_verification"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textColor="@color/textblue"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="14dp" />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_personal_info_phone_number_verification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/ddsilvery" />
+
+            <Button
+                android:id="@+id/id_button_personal_info_submit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dp14"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/shape_button"
+                android:text="@string/button_certification_submit"
+                android:textAllCaps="false"
+                android:textColor="@color/color_button_text"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

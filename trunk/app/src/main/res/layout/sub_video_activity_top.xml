@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_main_top"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageButton
+        android:id="@+id/id_imagebutton_video_back"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_return"
+        android:scaleType="center"
+        android:background="@null"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/id_textview_video_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_button_text"
+        android:textSize="16dp"
+        android:text="@string/textview_video_title"
+        />
+
+    <TextView
+        android:id="@+id/id_textview_video_cancel"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="14dp"
+        android:gravity="center"
+        android:paddingRight="14dp"
+        android:text="@string/button_loan_info_cancel"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:clickable="true" />
+
+</RelativeLayout>

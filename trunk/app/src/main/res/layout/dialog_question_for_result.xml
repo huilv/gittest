@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorBackground"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        style="@style/text_14dp_white"
+        android:text="header"
+        android:gravity="center"
+        android:id = "@+id/text_header"
+        android:layout_height="@dimen/dp50" />
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="@dimen/dp15"
+        android:id = "@+id/text_content"
+        android:text="content"
+        style="@style/text_14dp_white"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="@dimen/dp120"
+            android:background="@drawable/button_selector"
+            android:id = "@+id/ensure_button"
+            style="@style/text_14dp_white"
+            android:text="@string/button_ok"
+            android:textAllCaps="false"
+            android:layout_height="@dimen/dp40" />
+        <Button
+            android:layout_width="@dimen/dp120"
+            android:layout_marginLeft="@dimen/dp30"
+            android:id = "@+id/cancel_button"
+            style="@style/text_14dp_white"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_button_gray"
+            android:text="@string/text_cancel"
+            android:layout_height="@dimen/dp40" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_me"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.x.leo.rollview.RollView
+            android:layout_width="match_parent"
+            android:id = "@+id/rv_me"
+            android:layout_height="160dp"
+            app:circleColor="@color/white"
+            app:circleFilledRadius="@dimen/dp02"
+            app:circleRadius="@dimen/dp03"
+            app:circleStroke="@dimen/dp01"
+            app:circleMargin="@dimen/dp03"
+            app:circleToBottom="@dimen/dp10"
+            ></com.x.leo.rollview.RollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/colorBackground_d"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/dp15"
+                android:paddingTop="@dimen/dp15"
+                android:id = "@+id/ll_kupon"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id = "@+id/tv_num_kupon"
+                    android:layout_width="wrap_content"
+                    style="@style/text_14dp_white"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="@dimen/dp05"
+                    android:id = "@+id/tv_kupon"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    style="@style/text_14dp_white"
+                    android:text="@string/kupon"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="2px"
+                android:background="@color/colorDivider"
+                android:layout_marginBottom="@dimen/dp15"
+                android:layout_marginTop="@dimen/dp15"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id = "@+id/ll_undang_teman"
+                android:paddingBottom="@dimen/dp15"
+                android:paddingTop="@dimen/dp15"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id = "@+id/tv_num_undang_teman"
+                    android:layout_width="wrap_content"
+                    style="@style/text_14dp_white"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="@dimen/dp05"
+                    android:id = "@+id/tv_undang_teman"
+                    android:layout_width="wrap_content"
+                    style="@style/text_14dp_white"
+                    android:textStyle="bold"
+                    android:text="@string/undang_teman"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dp08"
+            android:id="@+id/ll_userspan_me_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:background="@color/colorBackground_d"
+            android:paddingLeft="@dimen/dp15"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/icon_header"/>
+
+            <TextView
+                android:id="@+id/tv_uername_me_fragment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_weight="1"
+                style="@style/text_14dp_white"
+                android:text="@string/textview_username"/>
+
+            <Button
+                android:id="@+id/btn_login_out"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:text="logout"
+                android:textAllCaps="false"
+                style="@style/text_12dp_tips"
+                android:layout_marginRight="@dimen/dp15"
+                android:background="@drawable/selector_button_round_rec_background_color"
+                />
+
+        </LinearLayout>
+
+        <!--<include layout="@layout/view_header_login_me" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="@dimen/dp08"
+            android:background="@color/ddsilvery" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground_d"
+            android:orientation="vertical">
+
+            <!--My Loan-->
+            <LinearLayout
+                android:id="@+id/ll_myloan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp15">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/pinjaman" />
+
+                <TextView
+                    android:id="@+id/id_textview_my_loan"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp16"
+                    android:layout_weight="1"
+                    android:text="@string/textview_me_my_loan" />
+
+                <ImageButton
+                    android:id="@+id/id_imagebutton_my_loan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/dp15"
+                    android:background="@drawable/ddsilover_arc_right" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/dp50"
+                android:background="@color/ddsilvery" />
+
+            <!--Security Setting-->
+            <LinearLayout
+                android:id="@+id/ll_activity_center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp15">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/icon_part" />
+
+                <TextView
+                    android:id="@+id/id_textview_pusat_kegiatan"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp16"
+                    android:layout_weight="1"
+                    android:text="@string/text_pusat_kegiatan" />
+
+                <ImageButton
+                    android:id="@+id/id_imagebutton_security_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/dp15"
+                    android:background="@drawable/ddsilover_arc_right" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/dp50"
+                android:background="@color/ddsilvery" />
+
+            <!--Help Center-->
+            <LinearLayout
+                android:id="@+id/ll_help"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp15">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_help" />
+
+                <TextView
+                    android:id="@+id/id_textview_help_center"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp16"
+                    android:layout_weight="1"
+                    android:text="@string/textview_me_help_center" />
+
+                <ImageButton
+                    android:id="@+id/id_imagebutton_help_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/dp15"
+                    android:background="@drawable/ddsilover_arc_right" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/dp50"
+                android:background="@color/ddsilvery" />
+
+            <!--About Daun Kredit-->
+            <LinearLayout
+                android:id="@+id/ll_about"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp15">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_about" />
+
+                <TextView
+                    android:id="@+id/id_textview_about"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp16"
+                    android:layout_weight="1"
+                    android:text="@string/textview_me_about_company" />
+
+                <ImageButton
+                    android:id="@+id/id_imagebutton_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/dp15"
+                    android:background="@drawable/ddsilover_arc_right" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/dp50"
+                android:background="@color/ddsilvery" />
+
+            <!--Customer Service Plus-->
+            <LinearLayout
+                android:id="@+id/ll_hotline"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp15">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/icon_telephone" />
+
+                <TextView
+                    android:id="@+id/id_textview_customer_service_hotline"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp16"
+                    android:layout_weight="1"
+                    android:text="@string/textview_me_customer_service_hotline" />
+
+            </LinearLayout>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/dp50"
+            android:background="@color/ddsilvery"/>
+
+            <!--onlineservice-->
+            <LinearLayout
+                android:id="@+id/ll_online_service_me"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp15"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/icon_chat" />
+
+                <TextView
+                    android:id="@+id/id_textview_online_service"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp16"
+                    android:layout_weight="1"
+                    android:text="@string/onlineQA" />
+
+                <ImageButton
+                    android:id="@+id/id_imagebutton_my_repayment_log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/dp15"
+                    android:background="@drawable/ddsilover_arc_right" />
+
+            </LinearLayout>
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:layout_marginLeft="@dimen/dp50"-->
+                <!--android:background="@color/ddsilvery"-->
+                <!--/>-->
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginBottom="@dimen/dp10"
+            android:background="@color/ddsilvery" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+

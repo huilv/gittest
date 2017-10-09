@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/dp14"
+        android:src="@drawable/shape_gray_circle_filled"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/left_text"
+        style="@style/inviteinfo_list_style"
+        android:layout_marginLeft="@dimen/dp14"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="left" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id = "@+id/middle_text"
+        android:text="middle"
+        android:singleLine="true"
+        android:lines="1"
+        android:layout_marginLeft="@dimen/dp14"
+        android:layout_height="30dp"
+        style="@style/inviteinfo_list_style" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/dp14"
+        android:layout_marginRight="@dimen/dp14"
+        android:id = "@+id/right_text"
+        android:text="right"
+        style="@style/inviteinfo_list_style"
+        android:layout_height="30dp" />
+</LinearLayout>

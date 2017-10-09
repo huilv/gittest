@@ -1,0 +1,2 @@
+include ':app', ':slidebar', ':timelineview', ':rollview', ':circles', ':refrashviews', ':listexpend'
+include ':camerakit'

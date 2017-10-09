@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/sub_main_activity_top"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:id = "@+id/fl_myloan"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_loan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp20"
+            ></android.support.v7.widget.RecyclerView>
+
+    </FrameLayout>
+
+</LinearLayout>

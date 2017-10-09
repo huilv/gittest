@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/sub_main_activity_top"/>
+
+    <ListView
+        android:id="@+id/id_list_chat_history"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:gravity="center_vertical">
+        
+        <ImageButton
+            android:id="@+id/id_imagebutton_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
+            android:background="@drawable/ic_plus"/>
+
+        <EditText
+            android:id="@+id/id_edittext_msg"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:background="@drawable/shape_edittext_d"/>
+
+        <ImageButton
+            android:id="@+id/id_imagebutton_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/ic_emoji"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

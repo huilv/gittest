@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/sub_main_activity_top" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/colorBackground_d"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:paddingTop="@dimen/dp08"
+                android:paddingBottom="@dimen/dp08"
+                android:id="@+id/rv_loan_info"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:foregroundGravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBackground"></android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp05"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp14">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_amount_selected"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/dp14"
+                    android:paddingTop="@dimen/dp14">
+
+                    <TextView
+                        android:paddingBottom="@dimen/dp08"
+                        android:id="@+id/tv_loan_amount"
+                        style="@style/text_16dp_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="RP.1000.1000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:paddingBottom="@dimen/dp08"
+                        style="@style/text_14dp_ddsilivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp05"
+                        android:gravity="center"
+                        android:text="@string/textview_loan_amount" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp15"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_amount_selected"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/dp14"
+                    android:paddingTop="@dimen/dp14">
+
+                    <TextView
+                        android:paddingBottom="@dimen/dp08"
+                        android:id="@+id/tv_loan_period"
+                        style="@style/text_16dp_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="RP.1000.1000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:paddingBottom="@dimen/dp08"
+                        style="@style/text_14dp_ddsilivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp05"
+                        android:gravity="center"
+                        android:text="@string/textview_loan_period" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/dp14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:layout_width="@dimen/dp20"
+                    app:circleActive="@color/colorBackground"
+                    app:circleActiveBigger="@color/colorBackground"
+                    app:circleInactive="@color/colorBackground"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:doAnimation="false"
+                    app:markerStyle="circleFilled"
+                    app:directionStyle="VERTICAL"
+                    app:markPosition="start"
+                    app:offset="0dp"
+                    app:radius="@dimen/dp08"
+                    app:strokeColor="@color/colorBackground"
+                    app:strokeWidth="@dimen/dp02"
+                    app:notShowPointLine="true"
+                    app:relativeGravity="CENTER"
+                    app:radiusInner="@dimen/dp05"
+                    app:lastStatus="Inactive"
+                    app:completeRes="@drawable/shape_circle_blue"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/loan_app_id" />
+
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    android:id="@+id/id_textview_process_loan_app_id"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="100234" />
+
+            </LinearLayout>
+
+            <!--KTP-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:layout_width="@dimen/dp20"
+                    app:circleActive="@color/colorBackground"
+                    app:circleActiveBigger="@color/colorBackground"
+                    app:circleInactive="@color/colorBackground"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:doAnimation="false"
+                    app:markerStyle="circleFilled"
+                    app:directionStyle="VERTICAL"
+                    app:markPosition="middle"
+                    app:offset="0dp"
+                    app:radius="@dimen/dp08"
+                    app:strokeColor="@color/colorBackground"
+                    app:strokeWidth="@dimen/dp02"
+                    app:notShowPointLine="false"
+                    app:relativeGravity="CENTER"
+                    app:radiusInner="@dimen/dp05"
+                    app:lastStatus="Inactive"
+                    app:completeRes="@drawable/shape_circle_blue"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/loan_app_KTP" />
+
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    android:id="@+id/id_textview_process_loan_app_ktp"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1234567891234567" />
+
+            </LinearLayout>
+
+            <!--Application TIme-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:layout_width="@dimen/dp20"
+                    app:circleActive="@color/colorBackground"
+                    app:circleActiveBigger="@color/colorBackground"
+                    app:circleInactive="@color/colorBackground"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:doAnimation="false"
+                    app:markerStyle="circleFilled"
+                    app:directionStyle="VERTICAL"
+                    app:markPosition="middle"
+                    app:offset="0dp"
+                    app:radius="@dimen/dp08"
+                    app:strokeColor="@color/colorBackground"
+                    app:strokeWidth="@dimen/dp02"
+                    app:notShowPointLine="false"
+                    app:relativeGravity="CENTER"
+                    app:radiusInner="@dimen/dp05"
+                    app:lastStatus="Inactive"
+                    app:completeRes="@drawable/shape_circle_blue"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/loan_create_time" />
+
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    android:id="@+id/id_textview_process_loan_app_time"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2017-1-20" />
+
+            </LinearLayout>
+
+            <!--Loan amount-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:layout_width="@dimen/dp20"
+                    app:circleActive="@color/colorBackground"
+                    app:circleActiveBigger="@color/colorBackground"
+                    app:circleInactive="@color/colorBackground"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:doAnimation="false"
+                    app:markerStyle="circleFilled"
+                    app:directionStyle="VERTICAL"
+                    app:markPosition="middle"
+                    app:offset="0dp"
+                    app:radius="@dimen/dp08"
+                    app:strokeColor="@color/colorBackground"
+                    app:strokeWidth="@dimen/dp02"
+                    app:notShowPointLine="false"
+                    app:relativeGravity="CENTER"
+                    app:radiusInner="@dimen/dp05"
+                    app:lastStatus="Inactive"
+                    app:completeRes="@drawable/shape_circle_blue"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/loan_amount" />
+
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    android:id="@+id/id_textview_process_loan_app_amount"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="RP1,000,000" />
+
+            </LinearLayout>
+
+            <!--Loan period-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:layout_width="@dimen/dp20"
+                    app:circleActive="@color/colorBackground"
+                    app:circleActiveBigger="@color/colorBackground"
+                    app:circleInactive="@color/colorBackground"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:doAnimation="false"
+                    app:markerStyle="circleFilled"
+                    app:directionStyle="VERTICAL"
+                    app:markPosition="middle"
+                    app:offset="0dp"
+                    app:radius="@dimen/dp08"
+                    app:strokeColor="@color/colorBackground"
+                    app:strokeWidth="@dimen/dp02"
+                    app:notShowPointLine="false"
+                    app:relativeGravity="CENTER"
+                    app:radiusInner="@dimen/dp05"
+                    app:lastStatus="Inactive"
+                    app:completeRes="@drawable/shape_circle_blue"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/loan_period" />
+
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    android:id="@+id/id_textview_process_loan_app_period"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7Days" />
+
+            </LinearLayout>
+
+            <!--Loan costs-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:layout_width="@dimen/dp20"
+                    app:circleActive="@color/colorBackground"
+                    app:circleActiveBigger="@color/colorBackground"
+                    app:circleInactive="@color/colorBackground"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:doAnimation="false"
+                    app:markerStyle="circleFilled"
+                    app:directionStyle="VERTICAL"
+                    app:markPosition="middle"
+                    app:offset="0dp"
+                    app:radius="@dimen/dp08"
+                    app:strokeColor="@color/colorBackground"
+                    app:strokeWidth="@dimen/dp02"
+                    app:notShowPointLine="false"
+                    app:relativeGravity="CENTER"
+                    app:radiusInner="@dimen/dp05"
+                    app:lastStatus="Inactive"
+                    app:completeRes="@drawable/shape_circle_blue"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/loan_costs" />
+
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    android:id="@+id/id_textview_process_loan_app_cost"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="RP140,000" />
+
+            </LinearLayout>
+            <!--Loan Total amount-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:layout_width="@dimen/dp20"
+                    app:circleActive="@color/colorBackground"
+                    app:circleActiveBigger="@color/colorBackground"
+                    app:circleInactive="@color/colorBackground"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:doAnimation="false"
+                    app:markerStyle="circleFilled"
+                    app:directionStyle="VERTICAL"
+                    app:markPosition="middle"
+                    app:offset="0dp"
+                    app:radius="@dimen/dp08"
+                    app:strokeColor="@color/colorBackground"
+                    app:strokeWidth="@dimen/dp02"
+                    app:notShowPointLine="false"
+                    app:relativeGravity="CENTER"
+                    app:radiusInner="@dimen/dp05"
+                    app:lastStatus="Inactive"
+                    app:completeRes="@drawable/shape_circle_blue"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    android:id="@+id/textView"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/total_repayment_amount" />
+
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    android:id="@+id/id_textview_process_loan_total_amount"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="RP1140,000" />
+
+            </LinearLayout>
+
+            <!--Loan bank code -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:layout_width="@dimen/dp20"
+                    app:circleActive="@color/colorBackground"
+                    app:circleActiveBigger="@color/colorBackground"
+                    app:circleInactive="@color/colorBackground"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:doAnimation="false"
+                    app:markerStyle="circleFilled"
+                    app:directionStyle="VERTICAL"
+                    app:markPosition="middle"
+                    app:offset="0dp"
+                    app:radius="@dimen/dp08"
+                    app:strokeColor="@color/colorBackground"
+                    app:strokeWidth="@dimen/dp02"
+                    app:notShowPointLine="false"
+                    app:relativeGravity="CENTER"
+                    app:radiusInner="@dimen/dp05"
+                    app:lastStatus="Inactive"
+                    app:completeRes="@drawable/shape_circle_blue"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/bank_name" />
+
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    android:id="@+id/id_textview_process_loan_app_bank_code"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="BCA" />
+
+            </LinearLayout>
+            <!--Loan bank no-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:layout_width="@dimen/dp20"
+                    app:circleActive="@color/colorBackground"
+                    app:circleActiveBigger="@color/colorBackground"
+                    app:circleInactive="@color/colorBackground"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:doAnimation="false"
+                    app:markerStyle="circleFilled"
+                    app:directionStyle="VERTICAL"
+                    app:markPosition="end"
+                    app:offset="0dp"
+                    app:radius="@dimen/dp08"
+                    app:strokeColor="@color/colorBackground"
+                    app:strokeWidth="@dimen/dp02"
+                    app:notShowPointLine="true"
+                    app:relativeGravity="CENTER"
+                    app:radiusInner="@dimen/dp05"
+                    app:lastStatus="Inactive"
+                    app:completeRes="@drawable/shape_circle_blue"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight="1"
+                    android:text="@string/bank_card_no" />
+
+                <TextView
+                    android:paddingBottom="@dimen/dp08"
+                    android:id="@+id/id_textview_process_loan_app_bank_no"
+                    style="@style/text_14dp_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="622592888398490124" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_marginTop="@dimen/dp30"
+                    android:layout_width="wrap_content"
+                    android:id = "@+id/btn_read_agreement"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:layout_marginRight="@dimen/dp14"
+                    style="@style/text_16dp_white"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="@dimen/dp30"
+                    android:text="@string/btn_read_agreemment"
+                    android:background="@drawable/selector_button_primary"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginTop="@dimen/dp30"
+                    android:layout_width="wrap_content"
+                    android:id = "@+id/btn_cancel_loan"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:layout_marginRight="@dimen/dp14"
+                    style="@style/text_16dp_white"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="@dimen/dp30"
+                    android:text="@string/text_cancel"
+                    android:background="@drawable/selector_button_blue"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

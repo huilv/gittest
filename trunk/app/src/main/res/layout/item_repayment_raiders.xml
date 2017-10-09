@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/shape_rectangle_lines_gray"
+        android:gravity="center"
+        style="@style/text_16dp_tblue"
+        android:text="test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>

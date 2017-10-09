@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <include layout="@layout/sub_main_activity_top"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dp14"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            style="@style/text_12dp_ddsilivery"
+            android:text="@string/textview_repayment_raiders_tips"
+            android:layout_height="wrap_content"/>
+        <GridLayout
+            android:layout_marginTop="@dimen/dp14"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:id = "@+id/gl_repay_raiders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+        </GridLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/dorange"
+        android:layout_height="2px" />
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/dp14"
+        android:paddingRight="@dimen/dp14"
+        android:paddingTop="@dimen/dp08"
+        android:paddingBottom="@dimen/dp08"
+        android:text="@string/textView_repayment_raiders_warns"
+        android:textColor="@color/color_text_orange"
+        android:textSize="12sp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/dorange"
+        android:layout_height="2px" />
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/dp14"
+        android:background="@color/colorPrimary_lighter"
+        android:padding="@dimen/dp14"
+        android:id = "@+id/tv_repayment_raiders_details"
+        android:text="test"
+        style="@style/text_12dp_tblue"
+        android:layout_marginTop="@dimen/dp20"
+        android:elevation="2dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:visibility="gone"
+        android:id = "@+id/fab_repayment_raiders"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/dp14"
+        android:layout_marginBottom="@dimen/dp80"
+        android:layout_gravity="bottom"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:backgroundTintMode="src_atop"
+        app:backgroundTint="@color/colorPrimary"
+        app:elevation="2dp"
+        android:scaleType="fitXY"
+        android:src = "@drawable/img_award"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@null"
+              android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/current_success"/>
+
+    <TextView
+        android:id = "@+id/tv_dialog_current_tips"
+        style="@style/text_14dp_blue"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp10"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/loan_result_tip_approved"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="@string/loan_result_botton"
+        android:background="@mipmap/rectongle_circle_edge"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp20"
+        style="@style/text_14dp_orange"
+        android:paddingLeft="@dimen/dp14"
+        android:paddingRight="@dimen/dp14"
+        android:id = "@+id/btn_dialog_current_oko"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

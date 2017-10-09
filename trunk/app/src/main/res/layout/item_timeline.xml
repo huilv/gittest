@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <com.x.leo.timelineview.TimeLineView
+        android:id="@+id/time_marker"
+        android:layout_width="@dimen/dp30"
+        android:layout_height="match_parent"
+        app:directionStyle="VERTICAL"
+        app:markerStyle="circleFilled"
+        app:CurrentStatus="Inactive"
+        app:drawText="true"
+        app:notShowPointLine="true"
+        app:circleActiveBigger="@color/color_bottom_tab_light"
+        app:circleActive="@color/bottom_tab"
+        app:circleInactive="@color/colorPrimaryDark"
+        app:radiusInner="@dimen/dp10"
+        app:radius="@dimen/dp15"
+        app:completeRes="@mipmap/progress_complete"
+        app:relativeGravity="CENTER"
+        style="@style/text_12dp_white"
+        app:strokeColor="@color/colorPrimaryDark"
+        app:doAnimation="true"
+        app:strokeWidth="@dimen/dp03"/>
+
+    <LinearLayout
+        android:id="@+id/panel"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/cert_status_panel_level"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="24dp"
+            />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/textview_field_personal_info"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/timeline_arc_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/level_right_arc" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

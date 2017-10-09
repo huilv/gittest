@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/dp20"
+    android:paddingRight="@dimen/dp20"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="1dp"
+        app:cardElevation="@dimen/dp10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_me_myloan"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp50"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/dp14"
+                android:paddingRight="@dimen/dp14"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv_item_myloan_time"
+                    style="@style/text_16dp_tlblue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2012-02-01" />
+
+                <TextView
+                    android:id="@+id/tv_item_myloan_id"
+                    style="@style/text_16dp_tlblue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="RPP_1-12321312312" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_loaning_textview_stroke" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp14"
+                android:paddingRight="@dimen/dp14"
+                android:paddingTop="10dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/text_14dp_ddsilivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp40"
+                        android:gravity="center_vertical"
+                        android:text="@string/textview_loan_amount" />
+
+                    <TextView
+                        android:id="@+id/tv_item_myloan_loanamount"
+                        style="@style/text_14dp_blue"
+                        android:layout_width="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_height="@dimen/dp40"
+                        android:text="RP1,000,000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/text_14dp_ddsilivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp40"
+                        android:gravity="center_vertical"
+                        android:text="@string/textview_repayment_time" />
+
+                    <TextView
+                        android:id="@+id/tv_item_myloan_repayment_time"
+                        style="@style/text_14dp_blue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp40"
+                        android:gravity="center_vertical"
+                        android:text="7Days" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/text_14dp_ddsilivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp40"
+                        android:gravity="center_vertical"
+                        android:text="@string/textview_status" />
+
+                    <TextView
+                        android:id="@+id/tv_item_myloan_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp40"
+                        android:gravity="center_vertical"
+                        android:text="Closed"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/myloan_divider_height"
+        android:background="@android:color/transparent" />
+</LinearLayout>

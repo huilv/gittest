@@ -1,0 +1,3 @@
+[submodule "vendor/common"]
+	path = vendor/common
+	url = ssh://git@git.lvjin.work:2289/huangshouguo/android_common.git

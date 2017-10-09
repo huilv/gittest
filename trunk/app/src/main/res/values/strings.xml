@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rajauang</string>
+    <string name="edittext_phone_number_hint">Silahkan masukkan no ponsel anda</string>
+    <string name="edittext_SMS_code_hint">Silahkan masukkan kode sms</string>
+
+
+    <string name="button_obtain_code">Dapatkan Kode</string>
+    <string name="button_login">Login</string>
+    <string name="edittext_graphical_code">Kode Verifikasi Grafik</string>
+    <string name="textview_loan">Pinjaman</string>
+    <string name="textview_certification">Sertifikasi</string>
+    <string name="textview_me">Saya</string>
+    <string name="textview_online_QA">Layanan Online</string>
+    <string name="main_page_title">Daun Kredit</string>
+    <string name="login_statement">Klik tombol setuju \"Perjanjian Layanan Registrasi dan Privasi\"</string>
+    <string name="textview_loan_amount_statement">Silahkan pilih jumlah pinjaman</string>
+    <string name="textview_loan_replayment_statement">Silahkan pilih tenggat waktu pembayaran</string>
+
+
+    <string name="RP600k">Rp. 600.000</string>
+    <string name="RP1200K">Rp. 1.200.000</string>
+    <string name="loan_7days">7 Hari</string>
+    <string name="loan_14days">14 Hari</string>
+
+    <string name="repayment_statement">Total Jumlah Pengembalian</string>
+    <string name="total_repayment">Rp. 1.070.000</string>
+    <string name="button_current_loan">Pinjaman Saat Ini</string>
+    <string name="textview_steps">Hanya dengan 4 langkah. Pinjaman paling cepat dalam 20 menit. </string>
+    <string name="textview_repayment_raiders">Lihat Cara Pengembalian Pinjaman</string>
+    <string name="textview_loan_amount">Jumlah Pinjaman</string>
+    <string name="textview_repayment_time">Jatuh Tempo</string>
+
+    <string name="textview_receiving_bank">Nama Bank Penerima</string>
+    <string name="editText_bank_number">Nomor Rekening Penerima</string>
+    <string name="editText_use_loan">Guna Pinjaman</string>
+    <string name="textview_title_personal_info">Informasi Pribadi</string>
+    <string name="textview_field_personal_info">Informasi Pribadi</string>
+    <string name="textview_field_professional_info">Informasi Profesi</string>
+    <string name="textview_field_Upload_photos">Upload Foto</string>
+    <string name="textview_authentication">Otentikasi</string>
+    <string name="textview_progress_data_integrity">Integritas Data: </string>
+    <string name="textview_progress_rating"> 0% </string>
+    <string name="button_certification_submit">Kirim</string>
+
+    <string name="textview_remain_days">05</string>
+    <string name="textview_unit_days">Hari</string>
+    <string name="textview_unit_tips_expird">Anda telah terlambat</string>
+    <string name="textview_unit_tips">Dari hari jatuh jempo</string>
+    <string name="textview_remaining_days">Sisa Tenggat Waktu</string>
+    <string name="textview_repayment_amount">Rp. 642.000</string>
+    <string name="textview_repayment_amount_text">Total Jumlah Pengembalian</string>
+    <string name="textview_expiry_date">2017-1-30</string>
+    <string name="textview_expiry_date_text">Tanggal Jatuh Tempo</string>
+    <string name="buttom_want_to_Repay">Saya ingin mengembalikan</string>
+    <string name="textview_been_payment_text">Telah dikembalikan: </string>
+    <string name="textview_total_acount">Rp. 642.000</string>
+    <string name="textview_total_text">Total: </string>
+    <string name="textview_remain_text">Sisa:</string>
+    <string name="textview_been_payment_account">Rp. 42.000</string>
+    <string name="textview_title_system_message">Pesan Sistem</string>
+    <string name="textview_customer_service_hotline">Hotline Layanan Pelanggan</string>
+
+
+    <string name="textview_bank_select_statement">Silahkan pilih bank untuk mengembalikan pinjaman</string>
+    <string name="button_bank_determine">Pilih</string>
+
+    <string name="textview_me_my_loan">Pinjaman Saya</string>
+    <string name="textview_me_security_setting">Pengaturan Keamanan</string>
+    <string name="textview_me_help_center">Pusat Bantuan</string>
+    <string name="textview_me_about_company">Tentang Daun Kredit</string>
+    <string name="textview_me_customer_service_hotline">Hotline Layanan Pelanggan</string>
+
+    <string name="edittext_personal_info_full_name">Nama Lengkap</string>
+    <string name="edittext_personal_info_ktp_no">No KTP</string>
+    <string name="edittext_personal_info_family_name_in_law">Nama Gadis Ibu Kandung</string>
+    <string name="textview_personal_info_gender">Jenis Kelamin</string>
+    <string name="textview_personal_info_education">Edukasi</string>
+    <string name="textview_personal_info_marital_status">Status Perkawinan</string>
+    <string name="textview_personal_info_number_of_children">Jumlah Anak</string>
+    <string name="textview_personal_info_province_of_residence">Provinsi Hunian</string>
+    <string name="textview_personal_info_city_of_residence">Kota Hunian</string>
+    <string name="textview_personal_info_street_of_residence">Kecamatan Hunian</string>
+    <string name="textview_personal_info_area_of_residence">Kelurahan Hunian</string>
+    <string name="textview_personal_info_address">Alamat</string>
+    <string name="textview_personal_info_duration_of_residence">Durasi Hunian</string>
+    <string name="textview_personal_info_facebook">Facebook</string>
+    <string name="textview_personal_info_memverifikasi_info">Verifikasi info belanja online(optional)</string>
+    <string name="textview_personal_info_phone_number_verification">Verifikasi no ponsel</string>
+
+
+    <string name="textview_job_info_title">Informasi Pekerjaan</string>
+    <string name="textview_job_info_job_type">Tipe Pekerjaan</string>
+    <string name="textview_job_info_monthly_income">Pendapatan Bulanan</string>
+    <string name="edittext_job_info_company_name">Nama Perusahaan</string>
+    <string name="textview_job_info_province_of_company_located">Provinsi Perusahaan</string>
+    <string name="textview_job_info_city_of_company_located">Kota Perusahaan</string>
+    <string name="textview_job_info_street_of_company_located">Kecamatan Perusahaan</string>
+    <string name="textview_job_info_city_in_the_village">Kelurahan Perusahaan</string>
+    <string name="edittext_job_info_address">Alamat</string>
+    <string name="edittext_job_info_tel_of_company">No Tel Perusahaan</string>
+    <string name="textview_job_info_work_email">Email Kerja (Opsional)</string>
+    <string name="textview_job_info_email_verification">Kode Verifikasi Email (Opsional)</string>
+    <string name="textview_job_info_statement">Mengisi informasi opsional akan mempercepat proses review kami dan memberikan anda akses pada penawaran</string>
+    <string name="textview_contacts_info_father_mother">Ayah/Ibu</string>
+    <string name="edittext_contacts_info_name">Nama</string>
+    <string name="textview_field_contract_info"> Info Kontak</string>
+    <string name="edittext_contacts_info_telephone">Telepon</string>
+    <string name="textview_contacts_info_friend">saudara tidak serumah</string>
+    <string name="textview_contacts_info_statement">Daun Kredit menggunakan analisa mahadata, proses aplikasi tidak akan mengambil inisiatif untuk menelepon orang tua dan teman, silahkan isi dengan tenang</string>
+    <string name="textview_upload_photos_statement_ktp_front">Halaman Depan KTP</string>
+    <string name="textview_upload_photps_statement_work_card_photo">Foto Kartu Pekerja</string>
+    <string name="textView_upload_photps_statement_work_card_photo_2">(Jika tidak ada anda dapat foto memakai seragam kerja)</string>
+    <string name="textview_loan_info_statement">Informasi Pinjaman</string>
+    <string name="button_loan_info_cancel">Batal</string>
+    <string name="textview_loan_info_audit_passed">Review Lulus</string>
+    <string name="textview_loan_info_loan_qualified">Pinjaman Memenuhi Syarat</string>
+    <string name="textview_laon_info_audit_passed_statement">Percobaan pertama anda telah berhasil, mohon jaga ponsel anda agar tetap nyala</string>
+    <string name="textview_loan_info_loan_qualified_statement">Review anda telah lulus, anda sedang mengajukan pinjaman</string>
+    <string name="textview_status">Status</string>
+    <string name="button_logout">Log out</string>
+    <string name="textview_loan_raiders">Cara Meminjam</string>
+    <string name="textview_repayment_raiders_2">Cara Mengembalikan Pinjaman</string>
+    <string name="text_about_company_detail">Daun Kredit online mulai dari 15 April 2017, kami adalah salah satu kredit platform pertama yang sepenuhnya dapat dioperasikan melalui app ponsel. \n\nPinjaman tunai otomatis \"tanpa jaminan, tanpa tanda tangan\", hanya butuh ponsel untuk menyelesaikan proses komplit dari pengajuan sampai pengembalian pinjaman. Tujuan pinjaman Daun Kredit adalah untuk mecapai proses review otomatis yang efisien, yang dibantu dengan proses audit manual, paling cepat 3 menit. Pinjaman tunai mulai dari Rp. 600.000 sampai Rp. 1.200.000 dengan tenggat waktu 7 hari atau 14 hari. \n\nDaun Kredit dioperasikan oleh PT. Digital Synergy Technology.</string>
+    <string name="text_title_about">Tentang Kami</string>
+    <string name="text_title_helpcenter">Pusat Bantuan</string>
+
+    <string-array name="text_helpcenter_questions">
+        <item> User seperti apa yang dapat mengajukan permohonan pinjaman?</item>
+        <item>Bagaimana cara mengajukan permohonan pinjaman?</item>
+        <item>Bagaimana cara mengembalikan pinjaman? Apakah dapat mengembalikan pinjaman lebih awal?</item>
+        <item>Dokumen apa saja yang perlu dipersiapkan? Bagaimana proses review?</item>
+        <item>Apa itu masa tenggang? Berapa biaya pada masa tenggang?？</item>
+        <item>Apa itu terlambat (lewat tanggal jatuh tempo)? Bagaimana cara menghitung denda terlambat?</item>
+        <item>Jika user tidak dapat mengembalikan pinjaman dengan tepat waktu, akan ada konsekuensi apa?</item>
+        <item>Mengapa review pinjaman saya tidak lolos? Apakah saya boleh mengajukan permohonan lagi?</item>
+        <item>Apakah informasi saya akan bocor?</item>
+        <item> Bagaimana cara menghitung tanggal jatuh tempo? Bagaimana cara memeriksa tanggal jatuh tempo pinjaman?</item>
+    </string-array>
+    <string-array name="text_helpcenter_questions_tips" formatted="false">
+        <item>Daun Kredit tidak membatasi pekerjaan, pendapatan, atau kondisi anda yang lainnya. Selama umur anda sudah mencapai 21 tahun dan anda memiliki pendapatan dan nomor ponsel yang tetap, anda dapat mengajukan permohonan pinjaman kepada Daun Kredit.</item>
+        <item>Silahkan buka Google Play dan cari app “Daun Kredit”, kemudian download app tersebut. Setelah selesai mendownload, buka app tersebut dan anda dapat memulai proses permohonan pinjaman</item>
+        <item>Kami akan mengirimkan pesan ke email dan ponsel anda satu hari sebelum tanggal jatuh tempo untuk mengingatkan anda agar mengembalikan pinjaman. Anda dapat mengembalikan pinjaman melalui Alfamart atau melalui e-banking, mobile banking, dan transfer ATM bank besar. Setelah sukses mentransfer, app Daun Kredit akan secara otomatis mendapatkan sinyal pengembalian pinjaman dan melunasi pinjaman anda. Kami mendukung pengembalian pinjaman lebih awal.</item>
+        <item>Anda hanya perlu mengikuti petunjuk sistem kami untuk mengisi 4 halaman informasi (Informasi pribadi, informasi pekerjaan, informasi kontak, dan upload foto anda), mohon pastikan untuk mengisi informasi asli anda. Sistem akan melakukan analisa mahadata, multi-dimensi kalkulasi skor kredit, dan skor gabungan komprehensif berdasarkan informasi yang telah anda berikan untuk mengkalkulasi hasil review pinjaman.</item>
+        <item>Masa tenggang adalah hari pertama sampai ke tujuh setelah tanggal jatuh tempo. Masa tenggang tidak mempengaruhi catatan kredit anda, kami tidak akan mengupload informasi anda pada sistem informasi peminjam Bank Indonesia. Tetapi, anda akan dikenakan denda harian 1% dari jumlah pinjaman anda. Jika pinjaman anda Rp. 600.000, maka denda anda berjumlah Rp. 6.000 per hari. Jika pinjaman anda Rp. 1.200.000, maka denda anda berjumlah Rp. 12.000 per hari.</item>
+        <item>Pinjaman anda terlambat jika anda tidak dapat mengembalikan pinjaman pada atau sebelum tanggal jatuh tempo. Denda harian terlambat sejumlah 2% pinjaman. Ex: Jika pinjaman berjumlah Rp. 1.000.000 dan anda terlambat 2 hari, maka total denda adalah Rp. 40.000 (1.000.000x2%x2hari).</item>
+        <item>Kami akan mengambil langkah-langkah legal untuk mengkoleksi pinjaman dan kami juga akan mengenakan denda dan biaya manajemen extra. Jumlah denda dan biaya manajemen adalah 2% dari jumlah pinjaman anda. Untuk persyaratan detilnya anda dapat membaca perjanjian pinjaman kami. Jika anda melakukan pelanggaran serius, kami dapat mengungkapkan informasi pribadi anda, dan anda tidak akan dapat mengajukan permohonan pinjaman lagi pada kami. Kami juga akan mengupload catatan kredit anda pada Arsip Kredit Nasional.</item>
+        <item>Mohon maaf, karena skor komprehensif anda tidak mencukupi, untuk sementara permohonan pinjaman anda belum dapat disetujui. Sistem akan melakukan analisa mahadata dan mengaudit secara otomatis. Karena alasan pengendalian risiko, kami tidak dapat memberikan rincian skor kredit anda dan alasan detil pemohonan anda ditolak. Jika informasi anda tidak mengalami perubahan, kami tidak menganjurkan anda untuk mengajukan permohonan lagi dalam waktu dekat. Jika ada keperluan untuk meminjam, silahkan mencoba lagi minimal 7 hari kemudian.</item>
+        <item> Kami berjanji bahwa kami tidak akan mengungkapkan informasi pribadi anda pada pihak ketiga tanpa persetujuan dari anda (dikecualikan pengembalian terlambat dan kebutuhan layanan)</item>
+        <item>Tanggal jatuh tempo dijadwalkan 7 hari atau 14 hari setelah tanggal pengeluaran pinjaman (berdasarkan jangka waktu pinjaman yang telah anda pilih sebelumnya). Setelah pinjaman berhasil, anda dapat memeriksa tanggal jatuh tempo pinjaman pada halaman utama app.</item>
+    </string-array>
+
+    <string name="text_loanraiders_step1">Download Daun Kredit di Google Play atau Android Market lainnya</string>
+    <string name="text_loanraiders_step2">Di halaman utama app, pilih jumlah pinjaman dan tenggat pinjaman</string>
+    <string name="text_loanraiders_step3">Luangkan 5 menit untuk memverifikasi informasi anda</string>
+    <string name="text_loanraiders_step4">Tunggu review pertama, mohon perhatikan ponsel anda dan angkat telepon</string>
+    <string name="text_loanraiders_step5">Tunggu pinjaman, pinjaman akan masuk ke akun anda dalam 5-10 menit</string>
+    <string name="text_title_loanraiders">Cara meminjam</string>
+
+
+    <string name="textview_video_title">Kontrak Video</string>
+    <string name="textview_video_tips">Mohon selesaikan kontrak video dan proses audit, pinjaman akan segera tiba</string>
+    <string name="textview_video_tips2">Jika pengajuan anda ditolak, berarti video anda tidak berlaku</string>
+    <string name="textview_video_read_tips">silahkan merekam dengan cahaya yang bagus dan baca dengan keras
+ jika tidak baca pengajuan akan di tolak:</string>
+    <string name="textview_video_toneContent">Saya meminjam dengan sukarela dari Daun Kredit, menyediakan data asli, mematuhi kontrak dan setuju untuk dilaporkan ke biro informasi kredit</string>
+    <string name="textview_video_statement">*Mengupload video berikut menyatakan bahwa anda telah menyetujui persyaratan dalam 《Perjanjian Jaminan Pinjaman》</string>
+    <string name="button_video_start">Mulai</string>
+    <string name="button_video_re_record">Rekam Ulang</string>
+    <string name="button_video_Pause">Pause</string>
+    <string name="button_video_Continue">Lanjutkan</string>
+    <string name="button_video_Complete_Preview">Selesai &amp; Preview</string>
+    <string name="button_video_upload">Upload</string>
+    <string name="text_title_repaymentraiders">Cara Mengembalikan Pinjaman</string>
+    <string name="text_title_customer_hot_line">Hotline Layanan Pelanggan</string>
+    <string name="text_input_span_send">Kirim</string>
+    <string name="text_today">Hari Ini</string>
+    <string name="text_yesterday">Kemarin</string>
+    <string-array name="text_repayment_raiders_instruction_title">
+        <item>Internet Banking</item>
+        <item>ATM</item>
+        <item>Mobile Banking</item>
+        <item>Alfarmart Pay</item>
+    </string-array>
+    <string-array name="text_repayment_raiders_instruction_detail">
+        <item>1. Login ke KlikBCA Individual\n
+2. Pilih “Transfer”\n
+3. Pilih “Transfer ke Akun Virtual BCA”\n
+4. Masukkan no akun virtual yang telah diberikan\n
+5. Pilih “Continue” untuk melanjutkan\n
+6. Masukkan “RESPON KEYBCA APPLI 1” yang ditunjukkan di Token BCA anda kemnudian klik tombol "Kirim"
+</item>
+        <item>1. Masukkan kartu ATM anda\n 2. Masukkan PIN\n 3. Pilih “Transaksi lainnya”\n
+4. Pilih “Transfer”\n
+5. Pilih “Ke Akun Virtual BCA”\n
+6. Masukkan no akun virtual yang telah diberikan. Tekan “BENAR” untuk melanjutkan.\n
+7. Verifikasi detil akun virtual dan masukkan jumlah yang ingin ditransfer dan pilih "BENAR" untuk konfirmasi\n
+8. Konfirmasi detil transaksi di layar. Pilih "YES" jika informasi tersebut benar, pilih "NO" jika informasi tersebut salah\n
+9. Anda telah menyelesaikan proses transaksi. Tekan "NO" untuk membatalkan transaksi</item>
+        <item>1. Buka BCA Mobile app\n
+2. Pilih “m-BCA”\n
+3. Pilih “m-Transfer”\n
+4. Pilih “Akun Virtual BCA”\n
+5. Masukkan no akun virtual dan tekan “OK”\n
+6. Klik tombol “KIRIM” di sudut kanan atas untuk melanjutkan\n
+7. Klik “OK” untuk melanjutkan\n
+8. Masukkan PIN untuk melanjutkan transaksi</item>
+        <item>test</item>
+    </string-array>
+
+    <!--Latest loan info-->
+    <string name="loan_app_id">ID App Pinjaman:</string>
+    <string name="loan_app_KTP">KTP:</string>
+    <string name="loan_create_time">Waktu Pengajuan:</string>
+    <string name="loan_amount">Jumlah Pinjaman:</string>
+    <string name="loan_period">Tenggat Pinjaman:</string>
+    <string name="loan_costs">Biaya Pinjaman:</string>
+    <string name="total_repayment_amount">Total Jumlah Pengembalian:</string>
+    <string name="bank_name"> Nama Bank Penerima:</string>
+    <string name="bank_card_no">No Kartu Akun Bank:</string>
+
+    <string name="text_title_myloan">Pinjaman Saya</string>
+    <string name="text_shoot_kpt_front">Foto Halaman Depan KTP</string>
+    <string name="text_shoot_kpt_tips">Foto harus jelas</string>
+    <string name="text_button_start_taking_photos">Mulai</string>
+    <string name="text_cancel">Batal</string>
+    <string name="text_take_photo_tips">Klik lagi untuk kirim atau klik tombol "Batal" untuk membatalkan</string>
+    <string name="text_shoot_work_card_front">Foto dengan seragam kerja\natau\nbersama tanda pengenal pekerja</string>
+
+    <string name="textview_me_my_repayment_log">Pengembalian Pinjaman Saya</string>
+    <string name="text_my_loan_not_loan">Anda belum mempunyai pinjaman, coba sekarang</string>
+    <string name="show_uploading">uploading...</string>
+    <string name="show_upload_failed">upload gagal</string>
+    <string name="show_upload_sucess">upload berhasil</string>
+    <string name="enum_period_three_month">TIGA_BULAN</string>
+    <string name="enum_period_six_month">ENAM_BULAN</string>
+    <string name="enum_period_one_year">SATU_TAHUN</string>
+    <string name="enum_period_two_year">DUA_TAHUN</string>
+    <string name="enum_period_over_two_year">DI_ATAS_DUA_TAHUN</string>
+    <string name="enum_gender_male">LAKI-LAKI</string>
+    <string name="enum_gender_female">PEREMPUAN</string>
+    <string name="enum_marriage_married">TELAH MENIKAH</string>
+    <string name="enum_marriage_single">SINGLE</string>
+    <string name="enum_marriage_divorced">CERAI</string>
+    <string name="enum_marriage_widowed">DUDA/JANDA</string>
+    <string name="enum_children_zero">NIHIL</string>
+    <string name="enum_children_one">SATU</string>
+    <string name="enum_children_two">DUA</string>
+    <string name="enum_children_three">TIGA</string>
+    <string name="enum_children_four">EMPAT</string>
+    <string name="enum_children_overfour">DI_ATAS_EMPAT</string>
+    <string name="show_get_region_faild">Informasi gagal, silahkan coba lagi.</string>
+    <string name="show_input_province_tips">Mohon isi informasi provinsi terlebih dahulu</string>
+    <string name="show_input_city_first">Mohon isi informasi kota terlebih dahulu</string>
+    <string name="show_input_street_first">Mohon isi informasi camat terlebih dahulu</string>
+    <string name="show_input_gender">Mohon isi jenis kelamin anda</string>
+    <string name="show_input_education">Mohon isi edukasi anda</string>
+    <string name="show_input_marital">Mohon isi status pernikanan anda</string>
+    <string name="show_input_account">Mohon isi jumlah anak anda</string>
+    <string name="show_input_province">Mohon isi provinsi anda</string>
+    <string name="show_input_city">Mohon isi kota anda</string>
+    <string name="show_input_street">Mohon isi kecamatan anda</string>
+    <string name="show_input_area">Mohon isi kelurahan anda</string>
+    <string name="show_input_address">Mohon isi alamat anda</string>
+    <string name="show_input_duration">Mohon isi durasi anda</string>
+    <string name="show_input_fullname">Mohon isi nama lengkap anda</string>
+    <string name="show_input_ktp_no">Mohon isi No KTP Anda</string>
+
+
+    <string name="enum_job_accounting">Accounting/Finance Officer</string>
+    <string name="enum_job_waiter">Customer service</string>
+    <string name="enum_job_engineer">Engineering</string>
+    <string name="enum_job_executive">Eksekutif</string>
+    <string name="enum_job_general_administration">Administrasi umum</string>
+    <string name="enum_job_information_technology">Teknologi Informasi</string>
+    <string name="enum_job_consultant">Konsultan/Analis</string>
+    <string name="enum_job_marketing">Marketing</string>
+    <string name="enum_job_teacher">Pengajar(Guru,Dosen)</string>
+    <string name="enum_job_military">Militer</string>
+    <string name="enum_job_retired">Pensiunan</string>
+    <string name="enum_job_student">Pelajar/Mahasiswa</string>
+    <string name="enum_job_entrepreneur">Wiraswasta</string>
+    <string name="enum_job_police">Polisi</string>
+    <string name="enum_job_farmer">Petani</string>
+    <string name="enum_job_fisherman">Nelayan</string>
+    <string name="enum_job_breeder">Peternak</string>
+    <string name="enum_job_doctor">Dokter</string>
+    <string name="enum_job_medical_personal">Tenaga Medis(Perawat,Bidan,dsb)</string>
+    <string name="enum_job_lawyer">Hukum(Pengacara, Notaris)</string>
+    <string name="enum_job_chef">Perhotelan&amp;Restoran(Koki,Bartender,dsb)</string>
+    <string name="enum_job_research">Peneliti</string>
+    <string name="enum_job_designer">Desainer</string>
+    <string name="enum_job_architect">Arsitek</string>
+    <string name="enum_job_workers_art">Pekerja Seni(Artis, Musisi, Pelukis, dsb)</string>
+    <string name="enum_job_security">Pengamanan</string>
+    <string name="enum_job_broker">Pialang/Broker</string>
+    <string name="enum_job_distributor">Distributor</string>
+    <string name="enum_job_air_transportation">Transportasi Udara (Pilot, Pramugari)</string>
+    <string name="enum_job_sea_transportation">Transportasi Laut (Nahkoda, ABK)</string>
+    <string name="enum_job_land_transportation">Transportasi Darat (Masinis, Sopir, Kondektur)</string>
+    <string name="enum_job_labor">Buruh(Buruh Pabrik, Buruh Bangunan, Buruh Tani)</string>
+    <string name="enum_job_craftsman">Pertukangan &amp; Pengrajin (Tukang Kayu, Pengrajin Kulit, dll)</string>
+    <string name="enum_job_housewife">Ibu Rumah Tangga</string>
+    <string name="enum_job_information_worker">Pekerja Informal (Asisten Rumah Tangga, Asongan, dll)</string>
+    <string name="enum_job_state_officials">Pejabat Negara/Penyelenggara Negara</string>
+    <string name="enum_job_government_employment">Pegawai Pemerintahan/Lembaga Negara (selain Pejabat/Penyelenggara Negara)</string>
+    <string name="enum_job_other">Lain-lain</string>
+
+
+    <string name="enum_salary_below_2b">Di bawah 2.000.000</string>
+    <string name="enum_salary_between_2b_4b">Antara 2.000.000 dan 4.000.000</string>
+    <string name="enum_salary_between_4b_8b">Antara 4.000.000 dan 8.000.000</string>
+    <string name="enum_salary_between_8b_12b">Antara 8.000.000 dan 12.000.000</string>
+    <string name="enum_salary_between_12b_20b">Antara 12.000.000 dan 20.000.000</string>
+    <string name="enum_salary_over_20b">Di atas 20.000.000</string>
+    <string name="enum_salary_over_8b">Di atas 8.000.000</string>
+    <string name="show_input_job_type">Mohon isi profesi.</string>
+    <string name="show_input_salary">Mohon isi pendapatan.</string>
+    <string name="show_input_company_name">Mohon isi nama perusahaan.</string>
+    <string name="show_input_company_province">Mohon isi provinsi perusahaan.</string>
+    <string name="show_input_company_city">Mohon isi kota perusahaan.</string>
+    <string name="show_input_company_street">Mohon isi kecamatan perusahaan.</string>
+    <string name="show_input_company_area">Mohon isi kelurahan perusahaan.</string>
+    <string name="show_input_company_address">Mohon isi alamat perusahaan.</string>
+    <string name="show_input_company_tel">Mohon isi not telepon perusahaan.</string>
+    <string name="show_input_work_email">Mohon isi email kerja.</string>
+    <string name="text_edittext_login_invite_code">Silahkan masukkan kode invitasi (opsional)</string>
+
+
+    <string name="loading_loading">loading....</string>
+    <string name="years">tahun</string>
+    <string name="months">bulan</string>
+    <string name="days">hari</string>
+    <string name="recording">Recording...</string>
+
+    <string name="repayment_bank_name_title">Pengembalian PInjaman BNI</string>
+
+    <string name="repayment_method_atm">ATM</string>
+    <string name="repayment_method_online">ONLINE</string>
+    <string name="repayment_method_mbanking">MBANKING</string>
+
+    <string name="repayment_price_text">Jumlah</string>
+    <string name="repayment_price">Rp. 1.000.000</string>
+
+    <string name="repayment_virtual_account">88464-1006000648</string>
+    <string name="repayment_virtual_account_text">Akun Virtual</string>
+    <string name="repayment_transation_code_text">Kode Transaksi</string>
+
+
+    <string name="pay_in_alfamart">
+        \n
+        1.	Pergi ke Alfa Group (Alfamart, Alfamidi, Lawson, DAN+DAN). \n
+        2.	Katakan kepada kasir anda ingin melakukan pembayaran transaksi online DOKU, sebutkan jumlah tagihan (%2$s)  dan kode transaksi (%1$s) kepada kasir. \n
+        3.	Kasir akan melakukan konfirmasi dan menyebutkan nominal yang harus dibayar. \n
+        4.	Berikan pembayaran kepada kasir dan dapatkan struk pembayarannya. \n
+
+    </string>
+
+    <!--BCA-->
+    <string name="bca_virtual_account_atm">
+        \n
+        1.	Masukkan Kartu ATM BCA Anda. \n
+        2.	Masukkan PIN. \n
+        3.	Pilih “Transaksi Lainnya”. \n
+        4.	Pilih “Transfer”. \n
+        5.	Pilih “Ke BCA Virtual Account”. \n
+        6.	Masukkan nomor virtual account (%1$s) yang Anda terima, kemudian pilih “BENAR”. \n
+        7.	Pastikan data virtual account Anda benar, kemudian masukkan angka yang perlu Anda bayarkan, kemudian pilih “​BENAR​“. \n
+        8.	Cek &amp; Perhatikan Konfirmasi Pembayaran dari layar ATM, jika sudah benar pilih “​YA​“, atau pilih “​TIDAK​” jika data di layar masih salah. \n
+        9.	Transaksi Anda sudah selesai. Pilih “​TIDAK​” untuk tidak melanjutkan transaksi lain. \n
+
+    </string>
+
+    <string name="bca_virtual_account_mobile_banking">
+        \n
+        1.	Buka Aplikasi BCA Mobile. \n
+        2.	Pilih “m-BCA”. \n
+        3.	Pilih “m-Transfer”. \n
+        4.	Pilih “BCA Virtual Account”. \n
+        5.	Masukkan nomor virtual account (%1$s) , lalu pilih “OK”. \n
+        6.	Klik tombol “SEND” yang berada di sudut kanan atas aplikasi untuk melakukan transfer. \n
+        7.	Klik “OK” untuk melanjutkan pembayaran. \n
+        8.	Masukkan PIN Anda untuk meng-otorisasi transaksi
+
+
+    </string>
+
+    <string name="bca_virtual_account_internet_banking">
+        \n
+        1.	Login ke KlikBCA Individual. \n
+        2.	Pilih “Transfer”.\n
+        3.	Pilih “Transfer ke BCA Virtual Account”. \n
+        4.	Masukkan nomor virtual account (%1$s) yang Anda terima. \n
+        5.	Pilih “Lanjutkan” untuk melanjutkan pembayaran. \n
+        6.	Masukkan “RESPON KEYBCA APPLI 1” yang muncul pada Token BCA Anda,lalu klik tombol “Kirim”. \n
+    </string>
+
+    <!--mandiri-->
+    <string name="mandiri_virtual_account_internet_banking">
+        \n
+        1.	Kunjungi website Mandiri Internet Banking dengan alamat ​https://ib.bankmandiri.co.id/. \n
+        2.	Login dengan memasukkan USER ID dan PIN. \n
+        3.	Masuk ke halaman Beranda, lalu pilih “Bayar”. \n
+        4.	Pilih “Multi Payment”. \n
+        5.	Pilih “No Rekening Anda”. \n
+        6.	Pilih Penyedia Jasa “PT Sinar Digital Terdepan”. \n
+        7.	Pilih “No Virtual Account “. \n
+        8.	Masukkan nomor virtual account  (%1$s) anda. \n
+        9.	Masuk ke halaman konfirmasi 1. \n
+        10.	Apabila benar/ sesuai, klik tombol tagihan TOTAL, kemudian klik “Lanjutkan”. \n
+        11.	Masuk ke halaman konfirmasi 2. \n
+        12.	Masukkan Challenge Code yang dikirimkan ke Token Internet Banking Anda, kemudian klik “Kirim”. \n
+        13.	Masuk ke halaman konfirmasi pembayaran telah selesai. \n
+    </string>
+
+    <string name="mandiri_virtual_account_atm">
+        \n
+        1.	Masukkan kartu ATM. \n
+        2.	Kemudian pilih BAHASA INDONESIA. \n
+        3.	Ketik nomor PIN kartu ATM, kemudian tekan ENTER. \n
+        4.	Pilih menu BAYAR/BELI. \n
+        5.	Pilih menu MULTI PAYMENT. \n
+        6.	Ketik Kode Perusahaan, yaitu ”88464” (PT SINAR DIGITAL TERDEPAN), tekan BENAR. \n
+        7.	Isi No Virtual Account (%1$s) lengkap dengan code perusahaan, kemudian tekan BENAR. \n
+        8.	Isi NOMINAL(%2$s), kemudian tekan BENAR. \n
+        9.	Muncul konfirmasi data customer. Pilih Nomor 1 sesuai tagihan yang akan dibayar, kemudian tekan YA. \n
+        10.	Muncul konfirmasi pembayaran. Tekan YA untuk melakukan pembayaran. \n
+        11.	Bukti Pembayaran dalam bentuk struk agar disimpan sebagai bukti pembayaran yang sah dari Bank. \n
+    </string>
+
+    <!--BNI virtual account -->
+    <string name="bni_virtual_account_atm">
+        \n
+        1. Masukkan kartu ATM anda dan pilih “ENGLISH” \n
+        2. Masukkan PIN dan pilih “ENTER” \n
+        3. Pilih “PAYMENT” dan pilih “MULTIPAYMENT” \n
+        4. Masukkan kode perusahaan : “88464” (PT SINAR DIGITAL TERDEPAN) dan pilih “CORRECT” \n
+        5. Masukkan Nomor Akun Virtual "%1$s" bersamaan dengan kode perusahaan dan tekan “CORRECT” \n
+        6. Masukkan jumlah transfer dan tekan “CORRECT” \n
+        7. Detil customer akan ditampilkan. Pilih no 1 berdasarkan jumlah pembayaran kemudian tekan "YES" \n
+        8. Konfirmasi pembayaran akan ditampilkan, pilih “YES” untuk melanjutkan \n
+        9. Simpan struk anda sebagai bukti pembayaran berlaku dari Bank BNI \n
+    </string>
+
+    <string name="bni_virtual_account_online">
+        \n
+        1. Buka website Mandiri Internet Banking (https://ibank.bni.co.id) \n
+        2. Masukkan USER ID dan PIN untuk login \n
+        3. Buka Halaman Utama dan pilih “Pembayaran” \n
+        4. Pilih “Pembayaran Multi” \n
+        5. Pilih “No Akun Saya” \n
+        6. Pilih “PT Sinar Digital Terdepan” sebagai service provider \n
+        7. Pilih “Nomor Akun Virtual” \n
+        8. Masukkan nomor akun virtual "%1$s" \n
+        9. Pergi ke halaman konfirmasi 1 \n
+        10. Pilih tombol "TOTAL bill" jika seluruh detil benar kemudian klik "Continue" \n
+        11. Pergi ke halaman konfirmasi 2 \n
+        12. Masukkan Kode Challege dari token internet banking anda dan klik "Kirim" \n
+        13. Pembayaran telah berhasil dan anda akan dialihkan ke halaman konfirmasi \n
+    </string>
+
+
+    <!--BNI tranaction id blue pay-->
+    <string name="bni_transaction_id_atm">
+        \n
+        1.	Pergi ke ATM bank apa saja dan masukkan kartu ATM anda, pilih “Transaksi Lain” -> “Transfer” -> “Bank Lain”. \n
+        2.	Masukkan kode bank “013” dan pilih “Benar”. \n
+        3.	Masukkan jumlah transfer (%2$s). \n
+        4.	Masukkan kode transaksi: (%1$s). \n
+        5.	Pilih “benar” untuk konfirmasi transfer. \n
+        6.	Bukti Pembayaran dalam bentuk struk agar disimpan sebagai bukti pembayaran yang sah dari Bank. \n
+    </string>
+
+    <string name="bni_transaction_id_online">
+        \n
+        1.	Login ke BNI website https://ibank.bni.co.id/ di komputer atau ponsel anda. \n
+        2.	Pilih transfer -> transfer online ke bank lain. \n
+        3.	Isi Jumlah transfer (%2$s) anda boleh mengabaikan “nomor referensi” pilih “Bank Permata” dalam akun penerima , masukan kode transaksi (%1$s) di nomor akun ( anda dapat mengabaikan berita dan email penerima) , Klik Next. \n
+        4.	Ikuti langkah selanjutnya sampai transaksi di nyatakan berhasil. \n
+    </string>
+
+    <string name="bni_transaction_id_mobile_banking">
+        \n
+        1.	Login ke BNI Mobile app Anda. \n
+        2.	Masuk ke menu “ Transfer”-> “Online”. \n
+        3.	Klik “ Destinasi Akun” , Masukan kode transaksi (%1$s). \n
+        4.	Klik “Pilih Bank”, kemudian pilih “Permata Bank”. \n
+        5.	Masukan jumlah transfer Anda Rp(%2$s) , Anda boleh mengabaikan nomor referensi lalu tekan Next. \n
+    </string>
+
+
+    <!--others banks-->
+    <string name="other_banks_atm">
+        \n
+        1.	Pergi ke ATM bank apa saja dan masukkan kartu ATM anda, pilih “Transaksi Lain” -> “Transfer” -> “Bank Lain”. \n
+        2.	Masukkan kode bank “013” dan pilih “Benar”. \n
+        3.	Masukkan jumlah transfer (%2$s). \n
+        4.	Masukkan kode transaksi: (%1$s）. \n
+        5.	Pilih “benar” untuk konfirmasi transfer. \n
+        6.	Bukti Pembayaran dalam bentuk struk agar disimpan sebagai bukti pembayaran yang sah dari Bank. \n
+    </string>
+
+    <string name="other_banks_online">
+        \n
+        1.	Login ke webiste Online Banking anda di komputer atau ponsel. \n
+        2.	Pilih transfer -> transfer online ke bank lain. \n
+        3.	Isi Jumlah transfer (%2$s) anda boleh mengabaikan “nomor referensi” pilih “Bank Permata” dalam akun penerima , masukan kode transaksi (%1$s) di nomor akun ( anda dapat mengabaikan berita dan email penerima) , Klik Next. \n
+        4.	Ikuti langkah selanjutnya sampai transaksi di nyatakan berhasil. \n
+    </string>
+
+    <string name="other_banks_mbanking">
+        \n
+        1.	Login ke Aplikasi Mobile banking Anda. \n
+        2.	Masuk ke menu “ Transfer”-> “Online”. \n
+        3.	Klik “ Destinasi Akun” , Masukan kode transaksi (%1$s). \n
+        4.	Klik “Pilih Bank”, kemudian pilih “Permata Bank”. \n
+        5.	Masukan jumlah transfer Anda Rp(%2$s) , Anda boleh mengabaikan nomor referensi lalu tekan Next. \n
+
+
+    </string>
+
+    <string name="bank_repayment_statement">
+        Setelah pembayaran berhasil, mohon menunggu 1-10 menit , Daun Kredit akan memberikan anda notifikasi pengembalian pinjaman.
+        Jika anda menemukan masalah dapat menguhubungi kami di WA +86 02154660121-305
+
+    </string>
+
+    <string name="text_day_before_yesterday">2 hari lalu</string>
+    <string name="textview_repayment_raiders_tips">Anda dapat mengembalikan pinjaman dengan cara berikut:</string>
+    <string name="textView_repayment_raiders_warns">Transaksi ini dapat dilakukan melalui seluruh bank dan Alfamart</string>
+    <string name="show_not_login_yet">Belum Login</string>
+    <string name="show_no_message">Tidak ada pesan</string>
+    <string name="text_readed">TELAH DIBACA</string>
+    <string name="text_new">BARU</string>
+    <string name="text_next">NEXT</string>
+    <string name="show_netwok_wrong"> Jaringan bermasalah, silahkan periksa jaringan anda dan coba lagi</string>
+
+    <string name="pay_in_alfamart_title"> Bayar di Alfamart</string>
+    <string name="bca_title">BCA</string>
+    <string name="mandiri_title">Mandiri</string>
+    <string name="bni_title">BNI</string>
+    <string name="other_banks_title">Bank Lain</string>
+    <string name="alfamarts_transaction_code_tips">Transaksi ini didukung semua Alfamart</string>
+    <string name="other_banks_transaction_code_tips">Transaksi ini didukung semua mobile banking dan internet banking</string>
+    <string name="show_already_colosed">Telah Tutup</string>
+    <string name="show_submitted">Telah dikirim, silahkan tunggu hasil review</string>
+    <string name="show_statement_privace">Kebijakan Privasi</string>
+    <string name="show_open_chat_window">Membuka Jendela Chat...</string>
+    <string name="show_get_user_account_fail">Akun gagal</string>
+    <string name="text_dial">Hubungi</string>
+    <string name="show_dial_hotline">Telepon layanan pelanggan:%1$s?</string>
+    <string name="goto_record_video">Reka, video</string>
+    <string name="same_name">Masukkan nama kontak yang sama</string>
+    <string name="same_number">Masukkan nomor kontak yang sama</string>
+    <string name="textview_me_my_invite">Undang teman</string>
+    <string name="text_invite_award">Berhasil mengundang teman untuk meminjam akan mendapatkan hadiah Rp. 60.000</string>
+    <string name="text_invite_info_detail">Waktu aktivitas berakhir:30-5-2017 \nHadiah akan dibagikan setelah aktivitas berakhir. Jika ada masalah, silahkan hubungi whatsapp: 08327463726</string>
+    <string name="text_my_invite_code">Kode invitasi:</string>
+    <string name="text_invite_num">Jumlah undangan registrasi</string>
+    <string name="text_invite_loaned_num">Jumlah undangan pinjaman</string>
+    <string name="text_invite_income">Total hadiah aktivitas</string>
+    <string name="text_invite_detail">Detil undangan</string>
+    <string name="title_my_invite">Undang teman</string>
+    <!--Kode area-->
+    <string name="text_area_code">021</string>
+    <string name="show_input_areacode">Silahkan masukkan kode area</string>
+    <string name="loading_storing_img">loading gambar</string>
+    <string name="show_preparing">mempersiapkan</string>
+    <string name="textview_video_re_record">Rekam ulang</string>
+    <string name="textview_video_pause">Pause</string>
+    <string name="textview_video_complete"><![CDATA[complete&\npreview]]></string>
+    <string name="text_id_custom_service">Servis Online</string>
+    <string name="loan_result_title_approved">Pengeluaran pinjaman berhasil</string>
+    <string name="loan_result_tip_approved">Silahkan periksa rekening bank anda</string>
+    <string name="loan_result_botton">OKE</string>
+    <string name="loan_result_title_rejected">Maaf, pengajuan anda tidak disetujui!</string>
+    <string name="loan_result_tip_rejected">Silahkan coba lagi dalam 7 hari.</string>
+    <string name="toast_please_finish_info">Isi semua informasi sebelum mengajukan pinjaman</string>
+    <string name="text_invite_award_sum">Dapatkan hadiah Rp. %1$s</string>
+    <string name="hint_check_in_facebook">Masukkan ID facebook anda</string>
+    <string name="text_check_in_facebook_tip">Silahkan buka pengaturan privasi Facebook saat mengajukan pinjaman agar kami dapat menemukan anda</string>
+    <string name="text_title_checkin_facebook">Data pribadi verifikasi data Facebook</string>
+    <string name="show_facebookid_null">Silahkan masukkan ID facebook anda</string>
+    <string name="generate_payment_code_failed">Kode pembayaran atau kode transaksi tidak dapat ditunjukkan, mohon coba lagi</string>
+    <string name="show_payment_methods_failed">Cara pembayaran gagal ditunjukkan, silahkan coba lagi</string>
+
+    <string name="show_please_finish_record">Mohon selesaikan rekaman video.</string>
+    <string name="show_generate_wrong">Rekaman gagal, silahkan coba lagi.</string>
+    <string name="show_paid_off">Pinjaman lunas.</string>
+    <string name="show_record_failed">Rekaman video gagal, silahkan rekam ulang.</string>
+    <string name="show_upload_video_success">Upload video berhasil.</string>
+    <string name="show_log_out_failed">Log out gagal</string>
+    <string name="show_log_out_success">Log out berhasil</string>
+    <string name="show_loan_cancel_fail">Pembatalan pinjaman gagal</string>
+    <string name="show_loan_cancel_success">Pembatalan pinjaman berhasil</string>
+    <string name="text_loan_agreement_title">《Perjanjian Jaminan Pinjaman》</string>
+    <string name="title_loan_agreement_title">Perjanjian Jaminan Pinjaman</string>
+    <string name="show_input_bank_number">Silahkan masukkan nomor rekening penerima.</string>
+    <string name="show_input_loan_usage">Silahkan isi tujuan pinjaman.</string>
+    <string name="show_get_personalinfo_failed">Informasi pribadi gagal ditunjukkan, silahkan coba lagi.</string>
+    <string name="show_get_employeeinfo_failed">Informasi pekerjaan gagal ditunjukkan, silahkan coba lagi.</string>
+    <string name="show_get_contactinfo_fail">Informasi kontak gagal ditunjukkan, silahkan coba lagi.</string>
+    <string name="dialog_button_download">download and install</string>
+    <string name="text_title_update">Versi Baru</string>
+    <string name="show_download_on_google_player">Instalasi gagal, silahkan coba download dan instal dari googleplay </string>
+    <string name="button_to_take_video">Upload Video Anda Sekarang</string>
+    <string name="show_update_on_error">Download gagal, silahkan buka Google Play dan download versi terbaru</string>
+    <string name="show_net_lame">Network error</string>
+    <string name="show_input_error">Kode salah, silahkan periksa dan coba lagi</string>
+    <string name="textview_username">Silahkan login</string>
+    <string name="textview_phone">Klik untuk login</string>
+    <string name="text_special_doku">DOKU</string>
+    <string name="text_wrong_ktp_tips">Petunjuk: Silahkan masukkan 16 digit no. KTP yang benar</string>
+    <string name="sms_code_unreceived_tips">Jika tidak mendapatkan kode verifikasi, \nsilahkan hubungi layanan pelanggan WA:+86 02154660121-305</string>
+    <string name="textview_register_login">Daftar / Login</string>
+    <string name="cancel_loan_app_alert_dialog">Apakah anda yakin ingin membatalkan pinjaman?</string>
+    <string name="dialog_ensure_logout">Anda yakin ingin keluar?</string>
+
+    <string name="payment_alfmart">ALFAMART</string>
+    <string name="payment_bca">BCA</string>
+    <string name="payment_mandiri">MANDIRI</string>
+    <string name="payment_bni">BNI</string>
+    <string name="payment_others">BANK LAINNYA</string>
+    <string name="textview_loaning_tips">*Nama yang tertera pada rekening harus sama dengan nama peminjam</string>
+
+    <string name="dialog_closed_revisi">REVISI</string>
+    <string name="dialog_closed_tips">Data perlu di Ruban karena alasan berikut, silahkan ajukan lagi setelah diperbaiki</string>
+    <string name="dialog_closed_check_in_inbox">Anda dapat memeriksa alasan di pusat informasi pada kanan atas layar</string>
+    <string name="dialog_closed_modify">Perbaiki</string>
+    <string name="camera_start_failed_tips">Aplikasi lain mungkin sedang merekam audio atau video, silahkan coba lagi dalam beberapa saat</string>
+    <string name="mandiri_hightlight_number">88464</string>
+    <string name="weeks">seminggu</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="tips4inputaddress">Masukkan alamat secara manual</string>
+    <string name="onlineQA">OnlineQA</string>
+    <string name="send">kirim</string>
+    <string name="got_it">Menegaskan</string>
+
+    <string name="kupon">Kupon</string>
+    <string name="undang_teman">Undang Teman</string>
+    <string name="text_pusat_kegiatan">pusat kegiatan</string>
+
+    <string name="title_activity_center">Pusat kegiatan</string>
+    <string name="title_coupon">Kupon Gratis</string>
+    <string name="obtain_time">Menerima</string>
+    <string name="page_title_coupon1">TERSEDIA</string>
+    <string name="page_title_coupon2">DIGUNAKAN</string>
+    <string name="page_title_coupon3">BERAKHIR</string>
+    <string name="button_copy_code">Salin kode</string>
+
+    <string name="textview_coupon_choose">Pilih kupon yang tersedia</string>
+    <string name="title_activity_detail">Rincian acara</string>
+    <string name="title_choose_coupon">Pilih kupon yang tersedia</string>
+    <string name="button_video_play">Play</string>
+    <string name="text_invite_code_login_tips">*Hanya berlaku untuk login pertama</string>
+    <string name="textview_loan_period">Tenggat Pinjaman</string>
+    <string name="title_loan_info">Rincian pinjaman</string>
+    <string name="show_read_agreement">Mohon baca dan setujui perjanjian pinjaman untuk melanjutkan ke langkah selanjutnya</string>
+    <string name="btn_read_agreemment">Perjanjian</string>
+    <string name="login_statement_title">Perjanjian Layanan Registrasi dan Privasi</string>
+
+    <!--TODO:-->
+    <string name="tips4google_service_not_available">google service not available</string>
+    <string name="button_ok">ok</string>
+    <string name="obtaining">obtaining...</string>
+    <string name="tips4wait4result">wait for result..</string>
+    <string name="tips4noaddressobtain">no address obtain</string>
+    <string name="text_update_software">Upgrade Software</string>
+    <string name="text_update_tips">You are using too old need to upgrade to the latest version in order to experience a total multifuntion oh~</string>
+    <string name="repayment_text">Repayment</string>
+    <string name="notify_new_message">new message</string>
+    <string name="toast_input_password_longger_than_five">Please input password logger than five</string>
+    <string name="title_area_selector">select  area</string>
+    <string name="show_has_copyed_to_clip_board">invite code has copyed</string>
+    <string name="textview_personal_info_region">region info</string>
+    <string name="text_get_more_message">--Lebih banyak pesan--</string>
+    <string name="text_choose_pic">Pilih gambar</string>
+    <string name="text_take_photo">memotret</string>
+    <string name="title_coupon_detail">Kupon Gratis</string>
+    <string name="text_coupon_desc">Detail Kupon Bebas Bunga:</string>
+    <string name="text_coupon_period">Bebas waktu:</string>
+    <string name="text_coupon_source">Akses Saluran:</string>
+    <string name="text_coupon_usable_period">Menerima:</string>
+    <string name="btn_use_coupon">Gunakan Segera</string>
+    <string name="to">Untuk</string>
+</resources>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary_l_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp">
+
+            <!--Progress -->
+            <RelativeLayout
+                android:layout_width="@dimen/dp200"
+                android:layout_height="@dimen/dp200"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp14">
+
+                <com.x.leo.circles.CircleProgressBarView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cpbv_loanrepayment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:backgroundcolor="@color/colorPrimaryDark"
+                    app:progress="25"
+                    app:progresscolor="@color/lblue"
+                    app:strokewidth="@dimen/dp05" />
+
+                <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/id_linearlayout_circle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/id_textview_days"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textview_remain_days"
+                        android:textColor="@color/lblue"
+                        android:textSize="40dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textview_unit_days"
+                        android:textColor="@color/colordarkGray"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textview_unit_tips"
+                        android:textColor="@color/colordarkGray"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp14"
+                android:orientation="horizontal">
+
+                <!--amount-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/dp15"
+                        android:src="@drawable/money_big" />
+
+                    <TextView
+                        android:id="@+id/id_textview_repayment_amount_re"
+                        style="@style/text_18dp_lblue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="3dp"
+                        android:text="RP.11.000.000,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/text_12dp_primaryDarkGray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/textview_repayment_amount_text" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/dp30"
+                    android:layout_marginTop="@dimen/dp30"
+                    android:background="@mipmap/vertical_line" />
+
+
+                <!--date-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/time_big" />
+
+                    <TextView
+                        android:id="@+id/id_textview_repayment_due_date"
+                        style="@style/text_18dp_lblue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/textview_expiry_date"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/text_12dp_primaryDarkGray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/textview_expiry_date_text" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/ibt_arc_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dp15"
+                android:layout_marginTop="@dimen/dp15"
+                android:background="@null"
+                android:src="@drawable/selector_arc_up_down" />
+
+            <ProgressBar
+                android:id="@+id/pb_repayment_slide"
+                style="@style/style_circle_progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp03"
+                android:layout_marginBottom="@dimen/dp15"
+                android:max="100"
+                android:progress="25"
+                android:visibility="visible" />
+
+
+            <!--repayment  progress-->
+            <LinearLayout
+                android:id="@+id/ll_repayment_progress_wide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp20"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ProgressBar
+                    android:id="@+id/pb_repayment_wide"
+                    style="@style/style_circle_progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp03"
+                    android:max="100"
+                    android:progress="25" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp10">
+
+                    <TextView
+                        android:id="@+id/id_textview_been_payment_text"
+                        style="@style/text_12dp_primaryDarkGray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textview_been_payment_text" />
+
+                    <TextView
+                        android:id="@+id/id_textview_been_payment"
+                        style="@style/text_12dp_orange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/id_textview_been_payment_text"
+                        android:text="@string/textview_been_payment_account" />
+
+
+                    <TextView
+                        android:id="@+id/id_textview_remain_payment"
+                        style="@style/text_12dp_primaryDarkGray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toLeftOf="@+id/id_textview_total_text"
+                        android:text="@string/textview_remain_text" />
+
+                    <TextView
+                        android:id="@+id/id_textview_total_text"
+                        style="@style/text_12dp_blue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/textview_total_acount" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/id_buttom_want_repay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dp30"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:layout_marginTop="@dimen/dp30"
+            android:background="@drawable/shape_button"
+            android:text="@string/buttom_want_to_Repay"
+            android:textAllCaps="false"
+            android:textColor="@color/color_button_text"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</ScrollView>

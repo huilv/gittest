@@ -1,0 +1,33 @@
+
+<resources>
+	<ek value="BluePay">2_A9E9B5E4D48097B7037E341539D9F374551A16F0C3E0B965C3EF97A9BFBFCD1E</ek>
+
+    <!-- prod
+    <productId value="100">819</productId>
+    -->
+
+
+
+	<!--test
+	-->
+	<productId value="100">894</productId>
+
+	<promotionId value="1000">1000</promotionId>
+  
+	<!--notice: 
+		 之前的prices，prices-bankcharge，prices-line已取消，现在接口中传入price价格点错误会直接抛405异常
+	-->
+  
+	<!-- notice:新增配置，如果使用payByUI接口请配置，不使用可忽略
+		用于配置说明兑换比例 ，如<exchange value="5">10 Golden</exchange>，
+		value里面是实际价格（泰国不需要乘以100），在泰国表示5泰铢可以购买10 Golden
+	-->
+	<exchanges> 
+		<exchange value="5">10 Golden</exchange>
+	    <exchange value="10">21 Golden</exchange>
+	    <exchange value="15">34 Golden</exchange>
+	    <exchange value="20">45 Golden</exchange>
+	    <exchange value="30">68 Golden</exchange>
+	    <exchange value="50">110 Golden</exchange>
+    </exchanges>
+</resources>

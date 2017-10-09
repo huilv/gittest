@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+    <com.x.leo.timelineview.TimeLineView
+        android:id = "@+id/tlv_process_status"
+        android:layout_width="@dimen/dp30"
+        app:CurrentStatus="Inactive"
+        app:circleActive="@color/textblue"
+        app:circleActiveBigger="@color/textlblue"
+        app:directionStyle="VERTICAL"
+        app:drawText="false"
+        app:markerStyle="circleFilled"
+        app:radius="@dimen/dp12"
+        app:strokeColor="@color/colorPrimaryDark"
+        app:circleInactive="@color/colorPrimaryDark"
+        app:relativeGravity="CENTER"
+        app:notShowPointLine="true"
+        app:markPosition="middle"
+        app:doAnimation="true"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id = "@+id/iv_process_status"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/timeline_complete"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50">
+            <TextView
+                android:id = "@+id/tv_status_name"
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:text="audio passed"
+                style="@style/text_16dp_white"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center_vertical"
+                android:id = "@+id/tv_status_time"
+                android:layout_width="wrap_content"
+                style="@style/text_14dp_ddsilivery"
+                android:text="14pm"
+                android:layout_alignParentRight="true"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:id = "@+id/tv_status_detail"
+            style="@style/text_14dp_ddsilivery"
+            android:text="your request has been accepted"
+            android:lineSpacingExtra="@dimen/dp05"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

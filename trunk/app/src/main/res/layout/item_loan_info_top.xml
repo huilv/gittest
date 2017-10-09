@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_status"
+        style="@style/text_16dp_tlblue"
+        android:layout_width="@dimen/dp103"
+        android:layout_height="@dimen/dp30"
+        android:gravity="center"
+        android:text="status" />
+
+    <com.x.leo.timelineview.TimeLineView
+        android:layout_width="match_parent"
+        android:id = "@+id/tlv_loan_info"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:completeRes="@mipmap/cir_checked"
+        app:lastStatus="Complete"
+        app:CurrentStatus="Complete"
+        app:relativeGravity="CENTER"
+        app:directionStyle="HORIZONTAL"
+        app:doAnimation="true"
+        app:drawText="false"
+        app:markerStyle="circleFilled"
+        app:markPosition="middle"
+        app:notShowPointLine="true"
+        app:strokeColor="@color/colorBackground_d"
+        app:activeRes="@mipmap/cir_unchecked"
+        app:circleInactive="@color/colorBackground_d"
+        android:layout_height="@dimen/dp30" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp30" />
+
+</LinearLayout>

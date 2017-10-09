@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    android:background="@color/color_update_gray"
+    >
+
+    <ImageView
+        android:id = "@+id/tv_dialog_update_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_update"
+        style="@style/text_14dp_white"
+        android:gravity="center"
+        android:text="update"/>
+
+    <FrameLayout
+        android:layout_marginTop="@dimen/dp15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:id = "@+id/pb_dialog_update"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_update_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp14"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                style="@style/text_16dp_white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="@string/text_update_software"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="@dimen/dp15"
+                android:id="@+id/tv_dialog_update_message"
+                style="@style/text_14dp_white"
+                android:lineSpacingExtra="@dimen/dp05"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_update_tips"/>
+
+            <Button
+                android:layout_marginTop="@dimen/dp14"
+                android:id="@+id/btn_dialog_update_download"
+                android:layout_width="match_parent"
+                android:textAllCaps="false"
+                style="@style/text_14dp_white"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/selector_button_blue_light"
+                android:text="@string/dialog_button_download"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

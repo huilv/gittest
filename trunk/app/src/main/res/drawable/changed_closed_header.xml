@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="bottom" android:start="0px" android:top="250px" android:bottom="500px" android:end="902px" android:drawable="@color/colorPrimary"/>
+    <item android:drawable="@mipmap/ic_closed_dialog_header"/>
+</layer-list>

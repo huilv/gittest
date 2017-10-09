@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+        android:paddingRight="@dimen/dp14"
+        android:paddingLeft="@dimen/dp14">
+
+        <!--Loan amount statement-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/id_imageview_loan_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/money_small"/>
+
+            <TextView
+                android:id="@+id/id_textview_loan_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                style="@style/text_12dp_tblue"
+                android:layout_gravity="center"
+                android:text="@string/textview_loan_amount_statement"/>
+
+        </LinearLayout>
+
+        <!--Loan amount-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="14dp">
+
+            <Button
+                android:id="@+id/id_button_loan_amount_a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:textSize="16dp"
+                android:textColor="@color/selector_text_ddsoliver_white"
+                android:background="@drawable/amount_button_selector"
+                android:text="@string/RP600k"
+                />
+
+
+            <Button
+                android:id="@+id/id_button_loan_amount_b"
+                android:layout_width="0dp"
+                android:textColor="@color/selector_text_ddsoliver_white"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:background="@drawable/amount_button_selector"
+                android:text="@string/RP1200K"
+                />
+
+        </LinearLayout>
+
+        <!--repayment time statement-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/id_imageview_repay_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/time_small"/>
+
+            <TextView
+                android:id="@+id/id_textview_repay_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                style="@style/text_12dp_tblue"
+                android:layout_gravity="center"
+                android:text="@string/textview_loan_replayment_statement"/>
+
+        </LinearLayout>
+
+        <!--repayment time-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="14dp">
+
+            <Button
+                android:id="@+id/id_button_loan_days_a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/selector_text_ddsoliver_white"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:textSize="16dp"
+                android:background="@drawable/amount_button_selector"
+                android:text="@string/loan_7days"
+                android:textAllCaps="false"
+                />
+
+
+            <Button
+                android:id="@+id/id_button_loan_days_b"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:textColor="@color/selector_text_ddsoliver_white"
+                android:background="@drawable/amount_button_selector"
+                android:text="@string/loan_14days"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+
+        <!--confirm button and Total repayment Amount-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <!--Line-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/ddsilvery"/>
+
+            <!--Repayment-->
+            <TextView
+                android:id="@+id/id_textview_repayment_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/ddsilvery"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="@string/repayment_statement"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/id_textview_unloan_total_repayment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/dorange"
+                    android:textStyle="bold"
+                    android:textSize="27dp"
+                    android:text="@string/total_repayment"/>
+
+                <Button
+                    android:id="@+id/id_button_current_loan_u"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+
+                    android:background="@drawable/shape_button"
+                    android:textColor="@color/color_button_text"
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:text="@string/button_current_loan"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview_steps"
+                    android:textSize="12dp"
+                    android:gravity="center_horizontal"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/ddsilvery"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:visibility="visible"
+                    android:id="@+id/id_textview_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview_repayment_raiders"
+                    android:textSize="14dp"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/lblue"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+<!--</ScrollView>-->

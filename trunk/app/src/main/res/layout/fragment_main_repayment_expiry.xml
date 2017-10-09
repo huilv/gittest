@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary_l_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp20"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp">
+
+            <!--Progress -->
+            <RelativeLayout
+                android:layout_width="@dimen/dp200"
+                android:layout_height="@dimen/dp200"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp14">
+
+                <com.x.leo.circles.CircleProgressBarView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cpbv_loanrepaymentexpiry"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:backgroundcolor="@color/colorPrimaryDark"
+                    app:progress="100"
+                    app:progresscolor="@color/colorAlerm_red"
+                    app:strokewidth="@dimen/dp05" />
+
+                <LinearLayout
+                    android:id="@+id/id_linearlayout_circle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/id_textview_repayment_expird_days"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textview_remain_days"
+                        android:textColor="@color/colorAlerm_red"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/dp40" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textview_unit_days"
+                        android:textColor="@color/colordarkGray"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/dp24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textview_unit_tips_expird"
+                        style="@style/text_12dp_primaryDarkGray" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp14"
+                android:orientation="horizontal">
+
+                <!--amount-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/money_big" />
+
+                    <TextView
+                        android:id="@+id/id_textview_repayment_total_amount_ex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="3dp"
+                        android:text="@string/textview_repayment_amount"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAlerm_red"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/textview_repayment_amount_text"
+                        style="@style/text_12dp_primaryDarkGray" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/dp20"
+                    android:layout_marginBottom="@dimen/dp20"
+                    android:background="@mipmap/vertical_line" />
+
+
+                <!--date-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/time_big" />
+
+                    <TextView
+                        android:id="@+id/id_textview_repayment_due_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="3dp"
+                        android:text="@string/textview_expiry_date"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAlerm_red"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/textview_expiry_date_text"
+                        style="@style/text_12dp_primaryDarkGray" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp05"
+                android:background="@drawable/shape_line"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/id_buttom_want_repay_expi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:layout_marginBottom="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp20"
+            android:background="@drawable/shape_button"
+            android:text="@string/buttom_want_to_Repay"
+            android:textAllCaps="false"
+            android:textColor="@color/color_button_text"
+            android:textSize="16dp" />
+    </LinearLayout>
+</ScrollView>

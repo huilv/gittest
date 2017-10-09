@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:id = "@+id/et_input"-->
+    <!--android:text="result:"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:text="加密"-->
+    <!--android:onClick="encype"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:id = "@+id/tv_result"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:text="解密"-->
+    <!--android:onClick="decype"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<com.x.leo.circles.CircleProgressButton-->
+    <!--android:id = "@+id/cpb"-->
+    <!--android:layout_width="match_parent"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--app:circleColorList="@color/selector_video_button"-->
+    <!--app:duration="5000"-->
+    <!--app:innerOuterSpace="3dp"-->
+    <!--app:outerStrokeWidth="6dp"-->
+    <!--app:progressBackground="@color/color_text_gray"-->
+    <!--app:progressColor="@color/color_red_d"-->
+    <!--android:layout_height="match_parent" />-->
+    <!--<com.x.leo.refrashviews.RefrashLayout xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/lrl"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--app:bottomView="@+id/tv_bottom"-->
+        <!--app:mainView="@+id/lv_main"-->
+        <!--app:topView="@+id/iv_top">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_top"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:background="@color/dorange" />-->
+
+        <!--<ListView-->
+            <!--android:id="@+id/lv_main"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/colorButtonBlue"></ListView>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_bottom"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:background="@color/colorAlerm_red"-->
+            <!--android:text="bottom_refrash" />-->
+    <!--</com.x.leo.refrashviews.RefrashLayout>-->
+<com.x.leo.listexpend.AutoRollListView
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/text_rectangle"
+   android:dividerHeight="@dimen/dp05"
+    android:id = "@+id/arl"
+    android:layout_height="200dp" />
+</LinearLayout>

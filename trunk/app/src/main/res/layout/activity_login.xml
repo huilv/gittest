@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_login_bg"
+    android:scrollbars="none">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id_image_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp103"
+            android:layout_marginTop="@dimen/dp30"
+            android:src="@drawable/ic_login_logo" />
+
+        <!--Phone number-->
+        <LinearLayout
+            android:id="@+id/ll_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:layout_marginTop="@dimen/dp30"
+            android:background="@drawable/selector_edittext_input_extexd"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp14">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text=" +62"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                android:id="@+id/id_edittext_phone_number"
+                style="@style/text_login_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/edittext_phone_number_hint"
+                android:imeActionId="5"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/dp14"
+                android:textCursorDrawable="@drawable/cursor_color"
+                app:customStyle="line" />
+        </LinearLayout>
+
+
+        <!--SMS code-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:layout_marginTop="20dp">
+
+            <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                android:id="@+id/id_edittext_SMS_code"
+                style="@style/text_login_style"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:hint="@string/edittext_SMS_code_hint"
+                android:imeActionId="5"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/dp14"
+                android:textCursorDrawable="@drawable/cursor_color"
+                app:customStyle="rectangle" />
+
+            <Button
+                android:id="@+id/id_button_obtain_code"
+                android:layout_width="96dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/button_selector"
+                android:text="@string/button_obtain_code"
+                android:textAllCaps="false"
+                android:textColor="@color/color_button_text"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+        <!--graphical-->
+        <LinearLayout
+            android:id="@+id/id_linearlayout_graphical_code"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:layout_marginTop="@dimen/dp14"
+            android:visibility="gone">
+
+            <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                android:id="@+id/id_edittext_graphical_code"
+                style="@style/text_login_style"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:hint="@string/edittext_graphical_code"
+                android:imeActionId="5"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/dp14"
+                android:textCursorDrawable="@drawable/cursor_color"
+                app:customStyle="rectangle" />
+
+            <ImageView
+                android:id="@+id/id_imageview_code"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp50"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageButton
+                android:id="@+id/id_imagebutton_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@null"
+                android:src="@drawable/ic_refresh" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/text_10dp_ddsiliver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:gravity="center"
+            android:text="@string/sms_code_unreceived_tips" />
+
+        <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+            android:id="@+id/id_edittext_login_invite_code"
+            style="@style/text_login_style"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:layout_marginTop="@dimen/dp14"
+            android:gravity="center_vertical"
+            android:hint="@string/text_edittext_login_invite_code"
+            android:imeActionId="5"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:visibility="visible"
+            app:customStyle="rectangle" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            style="@style/text_12dp_ddsilivery"
+            android:text="@string/text_invite_code_login_tips"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/id_button_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:layout_marginTop="@dimen/dp60"
+            android:background="@drawable/shape_button"
+            android:text="@string/button_login"
+            android:textAllCaps="false"
+            android:textColor="@color/color_button_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/id_login_statement"
+            style="@style/text_10dp_ddsiliver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/login_statement" />
+
+    </LinearLayout>
+</ScrollView>

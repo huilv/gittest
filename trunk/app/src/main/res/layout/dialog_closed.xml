@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/transparent_color">
+   <ImageView
+       android:layout_width="wrap_content"
+       android:id = "@+id/iv_closed_header"
+       android:src="@drawable/changed_closed_header"
+       android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="@dimen/dp16"
+    android:paddingRight="@dimen/dp16"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_closed_tips"
+        style="@style/text_14dp_white"
+        android:layout_marginTop="@dimen/dp10"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp15"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_closed_dialog_line"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/dp10"
+        android:id="@+id/id_textview_closed_dialog_content"
+        style="@style/text_14dp_white"
+        android:textStyle="bold"
+        android:lineSpacingExtra="@dimen/dp05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. KTP is not CLEAR \n 2. RESI-KTP is not CLEAR" />
+
+    <ImageView
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_closed_dialog_line"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp15"
+        style="@style/text_12dp_tblue"
+        android:text="@string/dialog_closed_check_in_inbox"/>
+
+    <Button
+        android:layout_marginTop="@dimen/dp15"
+        android:id="@+id/id_button_goto_modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/dialog_closed_modify"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:background="@drawable/selector_button_blue"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+</LinearLayout>

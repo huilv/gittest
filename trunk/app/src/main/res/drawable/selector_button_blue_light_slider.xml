@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp"/>
+            <solid android:color="@color/colorButtonBlue"/>
+            <padding android:left="8dp" android:right="8dp"/>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp"/>
+            <solid android:color="@color/lblue"/>
+            <padding android:left="8dp" android:right="8dp"/>
+        </shape>
+    </item>
+</selector>

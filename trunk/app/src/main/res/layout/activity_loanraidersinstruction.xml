@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <include layout="@layout/sub_main_activity_top" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp14"
+                android:layout_marginRight="@dimen/dp14"
+                android:layout_marginTop="@dimen/dp20"
+                android:orientation="horizontal">
+
+                <com.x.leo.timelineview.TimeLineView
+                    android:id="@+id/tlv_1"
+                    android:layout_width="@dimen/dp30"
+                    android:layout_height="match_parent"
+                    app:directionStyle="VERTICAL"
+                    app:markerStyle="circleFilled"
+                    app:CurrentStatus="Active"
+                    app:drawText="false"
+                    app:notShowPointLine="true"
+                    app:doAnimation="false"
+                    app:markPosition="start"
+                    app:circleActiveBigger="@color/color_bottom_tab_light"
+                    app:circleActive="@color/bottom_tab"
+                    app:circleInactive="@color/colorPrimaryDark"
+                    app:radiusInner="@dimen/dp10"
+                    app:radius="@dimen/dp15"
+                    app:relativeGravity="BEGIN"
+                    app:strokeColor="@color/colorPrimaryDark"
+                    app:strokeWidth="@dimen/dp03" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/dp20">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_loanraiders_step1"
+                        android:paddingBottom="@dimen/dp05"
+                        android:paddingTop="@dimen/dp05"
+                        style="@style/text_12dp_ddsilivery"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/iv_loanraiders_step1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/raiders1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp14"
+                android:layout_marginRight="@dimen/dp14"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:id="@+id/tlv_2"
+                    android:layout_width="@dimen/dp30"
+                    app:doAnimation="false"
+                    android:layout_height="match_parent"
+                    app:directionStyle="VERTICAL"
+                    app:markerStyle="circleFilled"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:circleActiveBigger="@color/color_bottom_tab_light"
+                    app:circleActive="@color/bottom_tab"
+                    app:circleInactive="@color/colorPrimaryDark"
+                    app:radiusInner="@dimen/dp10"
+                    app:radius="@dimen/dp15"
+                    app:relativeGravity="BEGIN"
+                    app:strokeColor="@color/colorPrimaryDark"
+                    app:strokeWidth="@dimen/dp03" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/dp20">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_loanraiders_step2"
+                        android:paddingBottom="@dimen/dp05"
+                        android:paddingTop="@dimen/dp05"
+                        style="@style/text_12dp_ddsilivery"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/iv_loanraiders_step2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/raiders2" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp14"
+                android:layout_marginRight="@dimen/dp14"
+                android:orientation="horizontal">
+                <com.x.leo.timelineview.TimeLineView
+                    android:id="@+id/tlv_3"
+                    app:doAnimation="false"
+                    android:layout_width="@dimen/dp30"
+                    android:layout_height="match_parent"
+                    app:directionStyle="VERTICAL"
+                    app:markerStyle="circleFilled"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:circleActiveBigger="@color/color_bottom_tab_light"
+                    app:circleActive="@color/bottom_tab"
+                    app:circleInactive="@color/colorPrimaryDark"
+                    app:radiusInner="@dimen/dp10"
+                    app:radius="@dimen/dp15"
+                    app:relativeGravity="BEGIN"
+                    app:strokeColor="@color/colorPrimaryDark"
+                    app:strokeWidth="@dimen/dp03" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/dp20">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_loanraiders_step3"
+                        android:paddingBottom="@dimen/dp05"
+                        android:paddingTop="@dimen/dp05"
+                        style="@style/text_12dp_ddsilivery"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/iv_loanraiders_step3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/raiders3" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp14"
+                android:layout_marginRight="@dimen/dp14"
+                android:orientation="horizontal">
+
+                <com.x.leo.timelineview.TimeLineView
+                    android:id="@+id/tlv_4"
+                    android:layout_width="@dimen/dp30"
+                    android:layout_height="match_parent"
+                    app:directionStyle="VERTICAL"
+                    app:markerStyle="circleFilled"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:circleActiveBigger="@color/color_bottom_tab_light"
+                    app:circleActive="@color/bottom_tab"
+                    app:circleInactive="@color/colorPrimaryDark"
+                    app:radiusInner="@dimen/dp10"
+                    app:radius="@dimen/dp15"
+                    app:relativeGravity="BEGIN"
+                    app:strokeColor="@color/colorPrimaryDark"
+                    app:strokeWidth="@dimen/dp03" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/dp20">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_loanraiders_step4"
+                        android:paddingBottom="@dimen/dp05"
+                        android:paddingTop="@dimen/dp05"
+                        style="@style/text_12dp_ddsilivery"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/iv_loanraiders_step4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/raiders4" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp14"
+                android:layout_marginRight="@dimen/dp14"
+                android:orientation="horizontal">
+
+                <com.x.leo.timelineview.TimeLineView
+                    android:id="@+id/tlv_5"
+                    android:layout_width="@dimen/dp30"
+                    android:layout_height="match_parent"
+                    app:directionStyle="VERTICAL"
+                    app:markerStyle="circleFilled"
+                    app:CurrentStatus="Inactive"
+                    app:drawText="false"
+                    app:circleActiveBigger="@color/color_bottom_tab_light"
+                    app:circleActive="@color/bottom_tab"
+                    app:circleInactive="@color/colorPrimaryDark"
+                    app:radiusInner="@dimen/dp10"
+                    app:radius="@dimen/dp15"
+                    app:relativeGravity="BEGIN"
+                    app:strokeColor="@color/colorPrimaryDark"
+                    app:strokeWidth="@dimen/dp03" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/dp20">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_loanraiders_step5"
+                        android:paddingBottom="@dimen/dp05"
+                        android:paddingTop="@dimen/dp05"
+                        style="@style/text_12dp_ddsilivery"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/iv_loanraiders_step5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/raiders5" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

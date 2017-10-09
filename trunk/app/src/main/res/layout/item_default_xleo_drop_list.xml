@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_drop_list_default"
+    android:layout_width="@dimen/dp122"
+    android:layout_height="@dimen/dp50"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:text="test"
+    android:textColor="@color/white"
+    android:textSize="@dimen/dp14" />

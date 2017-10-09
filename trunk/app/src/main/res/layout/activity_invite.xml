@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <include layout="@layout/sub_main_activity_top" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff1cd">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/invite_bg_01" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/invite_bg_02">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/text_12dp_white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/text_my_invite_code" />
+
+                    <TextView
+                        android:id="@+id/tv_code"
+                        style="@style/text_16dp_white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/dp05"
+                        android:background="@drawable/shape_invite_code_bg"
+                        android:text="12D4E56A" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dp30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dp20"
+                    android:layout_marginTop="@dimen/dp20"
+                    android:paddingLeft="@dimen/dp14"
+                    android:paddingRight="@dimen/dp14">
+
+                    <TextView
+                        android:id="@+id/tv_invited"
+                        style="@style/text_14dp_ddsilivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@mipmap/hand_heart"
+                        android:gravity="center"
+                        android:text="已邀请0位" />
+
+                    <TextView
+                        android:id="@+id/tv_applied"
+                        style="@style/text_14dp_ddsilivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:drawableLeft="@mipmap/phone_heart"
+                        android:gravity="center"
+                        android:text="已申请0位" />
+                </RelativeLayout>
+
+                <com.x.leo.listexpend.AutoRollListView
+                    android:id = "@+id/list_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:divider="@null"
+                    android:layout_marginRight="@dimen/dp14"
+                    android:background="@drawable/text_rectangle"></com.x.leo.listexpend.AutoRollListView>
+
+                <Button
+                    android:id="@+id/btn_copy"
+                    style="@style/text_14dp_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp15"
+                    android:background="@drawable/selector_button_invite_copy"
+                    android:text="@string/button_copy_code"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--蓝色：3e75c8    绿色：6fc4bb    中灰：8e949b  浅灰色：bcc6d1-->
+    <color name="colorPrimary">#354153</color>
+    <color name="colorPrimary_l_dark">#364351</color>
+    <color name="colorPrimaryDark">#282f39</color>
+    <color name="colorBackground">#445366</color>
+    <color name="colorBackground_d">#313a46</color>
+    <color name="colorBtn_logout">#425063</color>
+    <color name="colorDivider">#575f6c</color>
+    <color name="colorText_n">#66758b</color>
+    <color name="colorText_tips">#8a9db9</color>
+    <color name="colorOutLine_n">#252c36</color>
+    <color name="colorRectangle_chosed_f">#1e232b</color>
+    <color name="colorButtonBlue">#4291f3</color>
+    <color name="colorProgressOrder_main">#647694</color>
+    <color name="colorProgressOrder_support">#252c36</color>
+    <color name="colorProgress_orange">#ff9800</color>
+    <color name='colorProgress_blue'>#71c8d2</color>
+    <color name="colorAlerm_red">#ef4e4e</color>
+    <color name="color_link_color">#4291f3</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_text_gray_brighter">#8e949b</color>
+    <color name="color_splash_bg">#3e75c8</color>
+    <color name="color_button">#3e75c8</color>
+    <color name="color_button_text">#ffffff</color>
+    <color name="color_tab_text">#3e75c8</color>
+    <color name="color_tab_text_d">#AEB9B4</color>
+    <color name="color_login_statement">#bcc6d1</color>
+    <color name="color_login_statement_h">#3e75f8</color>
+    <color name="color_main_tab_stroke">#babfbd</color>
+    <color name="color_loaning_textview_stroke">#bcc6d1</color>
+    <color name="color_button_d">#AEB9B4</color>
+    <color name="color_progress_finished">#3e75c8</color>
+    <color name="color_progress_unfinished">#bcc6d1</color>
+    <color name="color_text_gray">#6B7A73</color>
+    <color name="color_red">#FF8F8F</color>
+    <color name="color_red_d">#F36161</color>
+    <color name="color_button_pressed">#3e75ff</color>
+    <color name="color_camera_button">#3e75c8</color>
+    <color name="color_camera_button_pressed">#3e75ff</color>
+    <color name="white">#fff</color>
+    <color name="color_text_orange">#F8B941</color>
+    <color name="color_line_orange">#FCD893</color>
+    <color name="color_fill_orange">#FBF6ED</color>
+    <color name="colorPrimary_lighter" >#553e75c8</color>
+    <color name="colorPrimary_d">#3e75a8</color>
+    <color name="color_orange_cursor">#FF8636</color>
+    <color name="video_background">#000000</color>
+    <color name="color_splash_background">#e7f2ec</color>
+    <color name="colorBlack">#000</color>
+    <color name="color_bg_invite_detail">#f6f9f8</color>
+    <color name="light_gray">#b3b2b2</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="alphaBlack">#99000000</color>
+    <color name="colorGreen">#6fc4bb</color>
+    <color name="ddblue">#3b4859</color>
+    <color name="dorange">#ffa800</color>
+    <color name="dsilvery">#9badc6</color>
+    <color name="ddsilvery">#79889d</color>
+    <color name="dgrayblue">#5d6673</color>
+
+    <color name="dddblue">#282f39</color>
+    <color name="textblue">#78879c</color>
+    <color name="textlblue">#889bb9</color>
+    <color name="colorPrimarylighter">#3b4859</color>
+    <color name="bottom_tab">#778aa5</color>
+    <color name="color_bottom_tab_light">#546379</color>
+    <color name="color_update_gray">#5e6875</color>
+    <color name="lblue">#51a5f6</color>
+    <color name="colordarkGray">#66758c</color>
+    <color name="bank_selector_border">#717f96</color>
+
+</resources>

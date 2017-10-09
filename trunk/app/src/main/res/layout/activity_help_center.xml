@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.daunkredit.program.sulu.view.me.HelpCenterActivity">
+    <include layout="@layout/sub_main_activity_top"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_height="@dimen/dp80">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id = "@+id/tv_helpcenter_loan_raiders"
+            android:text="@string/textview_loan_raiders"
+            style="@style/text_16dp_white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_width="2px"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/dp40"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id = "@+id/tv_helpcenter_repayment_raiders"
+            android:text="@string/textview_repayment_raiders_2"
+            style="@style/text_16dp_white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@color/ddsilvery"
+        android:layout_height="1px"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:id = "@+id/lv_helpcenter"
+        android:background="@color/colorPrimaryDark"
+        android:divider="@color/transparent_color"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

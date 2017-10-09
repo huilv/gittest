@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:background="@color/colorPrimary"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/dp20"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id = "@+id/iv_ktp_alert"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/dp270"
+        android:src="@drawable/ktp_img"
+        android:layout_height="@dimen/dp150"/>
+    </RelativeLayout>
+    <TextView
+        android:id = "@+id/tv_ktp_alert"
+        android:layout_width="match_parent"
+        android:text="@string/text_shoot_kpt_front"
+        style="@style/text_14dp_white"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dp18"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="@dimen/dp3"
+        android:layout_width="match_parent"
+        android:text="@string/text_shoot_kpt_tips"
+        style="@style/text_12dp_tblue"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="@dimen/dp24"
+        android:id = "@+id/btn_ktp_shoot_photo"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/selector_button_blue"
+        android:layout_width="@dimen/dp270"
+        android:text="@string/text_button_start_taking_photos"
+        android:textAllCaps="false"
+        android:textSize="@dimen/dp14"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/dp18"
+        android:layout_height="@dimen/dp50"/>
+
+</LinearLayout>

@@ -1,0 +1,1773 @@
+<resources>
+    <string name="app_name" >Daun Kredit</string>
+    <string name="edittext_phone_number_hint">Please enter your phone number</string>
+    <string name="edittext_SMS_code_hint">Please enter the SMS code</string>
+
+    <string name="button_obtain_code">Obtain Code</string>
+    <string name="button_login">Login</string>
+    <string name="edittext_graphical_code">Graphical Verification Code</string>
+    <string name="textview_loan">Loan</string>
+    <string name="textview_certification">Certification</string>
+    <string name="textview_me">Me</string>
+    <string name="textview_online_QA">Online service</string>
+    <string name="main_page_title">Daun Kredit</string>
+    <string name="login_statement">Click on the button agreed \"Registration Service Agreement and Privacy\"</string>
+    <string name="textview_loan_amount_statement">Please select your loan amount</string>
+    <string name="textview_loan_replayment_statement">Please choose your repayment time</string>
+
+    <string name="RP600k" >RP600,000</string>
+    <string name="RP1200K" >RP1,200,000</string>
+    <string name="loan_7days">7Days</string>
+    <string name="loan_14days">14Days</string>
+
+    <string name="repayment_statement">Total Repayment Amount</string>
+    <string name="total_repayment" >RP1,070,000</string>
+    <string name="button_current_loan">Current loan</string>
+    <string name="textview_steps">Only 4steps, Fastest 20 minute loan</string>
+    <string name="textview_repayment_raiders">View Repayment Raiders</string>
+    <string name="textview_loan_amount">Loan Amount</string>
+    <string name="textview_repayment_time">Repayment Time</string>
+
+    <string name="textview_receiving_bank">Name of The Receiving Bank</string>
+    <string name="editText_bank_number">Receiving Bank Account</string>
+    <string name="editText_use_loan">Use of the Loan</string>
+    <string name="textview_title_personal_info">Personal Information</string>
+    <string name="textview_field_personal_info">Personal information</string>
+    <string name="textview_field_professional_info">Professional information</string>
+    <string name="textview_field_Upload_photos">Upload photos</string>
+    <string name="textview_authentication">Authentication</string>
+    <string name="textview_progress_data_integrity">Data integrity: </string>
+    <string name="textview_progress_rating" > 0% </string>
+    <string name="button_certification_submit">Submit</string>
+
+    <string name="textview_remain_days" >05</string>
+    <string name="textview_unit_days">Day</string>
+    <string name="textview_unit_tips_expird">Anda telah terlambat</string>
+    <string name="textview_unit_tips">Dari hari jatuh jempo</string>
+    <string name="textview_remaining_days">Days of Repayment</string>
+    <string name="textview_repayment_amount">RP642,000</string>
+    <string name="textview_repayment_amount_text">Total Repayment Amount</string>
+    <string name="textview_expiry_date" >2017-1-30</string>
+    <string name="textview_expiry_date_text">Expiry Date</string>
+    <string name="buttom_want_to_Repay">I Want To Repay</string>
+    <string name="textview_been_payment_text">Been payment: </string>
+    <string name="textview_total_acount" >RP642,000</string>
+    <string name="textview_total_text">Total: </string>
+    <string name="textview_remain_text">Remain:</string>
+    <string name="textview_been_payment_account" >RP42,000</string>
+    <string name="textview_title_system_message">System Message</string>
+    <string name="textview_customer_service_hotline">Customer Service Hotline</string>
+
+    <string name="textview_bank_select_statement">Please select a bank for repayment</string>
+    <string name="button_bank_determine">Determine</string>
+
+    <string name="textview_me_my_loan">My Loan</string>
+    <string name="textview_me_security_setting">Security Setting</string>
+    <string name="textview_me_help_center">Help Center</string>
+    <string name="textview_me_about_company">About Daun Kredit</string>
+    <string name="textview_me_customer_service_hotline">Customer Service Hotline</string>
+
+    <string name="edittext_personal_info_full_name">Full Name</string>
+    <string name="edittext_personal_info_ktp_no">KTP NO</string>
+    <string name="textview_personal_info_gender">Gender</string>
+    <string name="textview_personal_info_education">Education</string>
+    <string name="textview_personal_info_marital_status">Marital Status</string>
+    <string name="textview_personal_info_number_of_children">Number of Children</string>
+    <string name="textview_personal_info_province_of_residence">Province of Residence</string>
+    <string name="textview_personal_info_city_of_residence">City of Residence</string>
+    <string name="textview_personal_info_street_of_residence">Street of Residence</string>
+    <string name="textview_personal_info_area_of_residence">Area of Residence</string>
+    <string name="textview_personal_info_address">Address</string>
+    <string name="textview_personal_info_duration_of_residence">Duration of Residence</string>
+    <string name="textview_personal_info_facebook">Facebook</string>
+    <string name="textview_personal_info_memverifikasi_info">Memverifikasi info belanja online(optional)</string>
+    <string name="textview_personal_info_phone_number_verification">Phone number information verification</string>
+
+
+    <string name="textview_job_info_title">Job Information</string>
+    <string name="textview_job_info_job_type">Job Type</string>
+    <string name="textview_job_info_monthly_income">Monthly Income</string>
+    <string name="edittext_job_info_company_name">Company Name</string>
+    <string name="textview_job_info_province_of_company_located">Province of Company Located</string>
+    <string name="textview_job_info_city_of_company_located">City of Company Located</string>
+    <string name="textview_job_info_street_of_company_located">Street of Company Located</string>
+    <string name="textview_job_info_city_in_the_village">City In The Village</string>
+    <string name="edittext_job_info_address">Address</string>
+    <string name="edittext_job_info_tel_of_company">Tel of Company</string>
+    <string name="textview_job_info_work_email">Work Email(Optional)</string>
+    <string name="textview_job_info_email_verification">Email Verification Code(Optional)</string>
+    <string name="textview_job_info_statement">Filling out the optional information will help speed up the review process and give you access to platform offers</string>
+    <string name="textview_contacts_info_father_mother">Father/Mother</string>
+    <string name="edittext_contacts_info_name">Name</string>
+    <string name="textview_field_contract_info"> Contact Info</string>
+    <string name="edittext_contacts_info_telephone">Telephone</string>
+    <string name="textview_contacts_info_friend">Friend</string>
+    <string name="textview_contacts_info_statement">Rupial Plus takes the form of a large data verification process, the application process will not take the initiative to contact your parents or friends, please rest assured fill in</string>
+    <string name="textview_upload_photos_statement_ktp_front">KTP Front</string>
+    <string name="textview_upload_photps_statement_work_card_photo">Work Card Photo \n (if not, you can use my work uniforms instead)</string>
+    <string name="textview_loan_info_statement">Loan Information</string>
+    <string name="button_loan_info_cancel">cancel</string>
+    <string name="textview_loan_info_audit_passed">Audit Passed</string>
+    <string name="textview_loan_info_loan_qualified">Loan Qualified</string>
+    <string name="textview_laon_info_audit_passed_statement">Your first trial has been passed,please keep the phone open</string>
+    <string name="textview_loan_info_loan_qualified_statement">Your audit has been passed and you are making a loan</string>
+    <string name="textview_status">Status</string>
+    <string name="button_logout">log out</string>
+    <string name="textview_loan_raiders">Loan Raiders</string>
+    <string name="textview_repayment_raiders_2">Repayment Raiders</string>
+    <string name="text_about_company_detail">Rupial Plus in April 15, 2017 on the line, is one of the first fully based on mobile phone APP unsecured credit platform to operate.\n\n Automatic cash borrowing Rupial Plus loan business, \"no guarantees, no sign\", just a mobile phone to complete the application, to the whole process, the repayment of the account. Rupial Plus loan to  achieve the automated audit based, supplemented by manual audit efficient audit process, the fastest 3 minutes to account. Provide minimum RP1000000/RP2000000, 7 days /14 days cash loan service. \n\n                Rupial Plus from Shanghai India flash Network Technology Co., Ltd. all Balabala and Indonesia and operation.</string>
+    <string name="text_title_about">About</string>
+    <string name="text_title_helpcenter">Help center</string>
+
+    <string-array name="text_helpcenter_questions">
+        <item>什么身份的用户可以来申请借款？</item>
+        <item>如何申请借款？</item>
+        <item>怎么样进行还款？是否可以提前还款？</item>
+        <item>申请借款需要准备什么资料？如何审核</item>
+        <item>什么是宽容期？宽容期费用是多少？</item>
+        <item>什么是逾期？如何计算逾期费用？</item>
+        <item>如果未能按时还款会有什么后果？</item>
+        <item>为什么我的申请审核没有通过？能否再次申请？</item>
+        <item>我的信息会被泄露么？</item>
+        <item> 还款日如何计算？如何查询我的还款日？</item>
+    </string-array>
+    <string-array name="text_helpcenter_questions_tips" formatted = "false">
+        <item>Daun Kredit并未对您的职业、收入等条件进行具体限制，只需要您年满18周岁，有稳定使用的手机号码和稳定的收入来源即可来Rupial Plus申请借款</item>
+        <item>请您前往Google Play搜索“Daun Kredit”并进行下载，打开APP即可开始借款申请。</item>
+        <item>我们会在还款日的前一天给您的邮箱和手机号发送消息提醒您还款，您可以通过BCA或者MANDIRI的ATM或者Internet Banking进行转账操作进行还款。转账成功之后，Daun Kredit APP会自动收到还款信号并结清您的当前借款。我们支持提前还款</item>
+        <item>您只需要按照系统提示填写四项信息（个人信息页面，职业信息页，联系人信息页，拍照上传），不需要其他任何资料，请务必填写您的真实资料。系统会根据您的信息进行大数据分析，多维度计算出您的信用评分，多项评分综合计算出您的借款审核结果。</item>
+        <item>还款日后的第一天至第七天是宽容期，宽容期内还款不影响您的征信记录，我们不会将您的资料上传到Bank of Indonesia 借款人信息系统，但每天会产生逾期费用，数额是借款金额的1%。借款RP 600,000,逾期费用为每天6,000; 借款RP 1200,000元，滞纳金每天12,000.</item>
+        <item>如您未能正常还款即属于逾期。每日逾期费率是借款本金的2%，例如：RP1,000,000借款如果逾期2天，则对应逾期费用是RP40,000（RP1,000,000*2%*2days）。</item>
+        <item>我们会采取合法催收措施，同时将收取罚息和逾期管理费，每日的罚息和逾期管理费总额为应还还款总额的2%，具体条款请参阅借款协议。如严重违约，我们将可能在产品中公布您的个人信息，同时您以后将再也无法向我们借款，最后，我们也将如实上传您的失信记录到国家征信档案。</item>
+        <item>很抱歉，由于综合评分不足，因此借款申请暂未能获得批准。系统通过大数据分析自动审核，由于风险控制原因，无法告知您详细的信用分数和未通过的具体原因。如果个人资料无重大变化，不建议短期内再次申请，如有借款需要，请在至少15天之后后再次尝试。</item>
+        <item> 我们承诺，我们不会未经授权透露您的个人资料给第三方（还款逾期及提供服务的必要情况除外）</item>
+        <item>还款日是按照借款的实际发放日期，顺延7天或14天（按照您时机选择的借款期限）。借款成功后，APP首页即可查看您的还款日</item>
+    </string-array>
+
+    <string name="text_loanraiders_step1">Download Rupial Plus APP on Google Play or oth er Android Market</string>
+    <string name="text_loanraiders_step2">In APP home page, select loan amount and loan duration</string>
+    <string name="text_loanraiders_step3">Spend five minutes verifying your information</string>
+    <string name="text_loanraiders_step4">Waiting for the audit, the initial audit, please note that answering the phone</string>
+    <string name="text_loanraiders_step5">Waiting for the loan, the amount of borrowing will be 5 to 10 minutes into account</string>
+    <string name="text_title_loanraiders">Loan Raiders</string>
+
+
+    <string name="textview_video_title">Video Signing</string>
+    <string name="textview_video_tips">Complete video contract and audit, immediately lending</string>
+    <string name="textview_video_tips2">If you do not receive a loan, the video content is invalid</string>
+    <string name="textview_video_read_tips">Please read the following in a quiet environment.</string>
+    <string name="textview_video_toneContent">本人自愿向Daun Kredit申请借款，提供真实资料，遵守合约，同意上报征信.</string>
+    <string name="textview_video_statement">*上传视频后，表示您已同意下列条款《借款担保协议》</string>
+    <string name="button_video_start">Start</string>
+    <string name="button_video_re_record">Re-record</string>
+    <string name="button_video_Pause">Pause</string>
+    <string name="button_video_Continue">Continue</string>
+    <string name="button_video_Complete_Preview">Complete &amp; Preview</string>
+    <string name="button_video_upload">Upload</string>
+    <string name="text_title_repaymentraiders">Repayment Raiders</string>
+    <string name="text_title_customer_hot_line">Customer Service Hotline</string>
+    <string name="text_input_span_send">send</string>
+    <string name="text_today">Today</string>
+    <string name="text_yesterday">Yesterday</string>
+    <string-array name="text_repayment_raiders_instruction_title">
+        <item>Internet Banking</item>
+        <item>ATM</item>
+        <item>Mobile Banking</item>
+        <item>Alfarmart Pay</item>
+    </string-array>
+    <string-array name="text_repayment_raiders_instruction_detail">
+        <item>1. Login to KlikBCA Individual\n
+2. Select “Transfer”\n
+3. Select “Transfer to BCA Virtual Account”\n
+4. Enter virtual account number given to you\n
+5. Select “Continue” to proceed\n
+6. Enter “RESPON KEYBCA APPLI 1” shown in your BCA Token and then click “Send” button
+</item>
+        <item>1. Insert your ATM card\n 2. Enter PIN\n 3. Select “Other Transaction”\n
+4. Select “Transfer”\n
+5. Select “To BCA Virtual Account”\n
+6. Enter virtual account number given to you. Press “CORRECT” to proceed.\n
+7. Verify virtual account details and then enter amount to be transferred and select “CORRECT” to confirm\n
+8. Confirm your transaction details displayed. Select "YES" if the details are correct or “NO” if not\n
+9. You have completed your transaction. Select "NO" to end the transaction</item>
+        <item>1. Open BCA Mobile app\n
+2. Select “m-BCA”\n
+3. Select “m-Transfer”\n
+4. Select “BCA Virtual Account”\n
+5. Enter virtual account number and then select “OK”\n
+6. Click “SEND” button at the top right corner to proceed\n
+7. Click “OK” to proceed\n
+8. Enter your PIN to authorize the transaction</item>
+        <item>test</item>
+    </string-array>
+
+    <!--Latest loan info-->
+    <string name="loan_app_id">Loan App ID:</string>
+    <string name="loan_app_KTP">KTP:</string>
+    <string name="loan_create_time">Application Time:</string>
+    <string name="loan_amount">Loan Amount:</string>
+    <string name="loan_period">Loan Period:</string>
+    <string name="loan_costs">Loan Costs:</string>
+    <string name="total_repayment_amount">Total Repayment Amount:</string>
+    <string name="bank_name"> Receiving Bank Name:</string>
+    <string name="bank_card_no">Receiving Bank Card No:</string>
+
+    <string name="text_title_myloan">My Loan</string>
+    <string name="text_shoot_kpt_front">Shoot KTP front</string>
+    <string name="text_shoot_kpt_tips">Must own photos, the content is clearly visible</string>
+    <string name="text_button_start_taking_photos">Start taking photos</string>
+    <string name="text_cancel">cancel</string>
+    <string name="text_take_photo_tips">click again to send or click cancle button to cancel</string>
+    <string name="text_shoot_work_card_front">Shoot Work Card Front</string>
+
+    <string name="textview_me_my_repayment_log">My Repayment</string>
+    <string name="text_my_loan_not_loan">Not loan yet,try now</string>
+    <string name="show_uploading">uploading......</string>
+    <string name="show_upload_failed">upload failed</string>
+    <string name="show_upload_sucess">upload sucess</string>
+    <string name="enum_period_three_month">THREE_MONTH</string>
+    <string name="enum_period_six_month">SIX_MONTH</string>
+    <string name="enum_period_one_year">ONE_YEAR</string>
+    <string name="enum_period_two_year">TWO_YEAR</string>
+    <string name="enum_period_over_two_year">OVER_TWO_YEAR</string>
+    <string name="enum_gender_male">MALE</string>
+    <string name="enum_gender_female">FEMALE</string>
+    <string name="enum_marriage_married">MARRIED</string>
+    <string name="enum_marriage_single">SINGLE</string>
+    <string name="enum_marriage_divorced">DIVORCED</string>
+    <string name="enum_marriage_widowed">WIDOWED</string>
+    <string name="enum_children_zero">ZERO</string>
+    <string name="enum_children_one">ONE</string>
+    <string name="enum_children_two">TWO</string>
+    <string name="enum_children_three">THREE</string>
+    <string name="enum_children_four">FOUR</string>
+    <string name="enum_children_overfour">OVER_FOUR</string>
+    <string name="show_get_region_faild">Get region info failed, Please try again.</string>
+    <string name="show_input_province_tips">Please firstly input the province info</string>
+    <string name="show_input_city_first">Please firstly input the city info</string>
+    <string name="show_input_street_first">Please firstly input the street info</string>
+    <string name="show_input_gender">Please input your gender</string>
+    <string name="show_input_education">Please input your education</string>
+    <string name="show_input_marital">Please input your marital</string>
+    <string name="show_input_account">Please input your children account</string>
+    <string name="show_input_province">Please input your province</string>
+    <string name="show_input_city">Please input your city</string>
+    <string name="show_input_street">Please input your street</string>
+    <string name="show_input_area">Please input your area</string>
+    <string name="show_input_address">Please input your address</string>
+    <string name="show_input_duration">Please input your duration</string>
+    <string name="show_input_fullname">Please input your fullname</string>
+    <string name="show_input_ktp_no">Please input your KTP NO</string>
+    <string name="enum_job_programmer">PROGRAMMER</string>
+    <string name="enum_job_designer">DESIGNER</string>
+    <string name="enum_job_teacher">TEACHER</string>
+    <string name="enum_job_waiter">WAITER</string>
+    <string name="enum_job_driver">DRIVER</string>
+    <string name="enum_job_chef">CHEF</string>
+    <string name="enum_job_barber">BARBER</string>
+    <string name="enum_job_coach">COACH</string>
+    <string name="enum_job_clerk">CLERK</string>
+    <string name="enum_job_customer_service_officer">CUSTOMER_SERVICE_OFFICER</string>
+    <string name="enum_job_buyer">BUYER</string>
+    <string name="enum_job_salesperson">SALESPERSON</string>
+    <string name="enum_job_shop_manager">SHOP_MANAGER</string>
+    <string name="enum_job_maintenance_worker">MAINTENANCE_WORKER</string>
+    <string name="enum_job_lawyer">LAWYER</string>
+    <string name="enum_job_courier">COURIER</string>
+    <string name="enum_job_translation">TRANSLATION</string>
+    <string name="enum_job_editor">EDITOR</string>
+    <string name="enum_job_accounting">ACCOUNTING</string>
+    <string name="enum_job_doctor">DOCTOR</string>
+    <string name="enum_job_engineer">ENGINEER</string>
+    <string name="enum_job_executive">EXECUTIVE</string>
+    <string name="enum_job_information_technology">INFORMATION_TECHNOLOGY</string>
+    <string name="enum_job_consultant">CONSULTANT</string>
+    <string name="enum_job_marketing">MARKETING</string>
+    <string name="enum_job_military">MILITARY</string>
+    <string name="enum_job_retired">RETIRED</string>
+    <string name="enum_job_student">STUDENT</string>
+    <string name="enum_job_entrepreneur">ENTREPRENEUR</string>
+    <string name="enum_job_police">POLICE</string>
+    <string name="enum_job_farmer">FARMER</string>
+    <string name="enum_job_fisherman">FISHERMAN</string>
+    <string name="enum_job_breeder">BREEDER</string>
+    <string name="enum_job_medical_personal">MEDICAL_PERSONNEL</string>
+    <string name="enum_job_research">RESEARCHER</string>
+    <string name="enum_job_architect">ARCHITECT</string>
+    <string name="enum_job_workers_art">WORKERS_ART</string>
+    <string name="enum_job_security">SECURITY</string>
+    <string name="enum_job_broker">BROKER</string>
+    <string name="enum_job_distributor">DISTRIBUTOR</string>
+    <string name="enum_job_air_transportation">AIR_TRANSPORTATION</string>
+    <string name="enum_job_sea_transportation">SEA_TRANSPORTATION</string>
+    <string name="enum_job_land_transportation">LAND_TRANSPORTATION</string>
+    <string name="enum_job_labor">LABOR</string>
+    <string name="enum_job_craftsman">CRAFTSMAN</string>
+    <string name="enum_job_housewife">HOUSEWIFE</string>
+    <string name="enum_job_state_officials">STATE_OFFICIALS</string>
+    <string name="enum_job_government_employment">GOVERNMENT_EMPLOYEE</string>
+    <string name="enum_job_informal_workers">INFORMAL_WORKERS</string>
+
+
+    <string name="enum_job_other">OTHER</string>
+    <string name="enum_salary_below_2b">below 2,000,000</string>
+    <string name="enum_salary_between_2b_4b">between 2,000,000 and 4,000,000</string>
+    <string name="enum_salary_between_4b_8b">between 4,000,000 and 8,000,000</string>
+    <string name="enum_salary_between_8b_12b">between 8,000,000 and 12,000,000</string>
+    <string name="enum_salary_between_12b_20b">between 12,000,000 and 20,000,000</string>
+    <string name="enum_salary_over_20b">over 20,000,000</string>
+    <string name="enum_salary_over_8b">over 8,000,000</string>
+    <string name="show_input_job_type">Please input the job type.</string>
+    <string name="show_input_salary">Please input the salary.</string>
+    <string name="show_input_company_name">Please input the company name.</string>
+    <string name="show_input_company_province">Please input the province of company located.</string>
+    <string name="show_input_company_city">Please input the city of company located.</string>
+    <string name="show_input_company_street">Please input the street of company located.</string>
+    <string name="show_input_company_area">Please input the area of company located.</string>
+    <string name="show_input_company_address">Please input the address of company located.</string>
+    <string name="show_input_company_tel">Please input the tel of company.</string>
+    <string name="show_input_work_email">Please input the work Email.</string>
+    <string name="text_edittext_login_invite_code">Please enter your invite code (optional)</string>
+    <string name="loading_loading">loading....</string>
+    <string name="years">years</string>
+    <string name="months">months</string>
+    <string name="days">days</string>
+    <string name="recording">Recording...</string>
+
+    <string name="repayment_bank_name_title">BNI Repayment</string>
+
+    <string name="repayment_method_atm">ATM</string>
+    <string name="repayment_method_online">ONLINE</string>
+    <string name="repayment_method_mbanking">MBANKING</string>
+    s
+    <string name="repayment_price_text">Price</string>
+    <string name="repayment_price">RP1,000,000</string>
+    <string name="repayment_virtual_account">88464-1006000648</string>
+    <string name="repayment_virtual_account_text">Virtual Account</string>
+    <string name="repayment_transation_code_text">Transaction Code</string>
+
+
+    <string name="pay_in_alfamart">
+        1.Go to any minimart of Alfa Group (Alfamart, Alfamidi, Lawson, DAN+DAN) \n
+        2.Tell the cashier that you want to pay online transaction DOKU, tell your amount (%2$s) of your transaction and your transaction code(%1$s) to the cashier. \n
+        3.Cashier will give you confirmation and tell how much you will pay. \n
+        4.Do the payment to the cashier and get your payment receipt. \n
+    </string>
+    <!--BCA-->
+    <string name="bca_virtual_account_atm">
+        1. Insert your ATM card and Enter PIN \n
+        2. Select “Other Transaction” and then Select “Transfer” \n
+        3. Select “To BCA Virtual Account” \n
+        4. Enter virtual account number (%1$s). Press “CORRECT” to proceed. \n
+        5. Verify virtual account details and then enter amount to be transferred and select “CORRECT” to confirm \n
+        6. Confirm your transaction details displayed. Select "YES" if the details are correct or “NO” if not \n
+        7. You have completed your transaction. Select "NO" to end the transaction \n
+    </string>
+
+    <string name="bca_virtual_account_mobile_banking">
+        1. Open BCA Mobile app \n
+        2. Select “m-BCA” \n
+        3. Select “m-Transfer” \n
+        4. Select “ BCA Virtual Account” \n
+        5. Enter virtual account number (%1$s) and then select “OK” \n
+        6. Click “SEND” button at the top right corner to proceed \n
+        7. Click “OK” to proceed \n
+        8. Enter your PIN to authorize the transaction \n
+    </string>
+
+    <string name="bca_virtual_account_internet_banking">
+        1. Login to KlikBCA Individual \n
+        2. Select “Transfer” \n
+        3. Select “Transfer to BCA Virtual Account” \n
+        4. Enter virtual account number (%1$s) \n
+        5. Select “Continue” to proceed \n
+        6. Enter “ RESPON KEYBCA APPLI 1” shown in your BCA Token and then click “Send” button \n
+    </string>
+
+    <!--mandiri-->
+    <string name="mandiri_virtual_account_internet_banking">
+        1. Go to Mandiri Internet Banking website ( https://ib.bankmandiri.co.id/ ) \n
+        2. Enter your USER ID and PIN to login \n
+        3. Go to Homepage and select “Payment” \n
+        4. Select “Multi Payment” \n
+        5. Select “My Account Number” \n
+        6. Select “PT Sinar Digital Terdepan” as service provider \n
+        7. Select “Virtual Account Number” \n
+        8. Enter Virtual Account Number "%1$s" \n
+        9. Go to confirmation page 1 \n
+        10. SelectTOTALbillbuttonifalldetailsarecorrectandthenclick“Continue” \n
+        11. Gotoconfirmationpage2 \n
+        12. EnterChallengeCodefromyourInternetBankingTokenandthenclick“Send” \n
+        13. Payment is completed and you will be directed to the confirmation page \n
+    </string>
+
+    <string name="mandiri_virtual_account_atm">
+        1. Insert your A TM card and Select “ENGLISH” \n
+        2. Enter PIN and then select “ENTER” \n
+        3. Select “PAYMENT” \n
+        4. Select “MULTIPAYMENT” \n
+        5. Enter company code : “88464” (PT SINAR DIGITAL TERDEPAN) and then select “CORRECT” \n
+        6. Enter Virtual Account Number "%1$s" complete with company code, (Example 884641005xxxxxx then press \n
+“CORRECT”
+        7. Enter amount to be transferred and then select “CORRECT” \n
+        8. Customer details will be displayed. Choose number 1 according to the amount billed and then press “YES \n
+        9. Paymentconfirmationwillbedisplayed.Select“YES”toproceed \n
+        10. KeepyourreceiptasvalidpaymentevidencefromMandiriBank \n
+    </string>
+
+    <!--BNI-->
+
+    <string name="bni_virtual_account_atm">
+        1. Insert your ATM card and Select “ENGLISH” \n
+        2. Enter PIN and then select “ENTER” \n
+        3. Select “PAYMENT” and Select “MULTIPAYMENT” \n
+        4. Enter company code : “88464” (PT SINAR DIGITAL TERDEPAN) and then select “CORRECT” \n
+        5. Enter Virtual Account Number complete with company code, "%1$s" then press “CORRECT” \n
+        6. Enter amount to be transferred and then select “CORRECT” \n
+        7. Customer details will be displayed. Choose number 1 according to the amount billed and then press “YES \n
+        8. Payment confirmation will be displayed. Select “YES” to proceed \n
+        9. Keep your receipt as valid payment evidence from BNI Bank \n
+    </string>
+
+    <string name="bni_virtual_account_online">
+        1. Go to BNI Internet Banking website (https://ibank.bni.co.id) \n
+        2. Enter your USER ID and PIN to login \n
+        3. Go to Homepage and select “Payment” \n
+        4. Select “Multi Payment” \n
+        5. Select “My Account Number” \n
+        6. Select “PT Sinar Digital Terdepan” as service provider \n
+        7. Select “Virtual Account Number” \n
+        8. Enter Virtual Account Number "%1$s" \n
+        9. Go to confirmation page 1
+        10. Select TOTAL bill button if all details are correct and then click “Continue”
+        11. Go to confirmation page 2
+        12. Enter Challenge Code from your Internet Banking Token and then click “Send”
+        13. Payment is completed and you will be directed to the confirmation page
+    </string>
+
+    <!--others banks-->
+    <string name="other_banks_atm">
+        1. Find a ATM from any banks and insert your ATM  card, choose “Other Transaction”-> “Transfer”- >“other bank” \n
+        2. Enter bank code “013” and choose “correct” \n
+        3. Input amount(%2$s) \n
+        4. Input transaction code "%1$s" \n
+        5. Choose “correct” to confirm the transfer. \n
+    </string>
+
+    <string name="other_banks_online">
+        1.Login to https://ib.bankmandiri.co.id/ （or other online bank website）on your PC or smartphone browser. \n
+        2.Choose "transfer"->"transfer online to other bank" \n
+        3.Fill "transfer amount” (%2$s), You may ignore “reference number”, select “permata” bank in the "receive account" . Enter your transaction code("%1$s")
+ in the "account number"(you can ignore news and email receiver). Click "Next" then u can see the detail page including the challenge code. \n
+        4.Login your mandiri token to the “APPLI” menu then input "1" . Enter your challenge code in the token, then the token will generate the “Mandiri PIN” number. Input it to the “Put ‘Mandiri PIN’ for confirmation” in the detail page of your internet banking and select "Next". Then transaction Success and you will get your transaction detail receipt.\n
+    </string>
+
+    <string name="other_banks_mbanking">
+        1.Login your Mandiri Mobile app. \n
+        2.Enter to “Transfer” Menu-> “Online” \n
+        3.Click “account destination” , enter your transaction code(%1$s) \n
+        4.Click “Choose bank” to select  “permata”, then click “OK” \n
+        5.Enter your transfer amount %2$s. You may  ignore “reference number” and click “Next” \n
+
+    </string>
+
+    <string name="bank_repayment_statement">
+        Payment after the sucess, please patience to wait for 1 to 10 minutes, Daun Kredit will inform you at the first time receipt of payment,
+        if encounter problems, please contact Whatsapp: + 62812 8613 8713
+    </string>
+
+    <string name="text_day_before_yesterday">The day before yesterday</string>
+    <string name="textview_repayment_raiders_tips">You can repay in the following ways:</string>
+    <string name="textView_repayment_raiders_warns">This transaction can be supported by all Banks and Alfamarts</string>
+    <string name="show_not_login_yet">not login yet</string>
+    <string name="show_no_message">no message</string>
+    <string name="text_readed">READ</string>
+    <string name="text_new">NEW</string>
+    <string name="text_next">NEXT</string>
+    <string name="show_netwok_wrong">Network didn\'t work,check it and try again latter</string>
+
+    <string name="pay_in_alfamart_title"> Pay in Alfamart</string>
+    <string name="bca_title">BCA</string>
+    <string name="mandiri_title">Mandiri</string>
+    <string name="bni_title">BNI</string>
+    <string name="other_banks_title">Other Banks</string>
+    <string name="alfamarts_transaction_code_tips">This transaction can be supported by all Alfamarts</string>
+    <string name="other_banks_transaction_code_tips">This transaction can be supported by all  mobile banks and internet bank</string>
+    <string name="show_already_colosed">Already Closed</string>
+    <string name="show_submitted">Submitted already,wait for review result</string>
+    <string-array name="show_statement_Agreement">
+        <item>Syarat dan Ketentuan Penggunaan Aplikasi Daun Kredit </item>
+        <item>&#160;&#160;&#160;&#160;Dengan mengakses Aplikasi dan / atau melanjutkan akses terhadap
+Aplikasi Daun Kredit, Anda setuju untuk terikat dengan syarat dan
+ketentuan ini dan dianggap telah memahami serta menyetujui semua isi
+dalam syarat dan ketentuan di bawah ini. Syarat dan Ketentuan dapat
+diubah atau diperbaharui sewaktu-waktu tanpa ada pemberitahuan
+terlebih dahulu. Jika Anda merasa keberatan terhadap syarat dan
+ketentuan yang ada dalam Perjanjian ini, maka kami anjurkan untuk
+tidak menggunakan Aplikasi ini.</item>
+        <item>1. Ketentuan Penggunaan Layanan\n</item>
+        <item>1)User memastikan setiap informasi atau data yang diberikan kepada
+Daun Kredit lengkap dan benar. User bertanggung jawab atas
+seluruh data dan informasi yang diberikan pada Daun Kredit .\n
+2)Daun Kredit selalu berusaha untuk memberikan informasi yang
+benar dan akurat mengenai produk-produknya.\n
+3)Dengan mengunjungi Situs web dan aplikasi mobile kami, maka
+Anda mengetahui dan setuju bahwa kami boleh menghubungi
+Anda melalui nomor telepon atau alamat surel yang Anda
+masukkan pada aplikasi pinjaman untuk membantu Anda dengan
+pinjaman atau berdiskusi untuk produk yang lain dan pelayanan
+lain yang Daun Kredit dapat berikan untuk Anda.\n
+4)Anda memiliki hak untuk bertanya kepada kami bagaimana proses
+data pribadi digunakan untuk kepentingan pemasaran. Kami
+biasanya menginformasikan kepada Anda (sebelum kami mulai
+mengumpulkan data Anda) jika kami hendak memakai data untuk
+kepentingan tersebut.\n
+5)Situs kami dapat sewaktu-waktu mengandung tautan ke dan dari
+situs web serta aplikasi mobile dari rekan jejaring, pengiklan dan
+afiliasi kami. Jika Anda mengikuti salah satu tautan dari bagian
+mana saja pada situs web dan aplikasi mobile ini, mohon untuk
+dicatat bahwa situs web dan aplikasi mobile (pada link tersebut)
+memiliki kebijakan privasi dan kami tidak menerima
+pertanggungjawaban apapun atau jaminan untuk
+kebijakan-kebijakan pada situs web dan aplikasi mobile itu.\n
+</item>
+        <item>2. Kerahasiaan Data Pribadi\n</item>
+        <item>1) Kami mungkin membuka informasi pribadi Anda kepada
+        sub-kontraktor kami, agen, penyedia layanan, peminjam dan
+        anggota dari grup perusahaan kami dengan tujuan untuk
+        menyediakan beberapa layanan untuk Anda hanya untuk
+        kepentingan verifikasi. Hal tersebut dapat mengenai informasi
+        sebagai berikut:\n
+        · Kami tidak pernah dan tidak akan pernah menjual data klien kami
+        ke pihak manapun yang tidak berkepentingan karena kami
+        menjunjung tinggi privasi para klien kami.\n
+        · Kami tidak memberikan atau menjual data Anda kepada pihak
+        ketiga tanpa adanya persetujuan dari Anda serta tujuan yang jelas.\n
+        · Kami membuka dan menggunakan data Anda hanya untuk
+        kepentingan verifikasi, di mana data ini diberikan kepada pihak
+        ketiga yang kami tunjuk untuk melakukan proses verifikasi.\n
+        · Jika Anda memberikan kami informasi salah dan tidak akurat
+        dan/ atau kami menduga adanya penipuan, kami bisa mencatat
+        hal tersebut dalam sejarah kredit Anda dan mungkin membagikan
+        informasi tersebut ke badan hukum yang tepat atau pihak yang
+        berwenang dan/ atau agensi pencegah penipuan.\n
+        2) Informasi tentang Anda yang telah kami kumpulkan akan
+        direkam secara elektronik dan digunakan untuk beberapa tujuan
+        yang dapat kami pertanggungjawabkan:\n
+        · Untuk keperluan bisnis kami secara umum misalnya untuk
+        verifikasi identitas dan reputasi kredit Anda.\n
+        · Untuk memproses transaksi pinjaman dan memutakhirkan akun
+        data Anda yang kami simpan.\n
+        · Untuk menaksir sejarah kredit Anda dan mengkonfirmasi detil
+        pekerjaan Anda.\n
+        · Untuk membuat keputusan pinjaman.\n
+        · Untuk menghubungi pihak ketiga, misalkan atasan tempat Anda
+        bekerja, yang telah Anda ajukan untuk mengkonfirmasi informasi
+        tentang diri Anda.\n
+        · Untuk membuat analisa statistik dan mengembangkan juga
+        meningkatkan produk kami untuk memperkirakan risiko
+        pinjaman.\n
+        · Untuk mengidentifikasi Anda ketika Anda menghubungi kami
+        atau mengunjungi Situs web dan aplikasi mobile kami.\n
+        · Untuk mengidentifikasi produk kami atau produk rekan kami
+        yang menarik bagi Anda.\n
+        · Untuk mencegah dan mendeteksi penipuan, hal tersebut termasuk
+        penggunaan teknologi deteksi suara guna menganalisa rekaman
+        percakapan telepon Anda dengan kami.\n
+        · Untuk menghubungi Anda terkait dengan permintaan Anda.\n
+        · Untuk memutakhirkan situs kami guna memenuhi kebutuhan
+        klien kami di masa yang akan datang.\n
+        · Untuk memastikan bahwa konten pada situs ini disajikan dengan
+        penyajian yang paling efektif untuk Anda.\n
+        · Untuk menyelesaikan kewajiban kami yang timbul karena adanya
+        kontrak yang masuk antara Anda dengan kami.\n
+        · Untuk mengizinkan Anda berpartisipasi dalam layanan fitur
+        interaktif kami, bila Anda memilih utuk melakukannya.\n
+        · Untuk mengevaluasi keefektifan dari pemasaran situs web dan
+        aplikasi mobile kami, untuk pengecekan berkala dan untuk riset
+        pemasaran.\n
+        · Untuk memberitahu Anda tentang perubahan layanan.\n
+        · Untuk mengizinkan bank, badan keuangan atau pihak ketiga yang
+        berwenang guna mengadakan pengecekan terbatas pada status
+        Anda dalam data base atau layanan kami.\n</item>
+        <item>3. Ketentuan Umum\n</item>
+        <item>1) Daun Kredit adalah perusahaan Fintech (Financial Technology)
+        yang didirikan secara sah dan diatur menurut hukum Indonesia.\n
+        2) Syarat dan Ketentuan antara User Daun Kredit dan PT. Digital
+        Synergy Technology sepenuhnya mengikuti dan mematuhi semua
+        hukum di Indonesia.\n
+        </item>
+    </string-array>
+    <string name="show_statement_privace">隐私政策</string>
+    <string name="show_open_chat_window">Chat Window Openning...</string>
+    <string name="show_get_user_account_fail">init account failed</string>
+    <string name="text_dial">dial</string>
+    <string name="show_dial_hotline">Call customer service:%1$s?</string>
+    <string name="goto_record_video">Record video</string>
+    <string name="same_name">Input the same contact name</string>
+    <string name="same_number">Input the same contact number</string>
+    <string name="textview_me_my_invite">Invite Friends</string>
+    <string name="text_invite_award">成功邀请好友借款</string>
+    <string name="text_invite_info_detail">活动截止时间:2017年5月30日 \n活动结束后统一发放佣金，如果问题请联系客服，whatsapp: 08327463726</string>
+    <string name="text_my_invite_code">我的邀请码：%1$s</string>
+    <string name="text_invite_num">邀请注册人数</string>
+    <string name="text_invite_loaned_num">邀请借款人数</string>
+    <string name="text_invite_income">活动累计佣金</string>
+    <string name="text_invite_detail">邀请明细</string>
+    <string name="title_my_invite">Invite Friends</string>
+    <string name="text_area_code">Area code</string>
+    <string name="show_input_areacode">please input area code</string>
+    <string name="loading_storing_img">generating image</string>
+    <string name="show_preparing">preparing</string>
+    <string name="textview_video_re_record">Re_record</string>
+    <string name="textview_video_pause">pause</string>
+    <string name="textview_video_complete">complete\npreview</string>
+    <string name="text_id_custom_service">Online Service</string>
+    <string name="text_invite_award_sum">获得%1$s元奖励</string>
+    <string name="hint_check_in_facebook">please input your facebook id</string>
+    <string name="text_check_in_facebook_tip">请在申请贷款阶段打开Facebook隐私设置，让我们能够找到你</string>
+    <string name="text_title_checkin_facebook">个人信息Facebook信息认证</string>
+    <string name="show_facebookid_null">please input facebook id</string>
+    <string name="show_login_al_failed">network error，try latter</string>
+    <string name="loan_result_title_approved">Loan success!</string>
+    <string name="loan_result_tip_approved">Please check your bank card list</string>
+    <string name="loan_result_botton">GOT IT</string>
+    <string name="loan_result_title_rejected">Sorry,your audit is not approved!</string>
+    <string name="loan_result_tip_rejected">Please try again in 7 days.</string>
+    <string-array name="loan_agreement">
+        <item>%%bPerjanjian Pinjaman no «Number» (berikut semua lampiran,
+addendum dan setiap perubahan daripadanya, yang mana
+semuanya akan disebut sebagai \"Perjanjian\") dibuat pada dan
+dilaksanakan oleh dan antara: /%%b</item>
+        <item>(1) Pak/Bapak dengan nomer pendaftaran; (\"Peminjam\") dengan\n
+(2) Pemberi Pinjaman dengan nomer pendaftaran; (\"Pemberi
+Pinjaman\") dan
+Pemberi Pinjaman dan Peminjam secara bersama disebut
+sebagai %%b\"Para Pihak\"/%%b dan secara masing-masing sebagai %%b\"Pihak\"/%%b. </item>
+        <item>%%bBagian 1. Definisi dan Interpretasi /%%b</item>
+        <item>%%p1.%%b Definisi/%%b: Untuk tujuan Perjanjian ini dan sebagai tambahan
+setiap definisi lainnya yang ditetapkan dalam Perjanjian ini,
+istilah berikut memiliki arti sebagaimana ditetapkan bagi
+istilah tersebut, kecuali konteksnya secara jelas menentukan
+lain:\n
+%%b\"Rekening Bank Peminjam\"/%%b berarti rekening bank tertentu
+yang ditunjuk oleh Peminjam untuk tujuan menerima
+pencairan Pinjaman.\n
+%%b\"Data Peminjam\"/%%b berarti data dan informasi pribadi yang
+disampaikan oleh Peminjam pada Platform untuk diverifikasi
+oleh Perusahaan atas nama Pemberi Pinjaman.\n
+%%b\"ID Platform Peminjam\"/%%b berarti username dan / atau nomor
+registrasi Peminjam pada Platform yang melekat, mewakili
+dan terkait dengan Data Peminjam yang telah disampaikan dan
+terdaftar pada Platform.\n
+%%b\"Perusahaan\"/%%b berarti PT. Digital Synergy
+Technology. %%b\"Layanan Perusahaan\"/%%b berarti layanan yang
+diberikan oleh Perusahaan kepada Peminjam sesuai dengan
+CSA.\n
+%%b\"CSA\"/%%b berarti perjanjian layanan yang akan dilaksanakan
+antara Perusahaan dan Peminjam sehubungan dengan
+pemberian Layanan Perusahaan. \n
+%%b\"Jumlah Utang Penuh\"/%%b berarti jumlah agregat dari jumlah
+pokok Pinjaman, biaya administrasi (biaya pemeliharaan,
+biaya resiko, biaya manajemen dan biaya transfer) daripadanya
+dan biaya lainya yang terakumulasi.\n
+%%b\"Rekening Bank\"/%%b berarti rekening bank Perusahaan yang
+ditetapkan untuk tujuan pencairan Pinjaman untuk Peminjam
+dan penerimaan pembayaran jumlah pokok dari Pinjaman, dan
+/ atau biaya atau jumlah terutang lain dari Peminjam kepada
+Pemberi Pinjaman maupun kepada Perusahaan.\n
+%%b\"Data Pemberi Pinjaman\"/%%b berarti informasi identifikasi
+pribadi Pemberi Pinjaman yang diberikan oleh Pemberi
+Pinjaman kepada Perusahaan dan / atau Platform.\n
+%%b\"ID Platform Pemberi Pinjaman\"/%%b berarti username dan /
+atau nomor registrasi Pemberi Pinjaman pada Platform yang
+melekat, mewakili dan terkait dengan Data Pemberi Pinjaman
+yang telah disampaikan dan terdaftar pada Platform.\n
+%%b\"Pinjaman\"/%%b berarti layanan pembiayaan dalam bentuk
+pinjaman yang diberikan oleh Pemberi Pinjaman ke Peminjam,
+yang hanya akan digunakan untuk keperluan pribadi, seperti
+pendidikan, kesehatan dll.\n
+%%b\"Permohonan Pinjaman\"%%b berarti permohonan yang diajukan
+secara elektronik oleh Peminjam melalui
+Platform untuk memperoleh Pinjaman, termasuk dokumen
+pendukung dan informasi yang diwajibkan oleh Platform.\n
+%%b\"Tanggal Pencairan Pinjaman\"/%%b berarti tanggal ketika
+Pemberi Pinjaman atau pihak ketiga atas nama Pemberi
+Pinjaman, termasuk Perusahaan, melakukan wire transfer
+Pinjaman ke Rekening Bank Peminjam.\n
+%%b\"Rincian Pembiayaan Pinjaman\"/%%b berarti syarat dan
+ketentuan material Pinjaman sebagaimana diatur dalam
+Rincian Pembiayaan Pinjaman yang terlampir. \n
+%%b\"Platform\"/%%b berarti platform pinjaman peer-to-peer berbasis
+internet yang dimiliki dan dioperasikan oleh Perusahaan,
+termasuk application %%b“Daun Kredit”
+\"Syarat dan Ketentuan\"/%%b berarti syarat dan ketentuan
+sebagaimana ditetapkan dalam Bagian 3.\n
+2. %%bInterpretasi:/%%b Dalam Perjanjian ini kecuali konteksnya
+menentukan lain: /%%p</item>
+        <item>%%2pa. Setiap resital dan lampiran akan merupakan bagian dari
+Perjanjian ini dan referensi kepada Perjanjian ini akan
+mencakup resital dan lampiran;\n
+b. Referensi kepada Perjanjian ini atau dokumen lain
+adalah kepada Perjanjian ini atau dokumen lain tersebut
+yang berlaku untuk saat ini dan sebagaimana diubah dari
+waktu ke waktu sesuai dengan Perjanjian ini atau
+dokumen tersebut (sebagaimana keadaan);\n
+c. Kata yang menggunakan jenis kelamin mencakup setiap
+jenis kelamin, referensi kepada bentuk tunggal
+mencakup bentuk jamak dan sebaliknya dan kata yang
+menunjukkan orang termasuk individu dan badan hukum,
+kemitraan, asosiasi tanpa badan hukum dan badan-badan
+lain (dalam setiap kasus, di mana pun berada dan untuk
+tujuan apa pun) dan sebaliknya ;\n
+d. Judul dan isi tabel dalam Perjanjian ini hanyalah untuk
+kemudahan dan tidak mempengaruhi interpretasi;\n
+e. Jika terjadi konflik atau ketidaksesuaian antara klausul,
+dan setiap lampiran dalam Perjanjian ini maka klausul
+yang akan berlaku. Untuk tujuan ini, kelalaian (baik
+disengaja atau tidak disengaja) tidaklah, dengan
+sendirinya, dapat dianggap sebagai menimbulkan konflik
+atau ketidaksesuaian; dan\n
+f. Dalam Perjanjian ini kata-kata \"lain\", \"termasuk\" dan
+\"khususnya\" tidak membatasi keumuman kata
+sebelumnya dan kata-kata yang mengikutinya tidak akan
+ditafsirkan sebagai terbatas pada lingkup untuk kelas
+yang sama seperti kata-kata sebelumnya dimana
+dimungkinkan susunan yang lebih luas./%%2p </item>
+        <item>%%bBagian 2. Permohonan Pinjaman /%%b</item>
+        <item>%%p1. Peminjam telah melakukan permohonan Pinjaman dengan
+mengajukan Permohonan Pinjaman kepada Perusahaan
+melalui Platform.\n
+2. Peminjam setuju bahwa: /%%p</item>
+        <item>%%2p1. Pemberi Pinjaman akan memiliki hak untuk
+membebankan biaya terhadap Pinjaman sebagaimana
+dirinci dalam Rincian Pembiayaan Pinjaman dan
+Perusahaan akan berhak untuk membebankan biaya
+kepada Peminjam atas Layanan Perusahaan sesuai dengan
+CSA dan bahwa Peminjam harus membayar semua
+jumlah tersebut pada saat jatuh tempo berdasarkan
+Perjanjian ini dan berdasarkan CSA, sebagaimana berlaku,
+dan\n
+2. Peminjam wajib membayar utang sesuai dengan Rincian
+Pembiayaan Pinjaman dan harus membayar Hutang
+Jumlah Penuh pada saat jatuh tempo berdasarkan
+Perjanjian ini dan tanpa penundaan ke Rekening Bank
+sebagaimana tercantum dalam Rincian Pembiayaan
+Pinjaman. /%%2p</item>
+        <item>%%p3. Peminjam setuju dan memahami bahwa: /%%p</item>
+        <item>%%2p1. Pemberi Pinjaman telah menunjuk Perusahaan sebagai
+pihak untuk: /%%2p</item>
+        <item>%%3pI. mengelola dan memproses Permohonan Pinjaman
+dari Peminjam, termasuk namun tidak terbatas
+untuk melakukan verifikasi dan / atau validasi data
+Peminjam yang terdapat dalam Permohonan
+Pinjaman atau yang diserahkan kepada Pemberi
+Pinjaman melalui Perusahaan atau Platform; \n
+II. mengawasipenagihan Utang Jumlah Penuh pada
+saat jatuh tempo serta biaya yang terkait dengan
+hal tersebut termasuk namun tidak terbatas pada
+penerbitan surat peringatan dan pesan teks ke, dan
+panggilan telepon ke Peminjam; dan\n
+III. mencairkan Pinjaman ke Rekening Bank
+Peminjam dan menerima semua pembayaran dari
+Pinjaman dan sehubungan dengan Layanan
+Perusahaan di Rekening Bank; atas nama Pemberi
+Pinjaman. /%%3p</item>
+        <item>%%2p2. Permohonan Pinjaman akan diproses sesuai dengan
+pemenuhan kriteria yang ditentukan oleh Pemberi
+Pinjaman dalam Bagian 4 dan verifikasi daripadanya
+oleh Perusahaan, dan merupakan dasar mana Perusahaan
+akan mencairkan Pinjaman kepada Peminjam, atas nama
+Pemberi Pinjaman.\n
+3. Persetujuan Permohonan Pinjaman akan sepenuhnya
+didasarkan pada evaluasi mutlak Pemberi Pinjaman dan
+tergantung pada pelaksanaan Peminjam terhadap
+dokumen hukum dan formalitas lainnyayang diperlukan
+sebagaimana diwajibkan oleh Pemberi Pinjaman. /%%2p</item>
+        <item>%%p4. Peminjam dengan ini memberikan kuasa dan wewenang penuh
+kepada Pemberi Pinjaman dan Perusahaan melalui Platform,
+masing-masing karyawan, agen dan perusahaan atau pihak
+ketiga yang diberi kuasa oleh Perusahaan, untuk menyalin,
+membagikan dan menggunakan Data Peminjam untuk setiap
+tindakan yang diambil terkait Permohonan Pinjaman dan
+Pinjaman sebagaimana salah satu orang-orang yang
+berwenang tersebut anggap perlu.\n
+5. Peminjam memahami bahwa Perusahaan bukan merupakan
+pihak dalam Perjanjian ini meskipun Perusahaan memiliki
+wewenang untuk bertindak atas nama Pemberi Pinjaman
+berdasarkan Perjanjian ini. Ketentuan dan kewajiban yang
+terkandung di dalam Perjanjian ini dan / atau timbul dari
+Perjanjian ini tidak akan dengan cara apapun mengikat
+Perusahaan atau Platform dan setiap permasalahan hukum
+yang ditimbulkannya akan menjadi permasalahan antara
+Peminjam dan Pemberi Pinjaman saja. Masing-masing
+Pemberi Pinjaman dan Peminjam dengan ini membebaskan
+Perusahaan dari kewajiban apapun yang berkaitan dengan atau
+yang timbul dari proses Permohonan Pinjaman atau Pinjaman
+dan akan secara tanggung renteng mengganti rugi Perusahaan
+atas setiap klaim, kerugian, biaya, pengeluaran, kerusakan atau
+kewajiban yang timbul atau yang dialami oleh Perusahaan
+yang berkaitan dengan pelaksanaan kegiatan yang dilimpahkan
+kepada Perusahaan berdasarkan Perjanjian ini atau
+pelaksanaan kewajiban masing-masing Peminjam dan Pemberi
+Pinjaman berdasarkan Perjanjian ini. Kewajiban pembebasan
+dan ganti rugi ini akan bertahan meskipun berakhirnya atau
+diakhirinya Perjanjian ini dan berlaku dan mengikat terhadap
+Pemberi Pinjaman dan Peminjam bahkan jika Permohonan
+Pinjaman ditolak dan Pinjaman tidak diberikan kepada
+Peminjam.\n
+6. Peminjam menyatakan dan menjamin dan menyepakati dengan
+Pemberi Pinjaman bahwa: /%%p</item>
+        <item>%%2pI. Peminjam telah memenuhi kriteria minimum
+sebagaimana ditentukan dalam Bagian 4.1;\n
+II. Data Peminjam dan semua informasi lain yang diberikan
+kepada Perusahaan dan / atau Platform merupakan data
+dan informasi lengkap dan benar dari Peminjam dan
+tidak menyesatkan dalam hal apapun;\n
+III. Peminjam akan bertanggung jawab secara hukum untuk
+setiap pemalsuan, dan penggunaan yang tidak sah dari,
+Data Peminjam yang diberikan oleh atau atas nama
+Peminjam kepada Perusahaan atau Platform;\n
+IV. Peminjam menandatangani Perjanjian ini dengan itikad
+baik dan tanpa niat untuk melakukan pelanggaran
+terhadap aturan dan peraturan yang berlaku termasuk
+namun tidak terbatas pada pencucian uang,
+penghindaran pajak dan peraturan anti terorisme; \n
+V. Peminjam menandatangani Perjanjian ini untuk dan atas
+namanya sendiri, bebas dan atas keinginannya sendiri
+tanpa paksaan atau intimidasi dari pihak manapun dan
+mengetahui dan memahami isi dan konsekuensi
+daripadanya;\n
+VI. tanda tangan elektronik Peminjam dalam Perjanjian
+adalah sah dan Perjanjian ini merupakan kewajiban yang
+sah, legal dan mengikat terhadap Peminjam, dan dapat
+dilaksanakan terhadapnya sesuai dengan hukum yang
+berlaku;\n
+VII. Peminjam tidak diwajibkan untuk memotong pajak atau
+jumlah lain dari setiap pembayaran Pinjaman, baik untuk
+pokok, biaya atau jumlah lain; dan\n
+VIII. hasil dari Pinjaman akan digunakan semata-mata untuk
+keperluan pribadi, bukan untuk tujuan komersial atau
+bisnis. /%%2p</item>
+        <item>%%p7. Pemberi Pinjaman menyatakan dan menjamin kepada
+Peminjam bahwa: /%%p</item>
+        <item>%%2pI. tanda tangan elektronik Pemberi Pinjaman dalam
+Perjanjian ini adalah sah dan Perjanjian ini merupakan
+kewajiban yang sah, legal dan mengikat terhadap
+Pemberi Pinjaman, yang dapat dilaksanakan terhadapnya
+sesuai dengan hukum yang berlaku;\n
+II. Pemberi Pinjaman menandatangani Perjanjian ini
+dengan itikad baik dan tanpa niat untuk melakukan
+pelanggaran terhadap aturan dan peraturan yang berlaku
+termasuk namun tidak terbatas pada pencucian uang,
+penghindaran pajak dan peraturan anti terorisme;\n
+III. Pemberi Pinjaman menandatangani Perjanjian ini untuk
+dan atas namanya sendiri, bebas dan atas keinginannya
+sendiri tanpa paksaan atau intimidasi dari pihak
+manapun dan mengetahui dan memahami isi dan
+konsekuensi daripadanya; /%%2p</item>
+        <item>%%p8. Peminjam setuju dan memahami bahwa Data Peminjam yang
+disampaikan kepada Perusahaan dan / atau Platform akan
+diungkapkan kepada Pemberi Pinjaman dan digunakan oleh
+Perusahaan dan Pemberi Pinjaman untuk memproses
+Permohonan Pinjaman dan oleh Perusahaan untuk mengelola
+Pinjaman serta sehubungan dengan pemberian layanan oleh
+Perusahaan kepada Pemberi Pinjaman dan Peminjam sesuai
+dengan CSA.\n
+9. Pemberi Pinjaman setuju dan memahami bahwa Data
+Peminjam yang disampaikan kepada Perusahaan dan / atau
+Platform akan digunakan oleh Perusahaan untuk memproses
+Permohonan Pinjaman dan mengelola Pinjaman serta
+sehubungan dengan pemberian layanan Perusahaan kepada
+Pemberi Pinjaman.\n
+10. Para Pihak mengakui dan setuju bahwa pelaksanaan
+Perjanjian ini bersama dengan Rincian Pembiayaan Pinjaman
+dan lampiran-lampiran lain daripadanya dapat dilaksanakan
+dengan menggunakan tanda tangan digital atau elektronik
+yang mana akan dianggap sebagai tanda tangan sah dari
+masing-masing Pihak. Masing-masing Pihak harus
+memberikan tanda tangan fisik untuk Perjanjian ini jika
+diminta oleh Perusahaan.\n
+11. Masing-masing Pihak telah membaca dan memahami isi, dan
+karena itu sepenuhnya memahami hak dan kewajiban yang
+timbul dari Perjanjian ini dan CSA.\n
+12. Peminjam setuju dan mengakui bahwa setelah menerima
+Pinjaman, Peminjam akan berhutang kepada Pemberi
+Pinjaman atas sejumlah dana yang dicairkan ke Rekening
+Bank milik Peminjam sesuai dengan Perjanjian ini dan syarat
+dan ketentuan yang tercantum dalam Rincian Pembiayaan
+Pinjaman Perjanjian ini ditambah biaya lainnya yang harus
+dibayar oleh Peminjam kepada Pemberi Pinjaman
+berdasarkan Perjanjian ini.\n
+13. Pemberi Pinjaman dengan ini memberi kuasa kepada
+Perusahaan untuk mencairkan Pinjaman ke Rekening Bank
+milik Peminjam setelah memenuhi ketentuan berikut: /%%p</item>
+        <item>%%2pI. Pelaksanaan Perjanjian ini oleh Peminjam dan
+pelaksanaan CSA oleh Peminjam dan Perusahaan;\n
+II. Perusahaan telah memverifikasi informasi yang
+diberikan oleh Peminjam sebagaimana tercantum dalam
+Permohonan Pinjaman, termasuk Data Peminjam; dan\n
+III. Peminjam telah memenuhi kriteria minimum yang
+ditentukan oleh Pemberi Pinjaman, berdasarkan
+kebijakan tunggal dan mutlaknya. /%%2p</item>
+        <item>%%p14. Peminjam sepenuhnya memahami bahwa Permohonan
+Pinjamannya dapat ditolak oleh Pemberi Pinjaman tanpa
+adanya kewajiban bagi Pemberi Pinjaman, Perusahaan dan /
+atau Platform untuk mengungkapkan alasan penolakan
+tersebut. Peminjam tidak berhak untuk meminta peninjauan
+kembali, evaluasi ulang, atau permintaan dalam bentuk
+lainnya untuk menilai kembali Permohonan Pinjaman yang
+ditolak.\n
+15. Para Pihak tidak akan berkomunikasi, berinteraksi atau
+terhubung, baik secara langsung maupun tidak langsung,
+dengan satu sama lain, selain dengan cara yang disediakan
+pada Platform.\n
+16. Dengan melengkapi Permohonan Pinjaman, Peminjam akan
+dianggap telah menandatangani Perjanjian ini secara
+elektronik dan Perjanjian ini adalah sah dan mengikat
+terhadap Peminjam ketika Permintaan Pinjaman disetujui
+oleh Pemberi Pinjaman.\n
+17. Pemberi Pinjaman dengan ini memberi kuasa kepada
+Perusahaan untuk melaksanakan hak-hak Pemberi Pinjaman
+berdasarkan Perjanjian ini dan Peminjam mengakui bahwa
+Perusahaan telah diizinkan untuk melaksanakan hak-hak
+Pemberi Pinjaman berdasarkan Perjanjian ini tanpa
+diperlukan pemberian otorisasi tambahan atau terpisah oleh
+Pemberi Pinjaman /%%p</item>
+        <item>%%bBagian 3. Penggunaan Platform/%%b</item>
+        <item>%%p1. Peminjam wajib mendaftarkan dirinya sendiri pada Platform
+dengan memenuhi persyaratan dan prosedur berikut: /%%p</item>
+        <item>%%2pI. Pemberian Data Peminjam dengan mengisi formulir
+elektronik yang disediakan pada Platform; dan\n
+II. Melengkapi Permohonan Pinjaman dengan mengisi
+formulir elektronik yang disediakan pada Platform. /%%2p</item>
+        <item>%%p2. Setelah menyelesaikan proses pendaftaran sebagaimana
+dimaksud dalam Pasal 3.1 dan diatur di sini, Peminjam akan
+dianggap telah menyetujui ketentuan penggunaan Platform,
+yang mana kemudian Platform akan menerbitkan ID Platform
+Peminjam.\n
+3. Pemberi Pinjaman dengan ini memberi kuasa kepada
+Perusahaan dan / atau Platform untuk mengingatkan
+Peminjam mengenai tanggal pembayaran Pinjaman dan
+dalam hal terjadi kelalaian.\n
+4. Peminjam setuju untuk memberikan hard copy dokumen
+yang diserahkan dalam bentuk elektronik sesuai dengan
+Bagian 3.1 atau yang dibutuhkan oleh Perusahaan untuk
+mengesahkan Data Peminjam. /%%p</item>
+        <item>%%bBagian 4. Verifikasi Data Peminjam /%%b</item>
+        <item>%%p1. Peminjam setuju dan memahami bahwa Pinjaman hanya akan
+diberikan kepada pemohon pinjaman yang memenuhi kriteria
+minimum berikut dan Peminjam dengan ini menyatakan dan
+menjamin kepada Pemberi Pinjaman bahwa Peminjam
+memenuhi atau akan memenuhi kriteria minimum tersebut: /%%p</item>
+        <item>%%2pI. Usia Pemohon Pinjaman adalah di atas 22 tahun saat
+mengajukan permohonan Pinjaman;\n
+II. Pendapatan bulanan Pemohon Pinjaman harus sama
+dengan atau lebih dari Rp. 2.000.000 (dua juta Rupiah)\n
+III. Alamat tempat tinggal Pemohon Pinjaman harus berada
+di dalam wilayah DKI Jakarta, Bogor, Tangerang,
+Bekasi.\n
+IV. Pemohon Pinjaman menerima kode konfirmasi satu
+kalinya dalam waktu 60 second sejak dikirim oleh
+Platform;\n
+V. Jumlah pokok pinjaman yang diberikan kepada pemohon
+yaitu 2 pilihan. Pertama sebesar Rp. 600.000 dan Kedua
+adalah sebesar Rp.1.200.000.\n
+VI. Pemohon Pinjaman menjawab panggilan telepon yang
+dilakukan oleh Perusahaan dan memverifikasi
+identitasnya sesuai ketentuan Perusahaan;\n
+VII. referensi Pemohon Pinjaman akan memverifikasi
+informasi yang diberikan oleh Pemohon Pinjaman. /%%2p</item>
+        <item>%%p2. Peminjam setuju dan memahami bahwa Perusahaan telah
+melakukan dan / atau akan melakukan verifikasi data atas
+nama Pemberi Pinjaman, yang akan termasuk namun tidak
+terbatas pada:/%%p</item>
+        <item>%%2pI. Verifikasi melalui panggilan telepon ke Peminjam dan
+referensi yang diberikan oleh Peminjam serta Karyawan
+Peminjam jika dianggap perlu oleh Perusahaan;\n
+II. Verifikasi Ponsel yang menggunakan password satu kali;
+dan\n
+III. Pemrosesan data dari profil jaringan sosial yang diberikan
+oleh Peminjam selama proses permohonan pinjaman. /%%2p</item>
+        <item>%%p3. Peminjam setuju bahwa Perusahaan telah menghubungi atau dapat
+menghubungi Peminjam atau pihak ketiga atas nama Pemberi
+Pinjaman melalui berbagai cara, termasuk namun tidak terbatas
+pada: /%%p</item>
+        <item>%%2pI. pesan teks telepon;\n
+II. email;\n
+III. panggilan suara; dan\n
+IV. panggilan suara otomatis /%%2p</item>
+        <item>%%p4. Peminjam akan bertanggung jawab atas ketepatan informasi yang
+diberikan oleh pihak ketiga kepada Perusahaan dalam proses
+verifikasi. /%%p</item>
+        <item>%%bBagian 5. Perlindungan Data Peminjam /%%b</item>
+        <item>%%p1. Peminjam dengan ini memberikan kuasa dan kewenangan
+penuh kepada Pemberi Pinjaman dan perwakilan resminya dan
+/ atau pihak ketiga yang ditunjuk oleh Pemberi Pinjaman
+termasuk Perusahaan dan Platform untuk, setiap saat, tanpa
+pemberitahuan lebih lanjut kepada Peminjam, melakukan
+semua atau salah satu tindakan dan fungsi berikut sesuai
+dengan semua hukum dan peraturan yang berlaku: /%%p</item>
+        <item>%%2pi. pengumpulan, penyimpanan, penggunaan, pemeliharaan,
+analisis, dan penyebaran Data Peminjam;\n
+ii. melakukan pemeriksaan data, pemeriksaan referensi,
+mengajukan pertanyaan dan verifikasi berdasarkan data
+dan informasi yang diberikan kepada, atau diperoleh
+oleh, Perusahaan atau Platform jika dan ketika hal
+tersebut dianggap perlu oleh Perusahaan sehubungan
+dengan Data Peminjam; dan\n
+iii. membagi, memperoleh dan / atau mengungkapkan Data
+Peminjam ke otoritas pemerintah atau pihak ketiga
+lainnya yang berwenang yang ditunjuk atau diberi kuasa
+oleh Pemberi Pinjaman untuk keperluan verifikasi dan
+penilaian yang tepat atas informasi dan data Peminjam. /%%2p</item>
+        <item>%%p2. Peminjam setuju dan memahami bahwa Pemberi Pinjaman
+dapat memberikan Data Peminjam kepada konsultan dan
+penyedia jasanya, termasuk namun tidak terbatas pada,
+penasihat hukum, penasehat keuangan dan perpajakan, serta
+otoritas pemerintah, lembaga pengawas dan pengadilan, untuk
+tujuan berikut: /%%p</item>
+        <item>%%2pI. melaksanakan Perjanjian ini;\n
+II. menegakkan pelaksanaan Perjanjian ini;\n
+III. melaksanakan tujuan kegiatan usaha Pemberi
+Pinjaman;\n
+IV. melaksanakan kewajiban yang diwajibkan oleh hukum
+yang berlaku terhadap Pinjaman; dan\n
+V. menanggapi setiap permintaan yang diminta oleh otoritas
+pemerintah, badan pengawas atau pengadilan. /%%2p</item>
+        <item>%%p3. Peminjam setuju, memahami dan dengan ini memberikan
+kuasa dan kewenangan penuh kepada Pemberi Pinjaman untuk
+menginstruksikan Perusahaan dan / atau Platform untuk
+membuat dan menyimpan salinan Data Peminjam. Peminjam
+juga setuju bahwa Perusahaan dan / atau Platform dapat
+menggunakan Data Peminjam untuk tujuan melindungi hak
+dan kepentingan Pemberi Pinjaman. Peminjam mengakui
+bahwa Perusahaan dan Pemberi Pinjaman dapat
+mempertahankan Data Peminjam jika Permohonan Pinjaman
+tidak disetujui atau setelah berakhirnya atau pemutusan
+Perjanjian ini.\n
+4. Peminjam setuju, dan dengan ini memberikan kuasa dan
+kewenangan penuh kepada Pemberi Pinjaman, karyawan, agen
+dan perusahaan afiliasinya, untuk membagikan dan
+menggunakan Data Peminjam untuk berbagai skema
+pembiayaan, skema penawaran atau promosi, skema
+pembiayaan atau promosi lainnya, yang dapat ditawarkan dan
+diberikan oleh atau atas nama Pemberi Pinjaman. /%%p</item>
+        <item>%%bBagian 6. Syarat dan Ketentuan Pinjaman/%%b</item>
+        <item>%%p1. Syarat dan ketentuan Pinjaman sebagaimana disepakati oleh para
+Pihak yang akan berlaku setelah persetujuan Pemberi Pinjaman
+terhadap Permohonan Pinjaman ditetapkan dalam Rincian
+Pembiayaan Pinjaman yang meliputi ketentuan dan syarat berikut:/%%p</item>
+        <item>%%2pI. Jumlah Pinjaman akan dinyatakan dalam Rupiah;\n
+II. Tenor Pinjaman akan dinyatakan dalam hari kalender;\n
+III. Terhadap Tanggal Pencairan Pinjaman: akan berlaku yang
+berikut: /%%2p</item>
+        <item>%%3pi. Wire transfer Pinjaman harus dilakukan dengan cara
+transfer uang bank ke Rekening Bank milik Peminjam;
+dan\n
+ii. Peminjam akan dianggap telah mengkonfirmasi
+persetujuannya atas syarat Pinjaman sebagaimana diatur
+dalam Perjanjian ini dan Rincian Pembiayaan Pinjaman,
+jika Peminjam tidak melunasi jumlah pokok Pinjaman
+satu hari setelah Tanggal Pencairan Pinjaman. /%%3p</item>
+        <item>%%2pIV. Pengembalian / Pelunasan Jumlah yang meliputi pokok, biaya
+dan jumlah lainnya yang harus dibayar oleh Peminjam.
+Pelunasan sebagian akan diperbolehkan, dengan ketentuan
+setiap jumlah yang tidak dilunasi pada Tanggal Pelunasan
+Pinjaman akan dikenakan biaya keterlambatan pembayaran
+sesuai dengan Bagian 6.1.5.2 di bawah;\n
+V. Tanggal Pelunasan Pinjaman yang merupakan tanggal
+Pelunasan Jumlah harus diterima pada Rekening Bank, yang
+mana ketentuan berikut akan berlaku: /%%2p</item>
+        <item>%%3pi. Pelunasan lebih awal diperbolehkan;\n
+ii. Keterlambatan pembayaran akan dikenakan biaya
+keterlambatan sebesar 1 persen (satu) persen per hari selama
+7 hari keterlambatan awal dari jumlah pinjaman yang
+terhutang dan akan meningkat sebesar 2 persen (dua persen)
+apabila keterlambatan memasuki pada hari ke-8 (delapan)
+dan seterusnya.\n
+iii. Pembayaran sebagian dari biaya keterlambatan
+pembayaran tidak diperbolehkan; dan\n
+iv. Pelunasan akan dianggap lengkap bila dana yang
+dilunasi telah masuk dalam Rekening Bank yang
+tercantum dalam Rincian Pembiayaan Pinjaman
+Perjanjian ini. /%%3p</item>
+        <item>%%2pVI. Jenis Pinjaman adalah pinjaman pribadi tanpa jaminan;\n
+VII. Biaya Peminjaman yang harus dibayarkan kepada Peminjam
+(Biaya Peminjam) adalah sebesar. /%%2p</item>
+        <item>%%bBagian 7. Persetujuan untuk Membayar /%%b</item>
+        <item>%%p1. Peminjam dengan ini setuju bahwa Peminjam benar-benar dan
+secara sah berhutang kepada Pemberi Pinjaman atas Utang
+Jumlah Penuh setelah menerimanya dan setuju untuk
+membayar Hutang Jumlah Penuh pada saat jatuh tempo sesuai
+dengan ketentuan Perjanjian ini dan Rincian Pembiayaan
+Pinjaman tanpa tuntutan balik, set off, atau pengurangan dalam
+bentuk apapun.\n
+2. Tanpa mengabaikan apapun yang bertentangan yang
+terkandung dalam Perjanjian ini, semua pembayaran yang
+dilakukan atau ditagih oleh Pemberi Pinjaman berdasarkan
+Perjanjian ini harus diterapkan oleh Pemberi Pinjaman untuk
+kepentingan sendiri dalam urutan prioritas berikut, (1) untuk
+setiap jumlah yang kemudian jatuh tempo dan terutang kepada
+Pemberi Pinjaman berdasarkan Perjanjian yang tidak
+tercantum dalam Bagian ini, (2) untuk setiap biaya yang
+kemudian jatuh tempo dan terutang, (3) untuk setiap cidera
+janji yang masih harus dibayar atau biaya keterlambatan yang
+kemudian jatuh tempo dan terutang, (4) untuk biaya yang
+kemudian jatuh tempo dan terutang, dan (5) untuk pokok yang
+kemudian jatuh tempo dan terutang.\n
+3. Pemberi Pinjaman, melalui Perusahaan, akan membuka dan
+memelihara buku dan catatan yang menunjukkan Pinjaman,
+pelunasan, pra pembayaran, perhitungan dan pembayaran
+biaya dan jumlah lain yang harus dibayarkan dan jumlah yang
+telah dibayarkan berdasarkan Perjanjian ini. Buku dan catatan
+tersebut harus bersifat final dan mengikat Peminjam terkait
+jumlah yang setiap saat terutang dari Peminjam, dengan tidak
+adanya kesalahan nyata dalam perhitungan.\n
+4. Peminjam harus sepenuhnya mengganti Pemberi Pinjaman
+dengan segera pada saat diminta atas semua biaya dan
+pengeluaran, termasuk, namun tak terbatas pada, biaya
+penasehat hukum dan biaya out-of-pocket, yang dikeluarkan
+atau akan dikeluarkan oleh Pemberi Pinjaman sehubungan
+dengan pelaksanaan setiap hak dan kuasaoleh Pemberi
+Pinjaman berdasarkan Perjanjian ini. /%%p</item>
+        <item>%%bBagian 8. Cidera Janji /%%b</item>
+        <item>%%p1. Peminjam akan dianggap cidera janji jika terjadi salah satu
+peristiwa berikut: /%%p</item>
+        <item>%%2pI. Peminjam gagal untuk membayar jumlah saat jatuh
+tempo berdasarkan Perjanjian ini (tanggal jatuh tempo
+mana harus memperhitungkan hak perpanjangan
+Peminjam berdasarkan Perjanjian ini) atau gagal untuk
+memenuhi salah satu atau lebih kewajiban-kewajiban
+lainnya sebagaimana diatur dalam Perjanjian ini ; atau\n
+II. Peminjam telah dinyatakan bangkrut berdasarkan
+keputusan pengadilan yang berwenang; atau\n
+III. Peminjam terbukti bersalah oleh keputusan pengadilan
+yang bersifat final dan mengikat dari yurisdiksi manapun
+atau terkait dengan kegiatan kriminal termasuk namun
+tidak terbatas pada pencucian uang dan / atau kegiatan
+terorisme; atau\n
+IV. Peminjam telah mengajukan data yang dipalsukan, salah
+dan atau misrepresentasi sebagai Data Peminjam.
+Pemberi Pinjaman berhak penuh untuk menentukan
+apakah pengajuan tersebut telah dilakukan. /%%2p</item>
+        <item>%%p2. Setelah terjadinya cidera janji, Pemberi Pinjaman kemudian
+berhak untuk mempercepat dan menuntut pembayaran semua
+jumlah terutang berdasarkan Perjanjian ini, segera dan secara
+penuh, termasuk, namun tidak terbatas pada, jumlah saldo
+pokok beserta biaya keterlambatan pembayaran dan setiap
+biaya lainnya. Selain itu, Pemberi Pinjaman akan berhak untuk
+mengakhiri Perjanjian ini dan melaksanakan setiap dan semua
+hak lainnya dan upaya perbaikan yang sah atas terjadinya
+cidera janji.\n
+3. Pemutusan Perjanjian ini tidak akan mempengaruhi hakdari
+salah satu Pihak yang timbul sebelum dan termasuk tanggal
+pemutusan berdasarkan Perjanjian ini.\n
+4. Pemberi Pinjaman dan Peminjam mengabaikan, yang tidak
+dapat dibatalkan, penerapan Pasal 1266 dan 1267 KUH
+Perdata Indonesia sejauh Pasal-pasal tersebut dapat ditafsirkan
+bahwa dibutuhkannya persetujuan pengadilan sebagai
+prasyarat untuk pemutusan Perjanjian /%%p</item>
+        <item>%%bBagian 9. Penyelesaian Sengketa/%%b</item>
+        <item>Dalam setiap kasus atau setiap sengketa yang timbul dari atau
+sehubungan dengan Perjanjian ini, para Pihak sepakat untuk memilih
+domisili hukum di Kepaniteraan Pengadilan Negeri Jakarta Pusat.
+Tanpa mengabaikan yang tersebut, Peminjam mengakui dan setuju
+bahwa Pemberi Pinjaman dapat mengajukan gugatan pada setiap
+pengadilan lainnya.\n
+            %%bBagian 10. Hukum yang Mengatur/%%b\n
+Perjanjian ini diatur oleh hukum Republik Indonesia.\n
+%%bBagian 11. Lain-lain/%%b </item>
+        <item>%%p1. Perjanjian ini hanya dapat diubah oleh Pemberi Pinjaman dan
+Peminjam yang menandatangani amandemen tertulis, tanda
+tangan mana dapat dalam bentuk elektronik.\n
+2. Peminjam harus memberitahukan kepada Pemberi Pinjaman
+secara tertulis setiap terjadi perubahan terhadap Data
+Peminjam, termasuk, namun tidak terbatas pada, setiap
+perubahan terhadap alamat tempat tinggal Peminjam. \n
+3. Peminjam setuju bahwa, tanpa pemberitahuan terlebih dahulu,
+Pemberi Pinjaman berhak untuk mengalihkan atau mentransfer
+semua atau sebagian hak dan kewajibannya berdasarkan
+Perjanjian ini kepada pihak ketiga. Peminjam tidak berhak
+untuk mengalihkan atau melimpahkan sebagian hak atau
+kewajibannya berdasarkan Perjanjian ini kepada pihak
+manapun. /%%p</item>
+        <item>%%bDEMIKIAN\%%b, para Pihak telah melaksanakan Perjanjian ini melalui
+tanda tangan elektronik atau fisik sebagaimana dibuktikan dengan
+Pemberian ID Platform kepada masing-masing Pihak.\n
+Perjanjian ini dapat dilaksanakan dengan salinan terpisah yang
+ditandatangani secara elektronik atau fisik, yang mana
+masing-masing salinan tersebut ketika dilaksanakan dan
+disampaikan akan dianggap asli, dan semua secara bersamaakan
+merupakan satu dan instrumen yang sama. </item>
+        <item>%%pPeminjam \t \tPemberi Pinjaman\n
+Nama\n
+No. Registrasi\t\tNo. Registrasi
+Kode Tandatangan Digital\t\tKode Tandatangan Digital
+Waktu Penandatanganan\t\tWaktu Penandatanganan/%%p
+</item>
+        <item>%%bRINCIAN PEMBIAYAAN PINJAMAN/%%b\n
+%%bDATA PRIBADI PEMBERI PINJAMAN/%%b\n
+Identitas / Nomor Pendaftaran pada Platform:\n
+%%bDATA PRIBADI PEMINJAM/%%b\n
+Nama lengkap:\n
+Nomor Kartu Tanda Penduduk (KTP):\n
+Nomor Pendaftaran pada Platform:\n
+%%bDATA REKENING BANK \%%b</item>
+        <item>%%p%%bA. Data Rekening Bank Peminjam (untuk menerima
+pencairan Pinjaman)/%%b/%%p</item>
+        <item>%%2p1. Nama Bank:\n
+2. Nomor Rekening:/%%2p</item>
+        <item>%%p%%bB. Data Rekening Bank Pelunasan (untuk melunasi Pinjaman) /%%b/%%p</item>
+        <item>%%2p1. Nama Bank: Bank BCA/Mandiri\n
+2. Nomor Rekening:/%%2p</item>
+        <item>%%bPERUSAHAAN: PT DIGITAL SYNERGY TECHNOLOGY/%%b\n
+%%bRINCIAN PEMBIAYAAN/%%b\n
+Jumlah pinjaman:\n
+Tenor Pinjaman:\n
+Tanggal Pencairan Pinjaman:\n
+Biaya Peminjam:\n
+Total Jumlah Pelunasan (tunduk pada ketentuan perpanjangan yang
+dapat diberikan sesuai dengan Perjanjian Pinjaman):\n
+Tanggal Pelunasan Pinjaman (tunduk pada ketentuan perpanjangan
+yang dapat diberikan sesuai dengan Perjanjian Pinjaman):\n
+Nomor Perjanjian Pinjaman:\n
+Keterlambatan pembayaran akan dikenakan biaya keterlambatan
+sebesar 1% (satu) persen per hari selama 7 hari keterlambatan awal
+dari jumlah pinjaman yang terhutang dan akan meningkat sebesar 2 persen
+(dua persen) apabila keterlambatan memasuki pada hari ke-8
+(delapan) dan seterusnya.\n
+Jenis Pinjaman: Pinjaman Pribadi Tanpa Jaminan yang hanya akan
+digunakan untuk keperluan pribadi\n
+Peminjam juga bertanggung jawab untuk mematuhi kewajibannya
+berdasarkan setiap perjanjian yang dapat dilaksanakan dengan
+Perusahaan sehubungan dengan Pinjaman. </item>
+        <item>\v\v</item>
+        <item>%%bPerjanjian Layanan Platform Web ini (berikut semua lampiran,
+addendum dan setiap perubahan daripadanya, yang mana
+semuanya akan disebut sebagai "Perjanjian") dibuat dan
+dilaksanakan oleh dan antara:/%%b\n
+(1) «Pak/Bapak» Bapak fitri fitri ("Peminjam"), warga negara
+Indonesia, nomor KTP 1871135106900002; dengan\n
+%%bPT Digital Synergy Technology/%%b, suatu perseroan terbatas yang
+didirikan berdasarkan hukum negara Republik Indonesia, dengan
+kantor terdaftar di Grand Slipi Tower, Jl. Letj. S Parman Kav. 22-24,
+Unit 9G, Cekindo Business Center, Room 206, Slipi - Palmerah,
+Jakarta Barat 11480, DKI Jakarta. Indonesia (%%b\"Perusahaan\"/%%b);\n
+Peminjam dan Perusahaan akan secara bersama disebut sebagai
+%%b\"Para Pihak\"/%%b dan secara masing-masing sebagai %%b\"Pihak\"/%%b.\n
+%%bBagian 1. Definisi dan Interpretasi/%%b </item>
+        <item>%%b1. Definisi:/%%b Untuk tujuan Perjanjian ini dan sebagai tambahan setiap
+definisi lainnya yang ditetapkan dalam Perjanjian ini, istilah
+berikut memiliki arti sebagaimana ditetapkan bagi istilah tersebut,
+kecuali konteksnya secara jelas menentukan lain:\n
+%%b\"Biaya Layanan Tambahan\"/%%b adalah biaya layanan yang harus
+dibayar oleh Peminjam kepada Perusahaan untuk penyediaan
+Layanan selama perpanjangan Pinjaman, yang dihitung sesuai
+dengan Pasal 7.1.2.\n
+%%b\"Kriteria Peminjam yang Disetujui\"/%%b berarti kriteria yang
+ditetapkan oleh Pemberi Pinjaman yang harus dipenuhi oleh
+Pemohon Pinjaman agar dapat dipertimbangkan sebagai calon
+Peminjam.\n
+%%b\"Syarat Pinjaman yang Disetujui\"/%%b berarti syarat materi
+Pinjaman yang telah disetujui oleh Pemberi Pinjaman.\n
+%%b\"Rekening Bank\"/%%b berarti rekening bank yang harus dibuka oleh
+Perusahaan untuk memegang dana milik Pemberi Pinjaman dan
+pemberi pinjaman lainnya yang menggunakan Platform dan
+layanan Perusahaan untuk tujuan pencairan Pinjaman kepada
+Peminjam dan pengelolaan pelunasan pinjaman oleh Peminjam.\n
+%%b\"Data Peminjam\"/%%b berarti informasi identifikasi pribadi dan data
+lainnya dari Peminjam yang diperoleh dan diverifikasi oleh
+Perusahaan atas nama Pemberi Pinjaman.\n
+%%b\"ID Platform Peminjam\"/%%b berarti username dan / atau nomor
+registrasi Peminjam pada Platform yang melekat, mewakili dan
+terkait dengan Data Peminjam yang telah disampaikan dan
+terdaftar pada Platform.\n
+%%b\"Peminjam\"/%%b berarti Peminjam dan setiap peminjam lainnya yang
+memperoleh pendanaan dengan mengajukan Permohonan melalui
+Platform.\n
+%%b\"Pemberi Pinjaman\"/%%b berarti seorang individu yang menyediakan
+semua atau sebagian Pinjaman kepada Peminjam berdasarkan
+Perjanjian Pinjaman yang akan ditandatangani oleh Peminjam dan
+Pemberi Pinjaman melalui layanan Platform.\n
+%%b\"Para Pemberi Pinjaman\"/%%b berarti Pemberi Pinjaman yang akan
+memberikan Pinjaman kepada satu atau lebih Peminjam dan
+perseorangan lain yang menyediakan pembiayaan kepada
+Peminjam melalui Platform.\n
+%%b\"Pinjaman\"/%%b berarti pinjaman yang diberikan oleh Pemberi
+Pinjaman kepada Peminjam sesuai dengan persyaratan dari
+Perjanjian Pinjaman.\n
+%%b\"Permohonan Pinjaman\"/%%b berarti perjanjian pinjaman yang
+ditandatangani antara Pemberi Pinjaman dengan Peminjam, baik
+secara elektronik atau fisik, yang menjelaskan syarat dan
+ketentuan dari Pinjaman, termasuk semua lampiran-lampirannya,
+adendum dan setiap perubahan daripadanya.\n
+%%b\"Perjanjian-perjanjian Pinjaman\"/%%b berarti Perjanjian Pinjaman
+dan semua perjanjian serupa lainnya antara salah satu Peminjam
+dengan salah satu Pemberi Pinjaman. \n
+%%b\"Pemohon Pinjaman\"/%%b berarti perorangan warga negara
+Indonesia yang telah melakukan permohonan Pinjaman melalui
+Platform.\n
+%%b\"Permohonan Pinjaman\"/%%b berarti permohonan yang diajukan
+secara elektronik oleh Pemohon Pinjaman melalui Platform untuk
+memperoleh Pinjaman, termasuk dokumen pendukung dan
+informasi yang diwajibkan oleh Platform.\n
+%%b\"Platform\"/%%b berarti platform pinjaman peer-to-peer berbasis
+internet yang dimiliki dan dioperasikan oleh Perusahaan, termasuk
+domain http://www.daunkredit.com/\n
+%%b\"Layanan\"/%%b berarti layanan yang disediakan oleh Perusahaan
+kepada Peminjam melalui Platform, sebagaimana ditentukan
+dalam Perjanjian ini.\n
+%%b\"Biaya Layanan\"/%%b adalah biaya layanan yang harus dibayar oleh
+Peminjam kepada Perusahaan atas penyediaan Layanan selama
+tenor awal setiap Perjanjian Pinjaman, yang dihitung sesuai
+dengan Pasal 7.1.1.\
+%%b2. Interpretasi:/%%b Dalam Perjanjian ini kecuali konteksnya
+menentukan lain: </item>
+        <item>%%pa. Setiap resital dan lampiran akan merupakan bagian dari
+Perjanjian ini dan referensi kepada Perjanjian ini akan
+mencakup resital dan lampiran;\n
+b. Referensi kepada Perjanjian ini atau dokumen lain adalah
+kepada Perjanjian ini atau dokumen lain tersebut yang berlaku
+untuk saat ini dan sebagaimana diubah dari waktu ke waktu
+sesuai dengan Perjanjian ini atau dokumen tersebut
+(sebagaimana keadaan);\n
+c. Kata yang menggunakan jenis kelamin mencakup setiap jenis
+kelamin, referensi kepada bentuk tunggal mencakup bentuk
+jamak dan sebaliknya dan kata yang menunjukkan orang
+termasuk individu dan badan hukum, kemitraan, asosiasi tanpa
+badan hukum dan badan-badan lain (dalam setiap kasus, di
+mana pun berada dan untuk tujuan apa pun) dan sebaliknya ; \n
+d. Judul dan isi tabel dalam Perjanjian ini hanyalah untuk
+kemudahan dan tidak mempengaruhi interpretasi;\n
+e. Jika terjadi konflik atau ketidaksesuaian antara klausul, dan
+setiap lampiran dalam Perjanjian ini maka klausul yang akan
+berlaku. Untuk tujuan ini, kelalaian (baik disengaja atau tidak
+disengaja) tidaklah, dengan sendirinya, dapat dianggap sebagai
+menimbulkan konflik atau ketidaksesuaian; dan\n
+f. Dalam Perjanjian ini kata-kata \"lain\", \"termasuk\" dan
+\"khususnya\" tidak membatasi keumuman kata sebelumnya dan
+kata-kata yang mengikutinya tidak akan ditafsirkan sebagai
+terbatas pada lingkup untuk kelas yang sama seperti kata-kata
+sebelumnya dimana dimungkinkan susunan yang lebih luas. /%%p</item>
+        <item>%%bBagian 2. Permohonan Pinjaman dan Penyediaan Layanan/%%b</item>
+        <item>%%p1. Perusahaan telah membuat Platform untuk memfasilitasi
+pemberian pinjaman oleh Pemberi Pinjaman kepada Peminjam
+dan telah membuat sistem kepemilikan dimana calon Pemberi
+Pinjaman dapat diperkenalkan kepada Pemohon Pinjaman dan
+Pemohon Pinjaman dapat diperkenalkan kepada calon Pemberi
+Pinjaman.\n
+2. Peminjam dapat mengajukan satu atau lebih Permohonan
+Pinjaman melalui Platform untuk mengajukan satu atau lebih
+Pinjaman dari satu atau lebih Pemberi Pinjaman.\n
+3. Peminjam dengan ini mempertahankan Perusahaan untuk
+menyediakan Layanan kepada Peminjam sesuai dengan
+persyaratan dan ketentuan Perjanjian ini dan Perusahaan
+dengan ini setuju untuk memberikan Layanan kepada
+Peminjam.\n
+4. Berdasarkan pertimbangan atas penyediaan Layanan
+Perusahaan, Peminjam setuju untuk membayar kepada
+Perusahaan Biaya Layanan, Biaya Layanan Tambahan dan
+Biaya Administrasi Perpanjangan sebagaimana dijabarkan
+lebih lanjut dalam Bagian 7 di bawah ini.
+Peminjam secara tegas mengakui bahwa: /%%p</item>
+        <item>%%2pI. Pemberi Pinjaman akan memiliki hak untuk
+membebankan biaya terhadap Pinjaman sebagaimana
+dirinci dalam Rincian Pembiayaan Pinjaman dan
+Perusahaan akan berhak untuk membebankan biaya
+kepada Peminjam atas Layanan Perusahaan sesuai dengan
+CSA dan bahwa Peminjam harus membayar semua
+jumlah tersebut pada saat jatuh tempo berdasarkan
+Perjanjian ini dan berdasarkan CSA, sebagaimana berlaku,
+dan\n
+II. Peminjam wajib membayar utang sesuai dengan Rincian
+Pembiayaan Pinjaman dan harus membayar Hutang
+Jumlah Penuh pada saat jatuh tempo berdasarkan
+Perjanjian ini dan tanpa penundaan ke Rekening Bank
+sebagaimana tercantum dalam Rincian Pembiayaan
+Pinjaman.\n
+III. Perusahaan tidak bertanggung jawab atas setiap keputusan
+yang dibuat oleh Pemberi Pinjaman (i) sehubungan setiap
+Permohonan Pinjaman atau Pinjaman atau (ii)
+berdasarkan Perjanjian Pinjaman atau lainnya. /%%2p</item>
+        <item>%%p5. Perusahaan tidak akan menjadi pihak dalam setiap Perjanjian
+Pinjaman. Ketentuan dan kewajiban yang terkandung di
+dalamnya dan / atau timbul daripadanya tidak akan mengikat
+Perusahaan atau Platform. Tanpa mengabaikan yang tersebut,
+Peminjam mengakui dan menyetujui bahwa Perusahaan
+bertindak atas nama Pemberi Pinjaman (namun bukan sebagai
+agen Pemberi Pinjaman) dengan cara yang ditentukan dalam
+Perjanjian Pinjaman. Secara khusus, Peminjam mengakui
+bahwa Perusahaan dapat melaksanakan hak Pemberi Pinjaman
+berdasarkan Perjanjian Pinjaman.\n
+6. Peminjam dengan ini menegaskan bahwa Perusahaan belum
+memberikan Peminjam saran terkait kelayakan dana pinjaman
+dari Pemberi Pinjaman atau kemampuannya untuk melunasi
+Pinjaman dan bahwa ia telah membuat keputusannya sendiri
+terkait penerimaan Pinjaman dengan syarat dan ketentuan
+yang ditawarkan oleh Pemberi Pinjaman. Peminjam dengan ini,
+sekarang dan selamanya membebaskan Perusahaan dari segala
+tanggung jawab dalam hal Peminjam mengalami konsekuensi
+yang merugikan yang timbul dari Pinjaman yang diterima oleh
+Peminjam berdasarkan Perjanjian Pinjaman atau Perjanjian ini.\n
+7. Para Pihak setuju bahwa Perusahaan akan bertindak secara
+independen terkait penyediaan Layanan. Tidak ada dalam
+Perjanjian ini yang dimaksudkan untuk menciptakan hubungan
+pemberi kuasa dan penerima kuasa antara Peminjam dengan
+Perusahaan atau mengenakan kewajiban fidusia atau
+kewajiban lainnya terhadap Perusahaan.\n
+8. Peminjam menyatakan dan menjamin kepada Perusahaan
+bahwa:/%%p</item>
+        <item>%%2pI. Semua informasi yang diberikan kepada Perusahaan
+dan / atau Platform oleh Peminjam adalah data yang
+lengkap dan benar dan informasi Peminjam tidak
+menyesatkan dalam hal apapun;\n
+II. Peminjam akan bertanggung jawab secara hukum untuk
+setiap pemalsuan, dan penggunaan yang tidak sah dari,
+data yang diberikan kepada Perusahaan atau
+Platform;menyesatkan dalam hal apapun;\n
+III. Peminjam menandatangani Perjanjian ini dengan itikad
+baik dan tanpa niat untuk melanggar aturan dan
+peraturan yang berlaku termasuk namun tidak terbatas
+pada peraturan pencucian uang, peraturan penghindaran
+pajak dan peraturan anti terorisme;\n
+IV. Peminjam menandatangani Perjanjian ini untuk dan
+atas namanya sendiri, bebas dan atas keinginannya
+sendiri tanpa paksaan atau intimidasi dari pihak
+manapun dan mengetahui dan memahami isi dan
+konsekuensi daripadanya termasuk jumlah Biaya
+layanan, Biaya Layanan Tambahan dan biaya
+Administrasi Perpanjangan yang harus dibayarkan
+sesuai dengan Bagian 7. /%%2p</item>
+        <item>%%p9. Peminjam dengan ini memberikan kuasa dan wewenang penuh
+kepada Perusahaan, afiliasi dan masing-masing karyawan dan
+agennya untuk menyalin, membagikan dan menggunakan Data
+Peminjam yang diperoleh oleh Perusahaan atas nama Pemberi
+Pinjaman untuk setiap tindakan yang diambil terkait
+penyediaan Layanan atau pelaksanaan kewajibannya atas
+nama Pemberi Pinjaman berdasarkan Perjanjian Pinjaman.
+Sehubungan dengan hal ini, Peminjam dengan ini menegaskan
+bahwa ketentuan dari Bagian 2.4 Perjanjian Pinjaman, terkait
+Peminjam, menjadi bagian dari Perjanjian ini melalui
+penyebutan.\n
+10. Peminjam dengan ini secara tegas mengakui dan setuju bahwa
+Perusahaan tidak bertanggung jawab terkait ketepatan dan
+keabsahan informasi atau data yang diberikan kepadanya oleh
+Peminjam atau Pemberi Pinjaman ataupun bertanggung jawab
+atas kinerja Peminjam atau Pemberi Pinjaman akan
+kewajibannya berdasarkan Perjanjian Pinjaman.\n
+11. Peminjam memahami bahwa Permohonan Pinjaman baru akan
+perlu diajukan untuk setiap Pinjaman yang diminta oleh
+Peminjam dan bahwa Data Peminjam dan informasi lainnya
+yang diwajibkan oleh Pemberi Pinjaman atau Perusahaan
+harus diserahkan dan diverifikasi untuk setiap Permohonan
+Pinjaman. /%%p</item>
+        <item>%%bBagian 3. Kewajiban Tertentu Para Pihak/%%b</item>
+        <item>%%p1. Peminjam wajib mendaftarkan dirinya sendiri pada Platform
+dengan memenuhi persyaratan dan prosedur berikut: /%%p</item>
+        <item>%%2pI. Pemberian data Peminjam dengan mengisi formulir
+elektronik yang disediakan pada Platform; dan \n
+II. Pemberian data atau informasi yang diwajibkan oleh
+Otoritas Pemerintah. /%%2p</item>
+        <item>%%p2. Setelah menyelesaikan proses pendaftaran sebagaimana
+dimaksud dalam Bagian 3.1 diatas, Peminjam akan dianggap
+telah setuju dengan /%%p</item>
+        <item>%%2pI. jika Peminjam belum menandatangani Perjanjian ini
+sebelum pendaftaran, syarat dan ketentuan Perjanjian ini
+dan\n
+II. syarat penggunaan Platform, yang mana kemudian Platform
+akan menerbitkan ID Platform Peminjam. Peminjam harus
+setelahnya memberikan tanda tangan fisik untuk Perjanjian
+ini jika diminta oleh Perusahaan. Perjanjian ini akan berlaku
+dan mengikat para Pihak ketika ditandatangani, secara
+elektronik (melalui, dalam kasus Peminjam, proses
+pendaftaran yang dijelaskan diatas) atau secara fisik, oleh
+kedua Pihak. Perusahaan akan dianggap telah
+menandatangani Perjanjian ini secara elektronik jika telah
+membuat dan menetapkan nomer pendaftaran untuk
+Peminjam melalui Platform. /%%2p</item>
+        <item>%%p3. Peminjam harus: /%%p</item>
+        <item>%%2pI. Memberikan Data Peminjam dalam setiap Permohonan
+Pinjaman yang ia ajukan ke Platform.\n
+II. Memberikan informasi lanjutan yang diminta oleh
+Perusahaan sehubungan dengan setiap Permohonan
+Pinjaman.\n
+III. Jika Permohonan Pinjaman disetujui oleh Pemberi
+Pinjaman, menandatangani Perjanjian Pinjaman dengan
+Pemberi Pinjaman yang telah setuju untuk memberikan
+Pinjaman dengan cara yang dikoordinasikan oleh
+Perusahaan. \n
+IV. Melaksanakan kewajibannya berdasarkan Perjanjian
+Pinjaman dimana ia merupakan Pihak dan Perjanjian ini. /%%2p</item>
+        <item>%%p4. Perusahaan harus memberikan Layanan kepada Peminjam,
+yang meliputi: /%%p</item>
+        <item>%%2pI. Pengumpulan, validasi dan verifikasi Data Peminjam dan
+informasi lainnya yang harus diberikan oleh Peminjam
+dan meninjau Permohonan Pinjamannya atas nama
+Pemberi Pinjaman.\n
+II. Meneruskan Permohonan Pinjaman kepada calon Pemberi
+Pinjaman yang terdaftar pada Platform jika Peminjam
+memenuhi Kriteria Peminjam yang Disetujui dan Syarat
+Kredit yang Disetujui dari Pemberi Pinjaman.\n
+III. Menginformasikan Peminjam dalam hal Pemberi
+Pinjaman setuju untuk memberikan Pinjaman kepada
+Peminjam dengan syarat dan ketentuan yang ditetapkan
+dalam Permohonan Pinjaman dan Perjanjian Pinjaman.\n
+IV. Pembuatan dan pengoperasian Platform yang akan,
+setidaknya, berisi informasi sebagaimana dimaksud
+dalam Bagian 5, dan persiapan template Permohonan
+Pinjaman dan Perjanjian Pinjaman.\n
+V. Pembuatan dan pemeliharaan Rekening Bank dimana
+Pemberi Pinjaman akan menyetorkan dana yang di wire
+transfer oleh Perusahaan kepada Peminjam sesuai dengan
+Perjanjian Pinjaman dan dimana Peminjam akan
+melakukan semua pembayaran yang dilakukan
+berdasarkan Perjanjian Pinjaman dan Perjanjian ini.
+Peminjam secara tegas mengakui dan setuju bahwa
+Rekening Bank adalah rekening dimana semua Pemberi
+Pinjaman dan Peminjam yang menggunakan Platform dan
+layanan Perusahaan akan membayar setiap uang dan dari
+mana semua pinjaman akan ditransfer kepada Peminjam. \n
+VI. Melakukan wire transfer jumlah pokok Pinjaman kepada
+Peminjam setelah pemenuhan semua ketentuan yang
+ditetapkan dalam Bagian 4.\n
+VII. Menagih semua jumlah terutang dari Peminjam.
+Perusahaan bertanggung jawab untuk membayar kepada
+Pemberi Pinjaman semua jumlah terutang kepadanya dari
+jumlah yang Perusahaan terima dari Peminjam. Peminjam
+mengakui bahwa Perusahaan berhak untuk melibatkan
+penyedia jasa penagihan utang pihak ketiga yang
+berlisensi untuk tujuan penagihan.\n
+VIII. Pemberian layanan lainnya yang mungkin ditawarkan dan
+dijelaskan dari waktu ke waktu pada Platform. /%%2p</item>
+        <item>%%p5. Peminjam tidak boleh berkomunikasi, berinteraksi atau
+terhubung, baik secara langsung maupun tidak langsung,
+dengan Pemberi Pinjaman, selain dengan cara sebagaimana
+yang disediakan pada Platform sesuai dengan Perjanjian ini. /%%p</item>
+        <item>%%bBagian 4. Fasilitasi Pencairan Pinjaman /%%b</item>
+        <item>%%p1. Perusahaan harus melakukan wire transfer jumlah pokok
+Pinjaman kepada Peminjam setelah pemenuhan ketentuan
+berikut: /%%p</item>
+        <item>%%2pI. Pemberi Pinjaman telah memberikan Kriteria Peminjam
+yang Disetujui dan Syarat Kredit yang Disetujui dan setuju
+untuk memberikan Pinjaman dengan ketentuan yang
+diminta dalam Permohonan Pinjaman.\n
+II. Pemberi Pinjaman harus telah memasukkan dana yang
+diwajibkan oleh Perusahaan dan dana yang cukup harus
+tersedia dalam Rekening Bank untuk Pinjaman yang akan
+diberikan.\n
+III. Peminjam dan Pemberi Pinjaman harus telah
+menandatangani Perjanjian Pinjaman yang, dalam kasus
+Pemberi Pinjaman, dapat dilakukan dengan penyertaan
+kode digital Pemberi Pinjaman oleh Perusahan dalam
+Perjanjian Pinjaman;\n
+IV. Perusahaan telah melakukan verifikasi sesuai ketentuannya
+terhadap informasi yang diberikan oleh Pemohon Pinjaman
+sebagaimana tercantum dalam Permohonan Pinjaman dan
+telah dapat menghubungi referensi Pemohon Pinjaman
+yang telah memverifikasi informasi yang diberikan oleh
+Pemohon Pinjaman; dan\n
+V. Pemohon Pinjaman telah memenuhi kriteria minimum
+yang ditentukan oleh Pemberi Pinjaman berdasarkan
+Platform mana yang akan diberi wewenang untuk
+mencairkan Pinjaman./%%2p</item>
+        <item>%%bBagian 5. Layanan Informasi Pinjaman /%%b</item>
+        <item>%%p1. Perusahaan harus memastikan agar Platform berisi informasi
+berikut dapat diakses oleh Peminjam:
+/%%p</item>
+        <item>%%2pI. Perhitungan parameter pinjaman;
+II. informasi mengenai status Pemohon Pinjaman;
+III. informasi tentang layanan dan produk baru yang disediakan
+oleh Platform.
+IV. Informasi mengenai jumlah utang Peminjam kepada
+Pemberi Pinjaman berdasarkan Perjanjian Pinjaman
+sehubungan dengan Layanan yang diberikan. /%%2p</item>
+        <item>%%bBagian 6. Verifikasi Peminjam /%%b</item>
+        <item>%%p1. Peminjam setuju bahwa Platform akan menerima
+Permohonan Pinjaman yang sesuai dengan kriteria yang
+diberikan oleh Pemberi Pinjaman.\n
+2. Perusahaan berhak untuk mengambil tindakan apapun yang
+dianggap sesuai oleh Perusahaan untuk memvalidasi data
+yang diajukan oleh Peminjam dalam Permohonan Pinjaman
+Peminjam. Setiap dan semua tindakan untuk
+mengkonfirmasi dan memvalidasi data dalam Permohonan
+Pinjaman Peminjam akan dilakukan atas nama Pemberi
+Pinjaman.\n
+3. Perusahaan tidak melakukan penilaian risiko kredit
+Peminjam dan hanya akan melakukan verifikasi data atas
+nama Pemberi Pinjaman, yang akan termasuk namun tidak
+terbatas pada: /%%p</item>
+        <item>%%2pI. Verifikasi melalui panggilan telepon;\n
+II. Verifikasi Ponsel yang menggunakan password satu
+kali; dan\n
+III. Pemrosesan data dari profil jaringan sosial yang
+diberikan oleh Peminjam selama proses permohonan
+pinjaman. /%%2p</item>
+        <item>%%p4. Perusahaan dapat, dengan biayanya sendiri namun tanpa
+kewajiban untuk melakukannya, melibatkan pihak ketiga
+untuk melakukan penilaian risiko kredit Peminjam.\n
+5. Perusahaan tidak bertanggung jawab atas keaslian, ketepatan
+atau kebenaran data dalam Permohonan Pinjaman
+Peminjam sebelum dan setelah verifikasi yang dilakukan
+oleh Perusahaan.\n
+6. Perusahaan berhak untuk menghubungi Peminjam atau
+orang, yang dinyatakan sebagai “narahubung” dalam
+Permohonan Pinjaman Peminjam, atas nama Pemberi
+Pinjaman melalui berbagai cara, termasuk namun tidak
+terbatas pada: 1. pesan teks telepon; 2. email; 3. panggilan
+suara; dan 4. panggilan suara otomatis.
+\%%p</item>
+        <item>%%bBagian 7. Biaya /%%b</item>
+        <item>%%p1. Sehubungan dengan pemberian Layanan kepada Peminjam
+oleh Perusahaan, Peminjam harus membayar biaya berikut
+kepada Perusahaan:\n
+Biaya Layanan yang harus dibayarkan oleh Peminjam
+adalah untuk pinjaman sebesar Rp. 600.000 selama 7 hari
+sebesar Rp. 42.000 dan Rp. 84.000 selama 14 hari.
+Kemudian untuk pinjaman sebesar Rp1.2000.000 selama 7
+hari sebesar Rp. 84.000 dan Rp. 168.000 selama 14 hari.
+Biaya layanan harus dibayar penuh.\n
+2. Semua biaya dan jumlah terutang lainnya berdasarkan
+Perjanjian ini harus dibuat bebas dari tuntutan balik, set off
+atau pengurang lainnya, termasuk pemotongan untuk pajak.
+Dalam hal Peminjam dilarang secara hukum untuk
+melakukan pembayaran tanpa pengurangan sebagaimana
+ditentukan dalam Bagian 7.2 ini maka pembayaran terutang
+kepada Perusahaan berdasarkan Perjanjian ini akan
+dinaikkan menjadi jumlah sebagaimana diperlukan agar
+jumlah bersih yang diterima oleh Perusahaan setelah
+potongan atau penangguhan tersebut sama dengan jumlah
+yang seharusnya diterima jika potongan atau penangguhan
+tersebut tidak dilakukan. /%%p</item>
+        <item>%%bBagian 8. Perlindungan Data Peminjam /%%b</item>
+        <item>%%p1. Perusahaan berjanji bahwa pengumpulan dan pengolahan
+Data Peminjam akan sesuai dengan hukum dan peraturan
+yang berlaku di Indonesia. Data pribadi akan mencakup
+namun tidak akan terbatas pada, nama lengkap, e-mail,
+tanggal lahir, nomor telepon, alamat rumah, nomor
+rekening bank.\n
+2. Perusahaan berhak dan Peminjam dengan ini memberikan
+hak kepada Perusahaan untuk mengungkapkan data
+Pemberi Pinjaman sebagian atau seluruhnya kepada pihak
+ketiga yang mana Perusahaan berdasarkan kebijakannya
+sendiri anggap perlu guna mengatur, memproses dan
+mengelola seluruh Permohonan Pinjaman dan Proses
+Pinjaman, termasuk namun tidak terbatas pada
+pengungkapan informasi kepada pihak ketiga yang
+ditetapkan untuk membantu penagihan pelunasan Pinjaman.\n
+3. Perusahaan tidak diperkenankan untuk menggunakan dan
+memproses lebih lanjut data Peminjam yang telah
+diperolehnya selain untuk tujuan menyediakan Layanan,
+termasuk untuk mengatur dan memproses Pinjaman. /%%p</item>
+        <item>%%bBagian 9. Force Majeure /%%b</item>
+        <item>%%p1. Peminjam dan Perusahaan tidak bertanggung jawab atas
+kerugian atau kerusakan yang dialami oleh Pihak lainnya
+yang timbul karena keterlambatan pelaksanaan atau non
+pelaksanaan kewajiban salah satu Pihak akibat peristiwa
+force majeure; dengan ketentuan, namun, terjadinya suatu
+peristiwa force majeure tidak akan memaklumi atau
+menunda kewajiban pembayaran Peminjam berdasarkan
+Perjanjian ini.\n
+2. Kondisi yang memenuhi syarat sebagai force majeure
+termasuk namun tidak terbatas pada, perang, operasi
+seperti perang, terjadinya permusuhan, perang sipil dan
+keributan, pemberontakan, kerusuhan, tindakan legislatif
+atau tindakan secara hukum yang mengikat lainnya atau
+yang dikenakan oleh otoritas domestik maupun asing,
+pemogokan (tidak termasuk yang hanya terbatas pada
+karyawan Pihak atau rekanan atau perusahaan yang
+dikendalikan), penutupan, kesulitan penyediaan bahan
+baku, kekurangan berkepanjangan atau pembatasan bahan
+utilitas, terhalang es, kebakaran, serangan virus sistem
+komputer atau keadaan tidak terduga lainnya yang
+mencegah salah satu Pihak untuk melakukan kewajibannya
+berdasarkan Perjanjian ini. /%%b</item>
+        <item>%%bBagian 10. Cidera Janji /%%b</item>
+        <item>%%p1. Salah satu Pihak akan dianggap cidera janji jika terjadi
+salah satu peristiwa berikut:/%%p</item>
+        <item>%%2pa. gagal untuk memenuhi salah satu atau lebih dari
+kewajibannya sebagaimana diatur dalam Perjanjian
+ini; atau\n
+b. ia dinyatakan bangkrut berdasarkan keputusan
+pengadilan yang berwenang; atau\n
+c. ia terbukti bersalah oleh keputusan pengadilan yang
+bersifat final dan mengikat dari yurisdiksi manapun
+atau terkait dengan kegiatan pidana termasuk namun
+tidak terbatas pada pencucian uang dan / atau
+kegiatan terorisme; atau\n
+d. terkait Peminjam, ia telah mengajukan data yang
+salah, dipalsukan, dan atau misrepresentasi sebagai
+data Peminjam. Perusahaan memiliki kewenangan
+penuh untuk menentukan apakah pengajuan tersebut
+telah dilakukan./%%2p</item>
+        <item>%%bBagian 11. Pemutusan/%%b</item>
+        <item>%%p1. Perusahaan dapat mengakhiri Perjanjian ini karena
+alasan apapun dengan segera setiap saat dengan
+memberikan pemberitahuan tertulis dan peminjam
+wajib menyelesaikan semua pinjaman ditambah dengan
+beban biaya yang telah disepakati diawal perjanjian.\n
+2. Dari dan setelah pemutusan berdasarkan Bagian 10.1
+dan penerimaan pemberitahuan pemutusan berdasarkan
+Bagian 10.2, tidak ada Pinjaman yang akan diterima
+oleh Peminjam. Setelah semua Pinjaman dan biaya
+terutang yang beredar kepada Perusahaan telah
+dibayarkan pada saat tanggal efektif pemutusan, maka
+Perusahaan akan mengakhiri Perjanjian\n
+3. Pemutusan Perjanjian tidak akan mempengaruhi hak
+dari salah satu Pihak yang timbul sebelum dan
+termasuk tanggal pemutusan berdasarkan Perjanjian ini.
+Dalam hal salah satu Pihak cidera janji berdasarkan
+Perjanjian ini, cidera janji mana tidak diperbaiki dalam
+waktu sepuluh (10) hari sejak diterimanya
+pemberitahuan mengenai cidera janji dari Pihak lainnya,
+maka Pihak non cidera janji berhak untuk mengakhiri
+Perjanjian ini pada saat berakhirnya periode 10
+(sepuluh) hari tersebut dan, di samping itu, berhak
+untuk melaksanakan setiap dan semua hak dan tindakan
+perbaikan yang sah yang tersedia bagi pihak non cidera
+janji berdasarkan hukum Indonesia; dengan ketentuan,
+namun, kewajiban maksimal Perusahaan kepada
+Peminjam berdasarkan Perjanjian ini adalah biaya yang
+telah dibayarkan oleh Peminjam kepada Perusahaan
+berdasarkan Perjanjian ini.\n
+4. Tanpa mengabaikan hal lain yang bertentangan dalam
+Perjanjian ini, tidak ada Pihak yang bertanggung jawab
+atas kerusakan tidak langsung atau konsekuensial yang
+dialami oleh Pihak lainnya, termasuk keuntungan
+terakhir (selain yang diperoleh atau yang akan
+diperoleh oleh Perusahaan berdasarkan Perjanjian ini),
+kehilangan peluang atau ganti rugi punitif.\n
+5. Peminjam dan Perusahaan mengabaikan, yang tidak
+dapat dibatalkan, penerapan Pasal 1266 dan 1267 KUH
+Perdata Indonesia sejauh pasal-pasal tersebut dapat
+ditafsirkan bahwa dibutuhkan persetujuan pengadilan
+sebagai prasyarat untuk pemutusan Perjanjian. /%%p</item>
+        <item>%%bBagian 12. Penyelesaian Sengketa /%%b
+            Dalam setiap kasus atau setiap sengketa yang timbul dari atau
+sehubungan dengan Perjanjian, para Pihak sepakat untuk memilih
+domisili hukum di Kepaniteraan Pengadilan Negeri Jakarta Pusat.
+Tanpa mengabaikan yang tersebut, Peminjam mengakui dan setuju
+bahwa Perusahaan dapat mengajukan gugatan pada pengadilan
+manapun.\n
+%%bBagian 13. Hukum yang Mengatur/%%b\n
+Perjanjian ini diatur oleh hukum Republik Indonesia.\n
+%%bBagian 14. Perubahan/%%b\n
+Perjanjian ini hanya dapat diubah oleh Peminjam dan Perusahaan
+yang menandatangani perjanjian tertulis, baik digital maupun fisik. \n
+%%bBagian 15. Pengalihan/%%b\n
+Tidak ada pihak yang dapat mengalihkan Perjanjian ini, secara
+keseluruhan atau sebagian, tanpa persetujuan tertulis dari Pihak
+lainnya.\n
+%%bDEMIKIAN/%%b, para Pihak telah melaksanakan Perjanjian ini dengan
+tanda tangan elektronik pada tanggal yang tertera di bawah.\n
+Perjanjian ini dapat dilaksanakan dengan salinan elektronik atau
+fisik yang ditandatangani terpisah, yang mana masing-masing ketika
+dilaksanakan dan disampaikan akan dianggap asli, dan semua secara
+bersama akan merupakan satu dan instrumen yang sama. </item>
+        <item>%%pPeminjam \t\tPerusahaan\n
+fitri fitri \t\tPT. Digital Synergy Technology\n
+Nama \t\tTanggal penandatanganan\n
+Tanda tangan digital
+        </item>
+    </string-array>
+</resources>

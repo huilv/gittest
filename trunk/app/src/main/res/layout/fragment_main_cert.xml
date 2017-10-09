@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/id_textview_data_integrity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textlblue"
+            android:textSize="14sp"
+            android:text="@string/textview_progress_data_integrity"/>
+
+        <TextView
+            android:id="@+id/id_textview_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF8636"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/textview_progress_rating"/>
+
+        <ProgressBar
+            android:id="@+id/id_progressbar_certification"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="5dp"
+            android:max="100"
+            android:progress="0"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/id_button_certification_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:background="@drawable/selector_button_blue"
+            android:textColor="@color/color_button_text"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:text="@string/button_certification_submit"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

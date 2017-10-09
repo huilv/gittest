@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+              android:layout_height="match_parent">
+    <include layout="@layout/sub_main_activity_top"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginRight="@dimen/dp12"
+        android:layout_marginBottom="@dimen/dp18"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:id = "@+id/btn_mysetting_logout"
+        android:textSize="@dimen/dp16"
+        android:text="@string/button_logout"
+        android:background="@drawable/selector_button_red"
+        android:layout_height="@dimen/dp60"/>
+</RelativeLayout>

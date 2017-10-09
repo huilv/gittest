@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camerakit="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/sub_video_activity_top"/>
+
+    <FrameLayout
+        android:background="@color/colorPrimary"
+        android:id="@+id/id_fragment_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+</LinearLayout>

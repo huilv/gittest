@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <!--Amount-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_amount_selected"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/money_big" />
+
+                <TextView
+                    android:id="@+id/id_textview_loan_selected_amount"
+                    style="@style/text_16dp_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/RP600k"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/text_14dp_ddsilivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/textview_loan_amount" />
+            </LinearLayout>
+
+            <!--repayment-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_amount_selected"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/time_big" />
+
+                <TextView
+                    android:id="@+id/id_textview_loan_selected_day"
+                    style="@style/text_16dp_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/loan_7days"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/text_14dp_ddsilivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/textview_repayment_time" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--Line-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginBottom="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp20"
+            android:background="@color/ddsilvery" />
+
+        <TextView
+            style="@style/text_14dp_ddsilivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="7dp"
+            android:text="@string/repayment_statement" />
+
+        <TextView
+            android:id="@+id/id_textview_repayment_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/total_repayment"
+            android:textColor="@color/dorange"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp30"
+            android:orientation="vertical">
+
+            <!--bank-->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp50">
+
+                <LinearLayout
+                    android:id="@+id/id_linearlayout_receiving_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_loaning_textview_circle"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_receiving_bank"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_receiving_bank"
+                        android:paddingLeft="14dp"
+                         />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_bank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ddsilover_arc_right" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!--Receiving bank number-->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/dp20">
+
+                <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                    android:id="@+id/id_edittext_bank_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_loaning_textview_circle"
+                    android:hint="@string/editText_bank_number"
+                    android:inputType="number"
+                    android:paddingLeft="14dp"
+                    style="@style/info_text_style"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                     />
+            </RelativeLayout>
+
+            <!--Use of the Loan-->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp50"
+                android:layout_marginTop="@dimen/dp20">
+
+                <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                    android:id="@+id/id_edittext_use_loan"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_loaning_textview_circle"
+                    android:hint="@string/editText_use_loan"
+                    android:inputType="text"
+                    android:paddingLeft="14dp"
+                    style="@style/info_text_style"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    />
+            </RelativeLayout>
+
+            <!--coupon select-->
+            <RelativeLayout
+                android:layout_marginTop="@dimen/dp20"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp50">
+
+                <LinearLayout
+                    android:id="@+id/id_linearlayout_coupon_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_loaning_textview_circle"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_coupon_select"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_coupon_choose"
+                        android:paddingLeft="14dp"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_coupon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="14dp"
+                        android:background="@drawable/ddsilover_arc_right" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp20"
+                android:gravity="center_horizontal"
+                android:text="@string/textview_loaning_tips"
+                android:textColor="@color/textlblue"
+                android:textSize="@dimen/dp10" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:id = "@+id/cb_aggreed"
+                    android:gravity="center_vertical|start"
+                    style="@style/check_box"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/dp05"
+                    android:id = "@+id/tv_aggrement"
+                    style="@style/text_12dp_tips"
+                    android:text="aggrement to continue"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/id_button_current_loan_ing"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/dp20"
+                android:layout_marginBottom="@dimen/dp20"
+                android:background="@drawable/shape_button"
+                android:text="@string/button_current_loan"
+                android:textAllCaps="false"
+                android:textColor="@color/color_button_text"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <include layout="@layout/sub_main_activity_top" />
+    <!--KTP-->
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="@dimen/dp05"
+        >
+
+        <ImageButton
+            android:id="@+id/ktp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:background="@drawable/shape_amount_unselected"
+            android:src="@drawable/ic_photograph_x" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        style="@style/text_16dp_tlblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/textview_upload_photos_statement_ktp_front" />
+
+    <!--Work Card Photo-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="@dimen/dp05"
+        >
+    <ImageButton
+        android:id="@+id/work_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_amount_unselected"
+        android:src="@drawable/ic_photograph_x" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        style="@style/text_16dp_tlblue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/textview_upload_photps_statement_work_card_photo" />
+
+    <TextView
+        style="@style/text_14dp_tblue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textView_upload_photps_statement_work_card_photo_2" />
+
+
+    <Button
+        android:id="@+id/id_button_upload_photo_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/dp14"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="@dimen/dp14"
+        android:background="@drawable/shape_button"
+        android:text="@string/button_certification_submit"
+        android:textAllCaps="false"
+        android:textColor="@color/color_button_text"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

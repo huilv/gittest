@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9F8">
+
+    <TextView
+        android:id="@+id/id_textview_time_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="2017-01-09 22:20:03"
+        android:textColor="#6B7A73"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/id_textview_info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Hello world..."
+        android:textColor="#6B7A73"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_amount_unselected"/>
+
+</LinearLayout>

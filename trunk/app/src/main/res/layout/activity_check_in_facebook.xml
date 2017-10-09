@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+              android:layout_height="match_parent">
+    <include layout="@layout/sub_main_activity_top"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:background="@drawable/facebook_03"
+            android:layout_marginTop="@dimen/dp50"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp45"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/facebook_06"
+        android:paddingLeft="@dimen/dp14"
+        android:paddingRight="@dimen/dp14"
+        android:layout_height="@dimen/dp60">
+        <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+            android:layout_width="0dp"
+            android:id = "@+id/bet_check_in_facebook_input"
+            android:layout_weight="1"
+            android:background="@null"
+            android:maxLines="1"
+            android:inputType="text"
+            android:lines="1"
+            android:hint="@string/hint_check_in_facebook"
+            android:layout_gravity="center_vertical"
+            style="@style/text_14dp_gray"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:layout_height="@dimen/dp30"/>
+        <ImageButton
+            android:id = "@+id/ib_check_in_facebook_delete"
+            android:layout_width="@dimen/dp20"
+            android:background="@null"
+            android:scaleType="center"
+            android:src="@drawable/facebook_12"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <Button
+        android:id = "@+id/btn_check_in_facebook_submit"
+        android:layout_marginTop="@dimen/dp14"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_button_blue"
+        style="@style/text_14dp_white"
+        android:text="@string/button_certification_submit"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp14"
+        android:text="@string/text_check_in_facebook_tip"
+        android:gravity="center"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/dp10"
+        android:layout_marginBottom="@dimen/dp24"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:paddingRight="@dimen/dp14"
+        android:paddingLeft="@dimen/dp14"
+        android:scaleType="fitXY"
+        android:src="@drawable/facebook_18"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

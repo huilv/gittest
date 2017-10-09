@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <!--<layer-list>-->
+        <!--<item>-->
+        <shape>
+            <corners android:radius="10dp"/>
+            <solid android:color="@color/colorPrimaryDark"/>
+            <stroke android:width="1dp" android:color="@color/dorange"/>
+        </shape>
+        <!--</item>-->
+
+        <!--<item>-->
+        <!--<bitmap android:src="@drawable/ic_bank_selected"/>-->
+        <!--</item>-->
+
+        <!--</layer-list>-->
+
+    </item>
+
+    <item android:state_pressed="false">
+        <shape>
+            <corners android:radius="10dp"/>
+            <solid android:color="@color/colorBackground_d"/>
+            <stroke android:width="1dp" android:color="@color/bank_selector_border"/>
+        </shape>
+
+    </item>
+
+</selector>

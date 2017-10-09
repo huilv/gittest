@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.daunkredit.program.sulu.view.MapsActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp05"
+        />
+
+    <ImageView
+        android:id="@+id/iv_location_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:src="@mipmap/icon_maps"/>
+
+    <LinearLayout
+        android:id = "@+id/top_tips"
+        android:background="@color/white"
+        android:layout_width="@dimen/dp300"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/iv_location_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp05"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/currentLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/dp05"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/dp05"
+            android:text="获取中。。。"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dp14"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_location_ensure"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp50"
+            android:background="@drawable/selector_button_blue"
+            android:layout_gravity="center_vertical"
+            android:text="@string/button_ok"/>
+    </LinearLayout>
+</RelativeLayout>

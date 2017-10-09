@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <include layout="@layout/sub_main_activity_top" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/textview_contacts_info_father_mother"
+                style="@style/text_14dp_tblue" />
+
+            <!--Father/Mother -> Name-->
+            <LinearLayout
+                android:id="@+id/ll_contactinfo_father"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_amount_unselected">
+
+                <TextView
+                    android:id="@+id/id_edittext_contact_info_father_mother_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/ddsilvery"
+                    android:gravity="center_vertical"
+                    android:hint="@string/edittext_contacts_info_name"
+                    style="@style/text_12dp_white" />
+
+                <ImageButton
+                    android:id="@+id/id_imagebutton_contact_info_father_mother"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="14dp"
+                    android:background="@drawable/ic_contact" />
+
+            </LinearLayout>
+
+            <!--Father/Mother --> Telephone -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_amount_unselected">
+
+                <TextView
+                    android:id="@+id/id_textview_contact_info_father_mother_telephone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="14dp"
+                    android:textColorHint="@color/ddsilvery"
+                    android:hint="@string/edittext_contacts_info_telephone"
+                    style="@style/text_12dp_white" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/textview_contacts_info_friend"
+                style="@style/text_14dp_tblue" />
+
+            <!--Friend -> Name-->
+            <LinearLayout
+                android:id="@+id/ll_contactinfo_friend"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_amount_unselected">
+
+                <TextView
+                    android:id="@+id/id_textview_contact_info_friend_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColorHint="@color/ddsilvery"
+                    android:hint="@string/edittext_contacts_info_name"
+                    style="@style/text_12dp_white" />
+
+                <ImageButton
+                    android:id="@+id/id_iamgebutton_contact_info_friend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="14dp"
+                    android:background="@drawable/ic_contact" />
+
+            </LinearLayout>
+
+            <!--Father/Mother --> Telephone -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_amount_unselected">
+
+                <TextView
+                    android:id="@+id/id_textview_contact_info_friend_elephone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="14dp"
+                    android:gravity="center_vertical"
+                    android:textColorHint="@color/ddsilvery"
+                    android:hint="@string/edittext_contacts_info_telephone"
+                    style="@style/text_12dp_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/id_button_contact_info_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/shape_button"
+                    android:text="@string/button_certification_submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_button_text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/textview_contacts_info_statement"
+                    style="@style/text_10dp_tblue"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

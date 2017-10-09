@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp270"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="@dimen/dp20">
+
+    <TextView
+        android:id="@+id/tv_hotline_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp14"
+        android:gravity="center_horizontal"
+        android:text="拨打客服电话：213909979？"
+        android:textColor="@color/textlblue"
+        android:textSize="@dimen/dp18" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp14"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_hotline_cancel"
+            style="@style/text_14dp_white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_gray"
+            android:text="@string/text_cancel" />
+
+        <Button
+            android:id="@+id/btn_hotline_ensure"
+            style="@style/text_14dp_white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp40"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_blue"
+            android:text="@string/text_dial" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+    <com.x.leo.refrashviews.RefrashLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mainView="@+id/id_list_chat_history"
+        app:topView="@+id/tv_top"
+        android:id = "@+id/lrl"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:id = "@+id/tv_top"
+            android:text="@string/text_get_more_message"
+            style="@style/text_16dp_white"
+            android:gravity="center"
+            android:layout_height="100dp" />
+        <ListView
+            android:id="@+id/id_list_chat_history"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_weight="1"
+            android:divider="@color/transparent_color"
+            android:dividerHeight="@dimen/dp05"></ListView>
+    </com.x.leo.refrashviews.RefrashLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorBackground_d"
+        android:gravity="center_vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+
+        <ImageButton
+            android:id="@+id/id_imagebutton_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
+            android:background="@drawable/ic_plus" />
+
+        <EditText
+            android:id="@+id/id_edittext_msg"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            style="@style/text_14dp_white"
+            android:layout_weight="1"
+            android:background="@drawable/selector_message_input" />
+
+        <ImageButton
+            android:id="@+id/id_imagebutton_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:visibility="visible"
+            android:background="@drawable/ic_emoji" />
+
+        <Button
+            android:id="@+id/btn_send"
+            style="@style/text_12dp_white"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="@dimen/dp05"
+            android:background="@drawable/selector_button_blue"
+            android:text="@string/send"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_span"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp120"
+        android:visibility="gone">
+
+        <GridView
+            android:id="@+id/gv_add_function"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="4"
+            android:visibility="gone"></GridView>
+
+        <android.support.v4.view.ViewPager
+            android:visibility="gone"
+            android:id="@+id/vp_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+    </FrameLayout>
+
+
+</LinearLayout>

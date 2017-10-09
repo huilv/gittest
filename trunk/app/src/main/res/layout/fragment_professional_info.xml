@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@color/ddsilvery"
+                android:layout_height="1px" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="@dimen/dp14"
+                android:paddingRight="@dimen/dp14">
+
+                <!--Job Type-->
+                <LinearLayout
+                    android:id="@+id/ll_professional_info_job_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_job_info_job_type"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_job_info_job_type"/>
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_job_info_job_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="@color/ddsilvery"
+                    android:layout_height="1px" />
+
+                <!--Monthly Income-->
+                <LinearLayout
+                    android:id="@+id/ll_professional_info_monthly_income"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_job_info_salary"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_job_info_monthly_income"/>
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_job_info_monthly_income"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="@color/ddsilvery"
+                    android:layout_height="1px" />
+                <!--Company Name-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/id_edittext_job_info_conmany_name"
+                        style="@style/info_text_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:hint="@string/edittext_job_info_company_name"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        app:customStyle="line" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="@color/ddsilvery"
+                    android:layout_height="1px" />
+                <!--Province of Company Located-->
+                <LinearLayout
+                    android:id="@+id/ll_professional_info_region_company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/id_textview_job_info_region"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:paddingBottom="@dimen/dp08"
+                        android:paddingTop="@dimen/dp08"
+                        android:lines="2"
+                        android:lineSpacingExtra="@dimen/dp05"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_personal_info_region"/>
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_job_info_province_of_company_located"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="@color/ddsilvery"
+                    android:layout_height="1px" />
+                <!--&lt;!&ndash;City of Company Located&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/ll_professional_info_city_company"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:background="@drawable/shape_main_tab_stroke"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/id_textview_job_info_city"-->
+                        <!--style="@style/info_text_style"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:hint="@string/textview_job_info_city_of_company_located"/>-->
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/id_imagebutton_job_info_city_of_company_located"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:background="@drawable/ic_right" />-->
+                <!--</LinearLayout>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:background="@color/ddsilvery"-->
+                    <!--android:layout_height="1px" />-->
+                <!--&lt;!&ndash;Street of Company Located&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/ll_professional_info_street_company"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:background="@drawable/shape_main_tab_stroke"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/id_textview_job_info_street"-->
+                        <!--style="@style/info_text_style"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:hint="@string/textview_job_info_street_of_company_located"/>-->
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/id_imagebutton_job_info_street_of_company_located"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:background="@drawable/ic_right" />-->
+                <!--</LinearLayout>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:background="@color/ddsilvery"-->
+                    <!--android:layout_height="1px" />-->
+                <!--&lt;!&ndash;City In The Village(Area)&ndash;&gt;-->
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/ll_professional_info_city_in_the_village"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:background="@drawable/shape_main_tab_stroke"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/id_textview_job_info_area"-->
+                        <!--style="@style/info_text_style"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:hint="@string/textview_job_info_city_in_the_village"/>-->
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/id_imagebutton_job_info_city_in_the_village"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:background="@drawable/ic_right" />-->
+                <!--</LinearLayout>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:background="@color/ddsilvery"-->
+                    <!--android:layout_height="1px" />-->
+                <!--Address-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/id_edittext_job_info_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:hint="@string/edittext_job_info_address"
+                        android:inputType="text"
+                        android:lines="1"
+                        style="@style/info_text_style"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        app:customStyle="line" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="@color/ddsilvery"
+                    android:layout_height="1px" />
+
+                <!--Tel of Company-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal">
+
+                    <com.daunkredit.program.sulu.widget.droplistview.XLeoDropListView
+                        android:id="@+id/bdlv_job_info_telpre"
+                        android:layout_width="@dimen/dp122"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/spinner_down"
+                        android:gravity="center"
+                        android:text="@string/text_area_code"
+                        android:textColor="@color/white" />
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        android:id="@+id/id_edittext_job_info_tel"
+                        style="@style/info_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/edittext_job_info_tel_of_company"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textCursorDrawable="@drawable/cursor_color" />
+                </LinearLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:background="@color/ddsilvery"
+                    android:layout_height="1px" />
+                <!--Work Email(optional)-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        android:id="@+id/id_edittext_job_info_work_email"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_job_info_work_email"
+                        android:inputType="text"
+                        android:lines="1"
+                        style="@style/info_text_style"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        />
+                </LinearLayout>
+
+                <!--Email Verification Code(Optional)-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_main_tab_stroke"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.daunkredit.program.sulu.widget.selfdefedittext.XLeoEditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/textview_job_info_email_verification"
+                        android:inputType="text"
+                        android:lines="1"
+                        style="@style/info_text_style"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/id_imagebutton_job_info_email_verification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/ic_right" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@color/ddsilvery"
+                android:layout_height="1px" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp14"
+                android:paddingRight="@dimen/dp14"
+                android:paddingTop="@dimen/dp20"
+                android:paddingBottom="@dimen/dp20"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/textview_job_info_statement"
+                    style="@style/text_12dp_tblue"
+                    android:visibility="visible" />
+
+
+                <Button
+                    android:id="@+id/id_button_job_info_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/shape_button"
+                    android:text="@string/button_certification_submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_button_text"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
