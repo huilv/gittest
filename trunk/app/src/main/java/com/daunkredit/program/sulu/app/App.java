@@ -38,6 +38,7 @@ public class App extends MultiDexApplication {
         //aaaaaaaaaaaaaaaa
         //bbbbbbbbbbbbbbbbbbbbbbbbb
         //cccccccccccccccccccccccccccc
+        //dddddddddddddddd
         SysUtil.setApplication(this);
         if(SysUtil.isTCMSServiceProcess(this)){
             return;
