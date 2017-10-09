@@ -28,16 +28,11 @@ public class App extends MultiDexApplication {
     private String miAppid = "2882303761517577598";
     private String miAppKey = "5261757761598";
     public static App instance;
-//////////////////////////////////////////////master////////////////////////master///////////////
     public void onCreate() {
         super.onCreate();
 
        //bug崩溃分析
         CrashReport.initCrashReport(getApplicationContext(), "92317fd2ff", false);
- //测试测试
-        //aaaaaaaaaaaaaaaa
-     ///////////fffffffffffffffffffffff
-
         SysUtil.setApplication(this);
         if(SysUtil.isTCMSServiceProcess(this)){
             return;
@@ -81,3 +76,4 @@ public class App extends MultiDexApplication {
     }
 
 }
+/////////////////////////////////////////
