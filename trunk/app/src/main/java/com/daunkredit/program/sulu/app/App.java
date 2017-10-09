@@ -28,7 +28,7 @@ public class App extends MultiDexApplication {
     private String miAppid = "2882303761517577598";
     private String miAppKey = "5261757761598";
     public static App instance;
-
+//////////////////////////////////////////////master////////////////////////master///////////////
     public void onCreate() {
         super.onCreate();
 
